@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Logging.Entities\GS.Logging.Entities.csproj" />
+    <Content Include="Interfaces\ILogger.cs" />
+    <Content Include="Repositories\Logger.cs" />
+    <Content Include="Repositories\NLogLogger.cs" />
+  </ItemGroup>
+</Project>

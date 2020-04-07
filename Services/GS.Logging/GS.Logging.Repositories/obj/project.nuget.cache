@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ClaIzKLWgXyDFEyA2kPxhAfyEmDBlf1B0C2Hh0k9ch4JGLo+pRvIio9fuJOD7rSRm+6oW0I23QJai69/1a1h3A==",
+  "success": true,
+  "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Repositories/GS.Logging.Repositories.csproj",
+  "expectedPackageFiles": [
+    "/home/ilya/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
