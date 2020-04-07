@@ -1,0 +1,11 @@
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/bin/Debug/netstandard2.0/GT.Logging.Repositories.deps.json
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/bin/Debug/netstandard2.0/GT.Logging.Repositories.dll
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/bin/Debug/netstandard2.0/GT.Logging.Repositories.pdb
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/bin/Debug/netstandard2.0/GT.Logging.Entities.dll
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/bin/Debug/netstandard2.0/GT.Logging.Entities.pdb
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/obj/Debug/netstandard2.0/GT.Logging.Repositories.csproj.CoreCompileInputs.cache
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/obj/Debug/netstandard2.0/GT.Logging.Repositories.AssemblyInfoInputs.cache
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/obj/Debug/netstandard2.0/GT.Logging.Repositories.AssemblyInfo.cs
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/obj/Debug/netstandard2.0/GT.Logging.Repositories.csproj.CopyComplete
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/obj/Debug/netstandard2.0/GT.Logging.Repositories.dll
+/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Repositories/obj/Debug/netstandard2.0/GT.Logging.Repositories.pdb

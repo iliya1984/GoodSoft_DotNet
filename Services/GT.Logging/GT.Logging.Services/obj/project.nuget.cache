@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cdGfU0AC2SnmAzWBF7pGbiwwqQPI9lVXrvs9ayy0oJ7clWkNHohk3GFo5dF1mevY2GcBYAy4q3FnA3+LWxDK/g==",
+  "success": true,
+  "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Services/GT.Logging.Services.csproj",
+  "expectedPackageFiles": [
+    "/home/ilya/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

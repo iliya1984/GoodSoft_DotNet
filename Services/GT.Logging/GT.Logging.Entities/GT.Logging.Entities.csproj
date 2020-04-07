@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Records\LogRecord.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Interfaces\ILogRecord.cs" />
+    <Content Include="Interfaces\IErrorLogRecord.cs" />
+    <Content Include="Records\ErrorRecord.cs" />
+    <Content Include="Modules\LoggingModule.cs" />
+    <Content Include="Modules\LoggingModuleWrapper.cs" />
+  </ItemGroup>
+</Project>
