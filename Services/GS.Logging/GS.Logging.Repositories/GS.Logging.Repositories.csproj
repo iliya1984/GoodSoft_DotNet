@@ -5,9 +5,11 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\GS.Logging.Entities\GS.Logging.Entities.csproj" />
-    <Content Include="Interfaces\ILogger.cs" />
-    <Content Include="Repositories\Logger.cs" />
-    <Content Include="Repositories\NLogLogger.cs" />
     <Content Include="Interfaces\ILoggingRepository.cs" />
+     <Content Include="Repositories\LoggingRepository.cs" />
+    <Content Include="Repositories\NLogLoggingRepository.cs" />
+     <PackageReference Include="NLog" Version="4.7.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.1" />
+   
   </ItemGroup>
 </Project>

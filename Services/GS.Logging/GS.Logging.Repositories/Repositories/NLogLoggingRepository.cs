@@ -1,29 +1,70 @@
+using System;
 using GS.Logging.Entities.Interfaces;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Repositories.Interfaces;
+using NLog;
 
 namespace GS.Logging.Repositories.Repositories
 {
-    public class NLogLogger : ILoggingRepository
+    public class NLogLoggingRepository : LoggingRepository
     {
+        private LogFactory _factory;
+        private Logger _logger;
+        private LoggerSettings _settings;
 
-        public void LogError(string errorMessage, string errorStackTrace = null, object data = null)
+        public NLogLoggingRepository(LogFactory factory, LoggerSettings settings)
         {
-            throw new System.NotImplementedException();
+            _factory = factory;
+            _settings = settings;
+            _logger = _factory.GetLogger(_settings.LoggerName);
         }
 
-        public void LogInfo(string textMessage, object data = null)
+        protected override void WriteErrorLog(IErrorRecord record)
         {
-            throw new System.NotImplementedException();
+            try 
+            {
+                _logger.Error(record.Message);  
+            }
+            catch(Exception ex)
+            {
+                _logger.Error(ex, "GT Logger failure. Failed to write error log");
+            }
         }
 
-        public void LogWarning(string textMessage, object data = null)
+        protected override void WriteExeptionLog(IExceptionRecord record)
         {
-            throw new System.NotImplementedException();
+            try 
+            {
+                _logger.Error(record.Exception);  
+            }
+            catch(Exception ex)
+            {
+                _logger.Error(ex, "GT Logger failure. Failed to write exception log");
+            }
         }
 
-        public void Write(ILogRecord record)
+        protected override void WriteInfoLog(ILogRecord record)
         {
-            throw new System.NotImplementedException();
+            try 
+            {
+                _logger.Info(record.Message);        
+            }
+            catch(Exception ex)
+            {
+                _logger.Error(ex, "GT Logger failure. Failed to write info log");
+            }
+        }
+
+        protected override void WriteWarningLog(ILogRecord record)
+        {
+            try 
+            {
+                _logger.Warn(record.Message);  
+            }
+            catch(Exception ex)
+            {
+                _logger.Error(ex, "GT Logger failure. Failed to write warning log");
+            }
         }
     }
 }

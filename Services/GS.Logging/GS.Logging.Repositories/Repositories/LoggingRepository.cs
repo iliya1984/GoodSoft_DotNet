@@ -1,4 +1,7 @@
+using System;
+using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces;
+using GS.Logging.Entities.Interfaces.Records;
 using GS.Logging.Entities.Records;
 using GS.Logging.Repositories.Interfaces;
 
@@ -13,28 +16,42 @@ namespace GS.Logging.Repositories.Repositories
             record.StackTrace = errorStackTrace;
             record.Data = data;
 
-            WriteLogError(record);
+            WriteErrorLog(record);
         }
 
         public void LogInfo(string textMessage, object data = null)
         {
-            throw new System.NotImplementedException();
+            var record = new LogRecord(ELogs.Severity.Info);
+            record.Message = textMessage;
+            record.Data = data;
+
+            WriteInfoLog(record);
         }
 
         public void LogWarning(string textMessage, object data = null)
         {
-            throw new System.NotImplementedException();
+            var record = new LogRecord(ELogs.Severity.Warning);
+            record.Message = textMessage;
+            record.Data = data;
+
+            WriteWarningLog(record);
         }
 
-        protected virtual void WriteLog(ILogRecord record)
+        public void LogException(Exception exception, object data = null)
         {
+            var record = new ExceptionRecord();
+            record.Exception = exception;
+            record.Data = data;
 
         }
 
-        protected abstract void WriteLogInfo(ILogRecord record);
+        protected abstract void WriteInfoLog(ILogRecord record);
 
-        protected abstract void WriteLogWorning(ILogRecord record);
+        protected abstract void WriteWarningLog(ILogRecord record);
 
-        protected abstract void WriteLogError(IErrorRecord record);
+        protected abstract void WriteErrorLog(IErrorRecord record);
+        protected abstract void WriteExeptionLog(IExceptionRecord record);
+
+       
     }
 }
