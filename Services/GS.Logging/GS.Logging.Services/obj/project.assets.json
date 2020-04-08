@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Services/GT.Logging.Services.csproj",
-      "projectName": "GT.Logging.Services",
-      "projectPath": "/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Services/GT.Logging.Services.csproj",
+      "projectUniqueName": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Services/GS.Logging.Services.csproj",
+      "projectName": "GS.Logging.Services",
+      "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Services/GS.Logging.Services.csproj",
       "packagesPath": "/home/ilya/.nuget/packages/",
-      "outputPath": "/home/ilya/Desktop/Workspace/Projects/GoodTravel_DotNet/Services/GT.Logging/GT.Logging.Services/obj/",
+      "outputPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ilya/.nuget/NuGet/NuGet.Config"

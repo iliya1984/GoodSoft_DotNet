@@ -4,7 +4,7 @@ using GS.Logging.Repositories.Interfaces;
 
 namespace GS.Logging.Repositories.Repositories
 {
-    public abstract class Logger : ILogger
+    public abstract class LoggingRepository : ILoggingRepository
     {
         public void LogError(string errorMessage, string errorStackTrace = null, object data = null)
         {

@@ -8,5 +8,6 @@
     <Content Include="Interfaces\ILogger.cs" />
     <Content Include="Repositories\Logger.cs" />
     <Content Include="Repositories\NLogLogger.cs" />
+    <Content Include="Interfaces\ILoggingRepository.cs" />
   </ItemGroup>
 </Project>

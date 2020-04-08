@@ -1,6 +1,6 @@
 namespace GS.Logging.Repositories.Interfaces
 {
-    public interface ILogger
+    public interface ILoggingRepository
     {
         void LogInfo(string textMessage, object data = null);
         void LogWarning(string textMessage, object data = null);

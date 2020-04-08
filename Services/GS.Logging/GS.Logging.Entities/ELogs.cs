@@ -11,13 +11,6 @@ namespace GS.Logging.Entities
             Error
         }
 
-        public enum Module
-        {
-            None,
-            Geo,
-            Flights
-        }
-
         public enum Layer
         {
             None, 
@@ -25,6 +18,21 @@ namespace GS.Logging.Entities
             DataLayer,
             BusinessLayer,
             Repository
+        }
+
+        public enum TargetGroup
+        {
+            None,
+            File,
+            Database
+        }
+
+        public enum TargetFormat
+        {
+            None,
+            Text,
+            Xml,
+            Json
         }
     }
 }

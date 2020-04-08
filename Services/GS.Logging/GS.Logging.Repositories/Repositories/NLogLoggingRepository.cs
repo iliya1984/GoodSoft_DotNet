@@ -3,7 +3,7 @@ using GS.Logging.Repositories.Interfaces;
 
 namespace GS.Logging.Repositories.Repositories
 {
-    public class NLogLogger : ILogger
+    public class NLogLogger : ILoggingRepository
     {
 
         public void LogError(string errorMessage, string errorStackTrace = null, object data = null)

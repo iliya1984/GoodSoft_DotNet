@@ -1,4 +1,4 @@
-namespace GS.Logging.Entities.Modules
+namespace GS.Logging.Entities.Modules.Settings
 {
     public class LoggingModuleWrapper
     {
@@ -9,29 +9,29 @@ namespace GS.Logging.Entities.Modules
             _module = module;
         }
 
-        public ELogs.Module Type 
+        public string Group
         { 
             get
             {  
                 if(_module == null)
                 {
-                    return ELogs.Module.None;
+                    return string.Empty;
                 }
 
-                return _module.Type;
+                return _module.Group;
             }
         }
 
-        public ELogs.Layer Layer 
+        public ELogs.Layer LayerGroup 
         { 
             get
             {  
-                if(_module == null)
+                if(_module == null || _module.Layer == null)
                 {
                     return ELogs.Layer.None;
                 }
 
-                return _module.Layer;
+                return _module.Layer.Group;
             }
         }
 
@@ -49,9 +49,16 @@ namespace GS.Logging.Entities.Modules
                     return _module.Name;
                 }
 
-                if(_module.Type != ELogs.Module.None && _module.Layer != ELogs.Layer.None)
+                if(false == string.IsNullOrEmpty(_module.Group) && _module.Layer != null)
                 {
-                    return $"{_module.Type}{_module.Layer}";
+                    if(_module.Layer.Group != ELogs.Layer.None)
+                    {
+                        return $"{_module.Group}{_module.Layer.Group}";
+                    }
+                    if(false == string.IsNullOrEmpty(_module.Layer.Name))
+                    {
+                        return $"{_module.Group}{_module.Layer.Name}";
+                    }
                 }
 
                 return string.Empty;
