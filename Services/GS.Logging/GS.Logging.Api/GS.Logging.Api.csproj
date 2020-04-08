@@ -5,5 +5,8 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\GS.Logging.Entities\GS.Logging.Entities.csproj" />
+    <ProjectReference Include="..\GS.Logging.Repositories\GS.Logging.Repositories.csproj" />
+    <ProjectReference Include="..\GS.Logging.Services\GS.Logging.Services.csproj" />
+    <Content Include="Controllers\ErrorLogsController.cs" />
   </ItemGroup>
 </Project>

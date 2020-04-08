@@ -1,12 +1,15 @@
 using System;
 using System.Linq;
+using System.Threading.Tasks;
 using GS.Logging.Entities.Interfaces;
+using GS.Logging.Entities.Requests;
 using GS.Logging.Entities.Responses;
 using GS.Logging.Repositories.Interfaces;
+using GS.Logging.Services.Interfaces;
 
 namespace GS.Logging.Services
 {
-    public class LoggingService
+    public class LoggingService : ILoggingService
     {
         private ILoggingRepository _repository;
 
@@ -15,19 +18,55 @@ namespace GS.Logging.Services
             _repository = repository;
         }
 
-         public ILoggingResponse WriteError(string errorMessage, string errorStackTrace = null, object data = null)
+        public async Task<ILoggingResponse> WriteExceptionAsync(Exception exception, object data = null)
          {
             var response = new LoggingResponse();
 
             try
              {
-               _repository.LogError(errorMessage, errorStackTrace, data);
+                await _repository.LogExceptionAsync(exception, data);
                 response.RecordsLogged = 1;
                
              }
              catch(Exception ex)
              {
-                 _repository.LogException(ex);
+                await _repository.LogExceptionAsync(ex);
+                response.IsError = true;
+             }
+             return response;
+         }
+
+        public async Task<ILoggingResponse>  WriteErrorAsync(ErrorLoggingRequest request)
+         {
+            var response = new LoggingResponse();
+
+            try
+             {
+                await _repository.LogErrorAsync(request.ErrorMessage, request.ErrorStackTrace, request.Data);
+                response.RecordsLogged = 1;
+               
+             }
+             catch(Exception ex)
+             {
+                await _repository.LogExceptionAsync(ex);
+                response.IsError = true;
+             }
+             return response;
+         }
+
+         public async Task<ILoggingResponse>  WriteErrorAsync(string errorMessage, string errorStackTrace = null, object data = null)
+         {
+            var response = new LoggingResponse();
+
+            try
+             {
+                await _repository.LogErrorAsync(errorMessage, errorStackTrace, data);
+                response.RecordsLogged = 1;
+               
+             }
+             catch(Exception ex)
+             {
+                await _repository.LogExceptionAsync(ex);
                 response.IsError = true;
              }
              return response;

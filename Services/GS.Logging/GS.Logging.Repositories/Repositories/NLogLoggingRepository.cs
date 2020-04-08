@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using GS.Logging.Entities.Interfaces;
 using GS.Logging.Entities.Settings;
 using GS.Logging.Repositories.Interfaces;
@@ -19,11 +20,14 @@ namespace GS.Logging.Repositories.Repositories
             _logger = _factory.GetLogger(_settings.LoggerName);
         }
 
-        protected override void WriteErrorLog(IErrorRecord record)
+        protected override async Task WriteErrorLogAsync(IErrorRecord record)
         {
             try 
             {
-                _logger.Error(record.Message);  
+                await Task.Run(() =>
+                {
+                    _logger.Error(record.Message);
+                });
             }
             catch(Exception ex)
             {
@@ -31,11 +35,14 @@ namespace GS.Logging.Repositories.Repositories
             }
         }
 
-        protected override void WriteExeptionLog(IExceptionRecord record)
+        protected override async Task WriteExeptionLogAsync(IExceptionRecord record)
         {
             try 
             {
-                _logger.Error(record.Exception);  
+                 await Task.Run(() =>
+                {
+                    _logger.Error(record.Exception); 
+                });
             }
             catch(Exception ex)
             {
@@ -43,11 +50,15 @@ namespace GS.Logging.Repositories.Repositories
             }
         }
 
-        protected override void WriteInfoLog(ILogRecord record)
+        protected override async Task WriteInfoLogAsync(ILogRecord record)
         {
             try 
             {
-                _logger.Info(record.Message);        
+                await Task.Run(() =>
+                {
+                    _logger.Info(record.Message);  
+                });
+                      
             }
             catch(Exception ex)
             {
@@ -55,11 +66,14 @@ namespace GS.Logging.Repositories.Repositories
             }
         }
 
-        protected override void WriteWarningLog(ILogRecord record)
+        protected override async Task WriteWarningLogAsync(ILogRecord record)
         {
             try 
-            {
-                _logger.Warn(record.Message);  
+            { 
+                await Task.Run(() =>
+                {
+                    _logger.Warn(record.Message);  
+                });
             }
             catch(Exception ex)
             {

@@ -14,5 +14,6 @@
     <Content Include="Modules\LoggingModuleWrapper.cs" />
     <Content Include="Interfaces\ILoggingRequest.cs" />
     <Content Include="Interfaces\ILoggingResponse.cs" />
+    <Content Include="Requests\ErrorLoggingRequest.cs" />
   </ItemGroup>
 </Project>

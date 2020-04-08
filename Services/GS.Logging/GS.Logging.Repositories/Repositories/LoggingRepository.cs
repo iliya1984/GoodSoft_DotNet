@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces;
 using GS.Logging.Entities.Interfaces.Records;
@@ -9,49 +10,49 @@ namespace GS.Logging.Repositories.Repositories
 {
     public abstract class LoggingRepository : ILoggingRepository
     {
-        public void LogError(string errorMessage, string errorStackTrace = null, object data = null)
+        public async Task LogErrorAsync(string errorMessage, string errorStackTrace = null, object data = null)
         {
             var record = new ErrorRecord();
             record.Message = errorMessage;
             record.StackTrace = errorStackTrace;
             record.Data = data;
 
-            WriteErrorLog(record);
+            await WriteErrorLogAsync(record);
         }
 
-        public void LogInfo(string textMessage, object data = null)
+        public async Task LogInfoAsync(string textMessage, object data = null)
         {
             var record = new LogRecord(ELogs.Severity.Info);
             record.Message = textMessage;
             record.Data = data;
 
-            WriteInfoLog(record);
+            await WriteInfoLogAsync(record);
         }
 
-        public void LogWarning(string textMessage, object data = null)
+        public async Task LogWarningAsync(string textMessage, object data = null)
         {
             var record = new LogRecord(ELogs.Severity.Warning);
             record.Message = textMessage;
             record.Data = data;
 
-            WriteWarningLog(record);
+             await WriteWarningLogAsync(record);
         }
 
-        public void LogException(Exception exception, object data = null)
+        public async Task LogExceptionAsync(Exception exception, object data = null)
         {
             var record = new ExceptionRecord();
             record.Exception = exception;
             record.Data = data;
 
+            await WriteExeptionLogAsync(record);
         }
 
-        protected abstract void WriteInfoLog(ILogRecord record);
+        protected abstract Task WriteInfoLogAsync(ILogRecord record);
 
-        protected abstract void WriteWarningLog(ILogRecord record);
+        protected abstract Task WriteWarningLogAsync(ILogRecord record);
 
-        protected abstract void WriteErrorLog(IErrorRecord record);
-        protected abstract void WriteExeptionLog(IExceptionRecord record);
+        protected abstract Task WriteErrorLogAsync(IErrorRecord record);
+        protected abstract Task WriteExeptionLogAsync(IExceptionRecord record);
 
-       
     }
 }
