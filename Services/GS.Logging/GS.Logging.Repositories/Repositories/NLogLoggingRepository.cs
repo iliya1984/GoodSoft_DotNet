@@ -11,12 +11,16 @@ namespace GS.Logging.Repositories.Repositories
     {
         private LogFactory _factory;
         private Logger _logger;
-        private LoggerSettings _settings;
+        private LoggingSettings _settings;
 
-        public NLogLoggingRepository(LogFactory factory, LoggerSettings settings)
+        public NLogLoggingRepository(LogFactory factory)
         {
             _factory = factory;
-            _settings = settings;
+        }
+
+        public override void Initialize(LoggingSettings settings)
+        {
+             _settings = settings;
             _logger = _factory.GetLogger(_settings.LoggerName);
         }
 

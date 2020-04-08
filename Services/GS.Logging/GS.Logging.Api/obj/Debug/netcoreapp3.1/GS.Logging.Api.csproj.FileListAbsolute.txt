@@ -29,3 +29,5 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/GS.Logging.Services.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/GS.Logging.Repositories.pdb
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/GS.Logging.Services.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/Autofac.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/Autofac.Extensions.DependencyInjection.dll

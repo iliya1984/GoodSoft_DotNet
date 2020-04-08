@@ -4,6 +4,7 @@ using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces;
 using GS.Logging.Entities.Interfaces.Records;
 using GS.Logging.Entities.Records;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Repositories.Interfaces;
 
 namespace GS.Logging.Repositories.Repositories
@@ -54,5 +55,6 @@ namespace GS.Logging.Repositories.Repositories
         protected abstract Task WriteErrorLogAsync(IErrorRecord record);
         protected abstract Task WriteExeptionLogAsync(IExceptionRecord record);
 
+        public abstract void Initialize(LoggingSettings settings);
     }
 }

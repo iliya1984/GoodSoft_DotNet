@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using GS.Logging.Entities.Interfaces;
 using GS.Logging.Entities.Requests;
 using GS.Logging.Entities.Responses;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Repositories.Interfaces;
 using GS.Logging.Services.Interfaces;
 
@@ -16,6 +17,11 @@ namespace GS.Logging.Services
         public LoggingService(ILoggingRepository repository)
         {
             _repository = repository;
+        }
+
+        public void Intialize(LoggingSettings settings)
+        {
+            _repository.Initialize(settings);
         }
 
         public async Task<ILoggingResponse> WriteExceptionAsync(Exception exception, object data = null)

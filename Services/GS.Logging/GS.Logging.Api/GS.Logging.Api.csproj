@@ -9,4 +9,11 @@
     <ProjectReference Include="..\GS.Logging.Services\GS.Logging.Services.csproj" />
     <Content Include="Controllers\ErrorLogsController.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <Content Include="Program.cs" />
+    <PackageReference Include="NLog" Version="4.7.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.1" />
+    <Content Include="Startup.cs" />
+  </ItemGroup>
 </Project>
