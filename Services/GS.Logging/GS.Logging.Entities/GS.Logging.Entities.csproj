@@ -12,5 +12,7 @@
     <Content Include="Records\ErrorRecord.cs" />
     <Content Include="Modules\LoggingModule.cs" />
     <Content Include="Modules\LoggingModuleWrapper.cs" />
+    <Content Include="Interfaces\ILoggingRequest.cs" />
+    <Content Include="Interfaces\ILoggingResponse.cs" />
   </ItemGroup>
 </Project>

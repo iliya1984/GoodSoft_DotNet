@@ -1,7 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Logging.Repositories\GS.Logging.Repositories.csproj" />
+    <Content Include="LoggingService.cs" />
+  </ItemGroup>
 </Project>
