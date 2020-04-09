@@ -9,5 +9,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <Content Include="LoggingExtensions.cs" />
   </ItemGroup>
 </Project>

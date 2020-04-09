@@ -1,9 +1,13 @@
 using System;
+using System.Linq;
 using System.Threading.Tasks;
+using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces;
 using GS.Logging.Entities.Settings;
 using GS.Logging.Repositories.Interfaces;
 using NLog;
+using NLog.Config;
+using NLog.Targets;
 
 namespace GS.Logging.Repositories.Repositories
 {
@@ -11,7 +15,6 @@ namespace GS.Logging.Repositories.Repositories
     {
         private LogFactory _factory;
         private Logger _logger;
-        private LoggingSettings _settings;
 
         public NLogLoggingRepository(LogFactory factory)
         {
@@ -20,21 +23,29 @@ namespace GS.Logging.Repositories.Repositories
 
         public override void Initialize(LoggingSettings settings)
         {
-             _settings = settings;
-            _logger = _factory.GetLogger(_settings.LoggerName);
+            base.Initialize(settings);
+
+            _logger = _factory.GetLogger(LoggerName);
         }
 
         protected override async Task WriteErrorLogAsync(IErrorRecord record)
         {
-            try 
+            try
             {
                 await Task.Run(() =>
                 {
-                    _logger.Error(record.Message);
-                    int i = 1;
+                    foreach (var target in Targets)
+                    {
+                        var logEvent = new LogEventInfo();
+                        logEvent.Level = LogLevel.Error;
+                        logEvent.Message = record.Message;
+                        logEvent.Properties["CustomFileName"] = target.FileName + "_Error";
+                        logEvent.Properties["Extension"] = getFileExtensionForTarget(target);
+                        _logger.Log(logEvent);
+                    }
                 });
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _logger.Error(ex, "GT Logger failure. Failed to write error log");
             }
@@ -42,14 +53,14 @@ namespace GS.Logging.Repositories.Repositories
 
         protected override async Task WriteExeptionLogAsync(IExceptionRecord record)
         {
-            try 
+            try
             {
-                 await Task.Run(() =>
-                {
-                    _logger.Error(record.Exception); 
-                });
+                await Task.Run(() =>
+               {
+                   _logger.Error(record.Exception);
+               });
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _logger.Error(ex, "GT Logger failure. Failed to write exception log");
             }
@@ -57,15 +68,15 @@ namespace GS.Logging.Repositories.Repositories
 
         protected override async Task WriteInfoLogAsync(ILogRecord record)
         {
-            try 
+            try
             {
                 await Task.Run(() =>
                 {
-                    _logger.Info(record.Message);  
+                    _logger.Info(record.Message);
                 });
-                      
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _logger.Error(ex, "GT Logger failure. Failed to write info log");
             }
@@ -73,17 +84,30 @@ namespace GS.Logging.Repositories.Repositories
 
         protected override async Task WriteWarningLogAsync(ILogRecord record)
         {
-            try 
-            { 
+            try
+            {
                 await Task.Run(() =>
                 {
-                    _logger.Warn(record.Message);  
+                    _logger.Warn(record.Message);
                 });
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _logger.Error(ex, "GT Logger failure. Failed to write warning log");
             }
+        }
+
+        private string getFileExtensionForTarget(LoggingTarget target)
+        {
+            string extension = "txt";
+            switch(target.Format)
+            {
+                case ELogs.TargetFormat.Text:
+                    extension =  "log";
+                    break;
+            }
+
+            return extension;
         }
     }
 }

@@ -1,4 +1,4 @@
-namespace GS.Logging.Entities.Modules.Settings
+namespace GS.Logging.Entities.Modules
 {
     public class LoggingModuleWrapper
     {

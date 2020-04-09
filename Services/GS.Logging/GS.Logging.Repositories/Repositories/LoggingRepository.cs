@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces;
@@ -11,6 +12,17 @@ namespace GS.Logging.Repositories.Repositories
 {
     public abstract class LoggingRepository : ILoggingRepository
     {
+        protected LoggingSettings Settings;
+
+        public string LoggerName { get; private set;}
+        public List<LoggingTarget> Targets { get; private set;}
+
+        public LoggingRepository()
+        {
+            Targets = new List<LoggingTarget>();
+            LoggerName = "LoggingRepository";
+        }
+
         public async Task LogErrorAsync(string errorMessage, string errorStackTrace = null, object data = null)
         {
             var record = new ErrorRecord();
@@ -55,6 +67,13 @@ namespace GS.Logging.Repositories.Repositories
         protected abstract Task WriteErrorLogAsync(IErrorRecord record);
         protected abstract Task WriteExeptionLogAsync(IExceptionRecord record);
 
-        public abstract void Initialize(LoggingSettings settings);
+        public virtual void Initialize(LoggingSettings settings)
+        {
+            Settings = settings;
+            if(settings != null && false == string.IsNullOrEmpty(settings.LoggerName))
+            {
+                LoggerName = settings.LoggerName;
+            }
+        }
     }
 }

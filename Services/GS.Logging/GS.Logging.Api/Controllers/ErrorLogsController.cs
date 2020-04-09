@@ -5,6 +5,7 @@ using GS.Logging.Entities.Responses;
 using GS.Logging.Entities.Settings;
 using GS.Logging.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace GS.Logging.Api.Controllers
 {
@@ -13,10 +14,12 @@ namespace GS.Logging.Api.Controllers
     public class ErrorLogsController : ControllerBase
     {
         private ILoggingService _service;
+        private IConfiguration _configuration;
 
-        public ErrorLogsController(ILoggingService service)
+        public ErrorLogsController(ILoggingService service, IConfiguration configuration)
         {
             _service = service;
+            _configuration = configuration;
         }
 
         public async Task<IActionResult> Post(ErrorLoggingRequest request)
@@ -25,8 +28,8 @@ namespace GS.Logging.Api.Controllers
             {
                 var settings = new LoggingSettings();
                 settings.LoggerName = "Default";
-
-                _service.Intialize(settings);
+                
+                _service.Intialize(settings, request.Module);
 
                 var response = await _service.WriteErrorAsync(request);
                 return new JsonResult(response);

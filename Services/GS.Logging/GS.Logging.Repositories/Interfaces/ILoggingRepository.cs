@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using GS.Logging.Entities.Settings;
 
@@ -6,6 +7,10 @@ namespace GS.Logging.Repositories.Interfaces
 {
     public interface ILoggingRepository
     {
+
+        string LoggerName { get; }
+        List<LoggingTarget> Targets { get;}
+
         void Initialize(LoggingSettings settings);
         Task LogInfoAsync(string textMessage, object data = null);
         Task LogWarningAsync(string textMessage, object data = null);

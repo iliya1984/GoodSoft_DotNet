@@ -1,4 +1,4 @@
-using GS.Logging.Entities.Modules.Settings;
+using GS.Logging.Entities.Modules;
 
 namespace GS.Logging.Entities
 {
@@ -13,6 +13,5 @@ namespace GS.Logging.Entities
 
             return new LoggingModuleWrapper(module);
         }
-        
     }
 }
