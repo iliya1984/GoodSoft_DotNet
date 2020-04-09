@@ -1,0 +1,8 @@
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/bin/Debug/netstandard2.0/GS.Messaging.Producers.deps.json
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/bin/Debug/netstandard2.0/GS.Messaging.Producers.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/bin/Debug/netstandard2.0/GS.Messaging.Producers.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/obj/Debug/netstandard2.0/GS.Messaging.Producers.csproj.CoreCompileInputs.cache
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/obj/Debug/netstandard2.0/GS.Messaging.Producers.AssemblyInfoInputs.cache
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/obj/Debug/netstandard2.0/GS.Messaging.Producers.AssemblyInfo.cs
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/obj/Debug/netstandard2.0/GS.Messaging.Producers.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/obj/Debug/netstandard2.0/GS.Messaging.Producers.pdb

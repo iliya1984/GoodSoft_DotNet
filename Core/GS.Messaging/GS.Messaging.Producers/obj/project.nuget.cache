@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ff6L1dh0Zkx/ef6h3FbmmQmcaXtKX0zf1iltQgNWV3ApSe3wdAo23i9ezGrw1ucCfcHaoKEcZc1LeDM8rQWxQ==",
+  "success": true,
+  "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj",
+  "expectedPackageFiles": [
+    "/home/ilya/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
