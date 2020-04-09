@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/GS.Logging.Api/bin/Debug/netcoreapp3.1/GT.Logging.Api.dll",
+            "program": "${workspaceFolder}/GS.Logging.Api/bin/Debug/netcoreapp3.1/GS.Logging.Api.dll",
             "args": [],
             "cwd": "${workspaceFolder}/GS.Logging.Api",
             "stopAtEntry": false,

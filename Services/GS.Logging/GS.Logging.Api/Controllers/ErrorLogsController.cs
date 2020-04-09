@@ -2,6 +2,7 @@ using System;
 using System.Threading.Tasks;
 using GS.Logging.Entities.Requests;
 using GS.Logging.Entities.Responses;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,6 +23,11 @@ namespace GS.Logging.Api.Controllers
         {
             try
             {
+                var settings = new LoggingSettings();
+                settings.LoggerName = "Default";
+
+                _service.Intialize(settings);
+
                 var response = await _service.WriteErrorAsync(request);
                 return new JsonResult(response);
             } 

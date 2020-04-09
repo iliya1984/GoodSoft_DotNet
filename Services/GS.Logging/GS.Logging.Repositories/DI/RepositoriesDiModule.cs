@@ -1,4 +1,5 @@
 using Autofac;
+using GS.Logging.Repositories.Interfaces;
 using GS.Logging.Repositories.Repositories;
 using NLog.Web;
 
@@ -9,7 +10,9 @@ namespace GS.Logging.Repositories.DI
         protected override void Load(ContainerBuilder builder)
         {
             var nlogFactory =  NLogBuilder.ConfigureNLog("nlog.config");
-            builder.Register(c => new NLogLoggingRepository(nlogFactory));
+            builder
+                .Register(c => new NLogLoggingRepository(nlogFactory))
+                .As<ILoggingRepository>();
         }
     }
 }

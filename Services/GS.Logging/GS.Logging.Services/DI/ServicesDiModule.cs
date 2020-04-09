@@ -9,7 +9,11 @@ namespace GS.Logging.Services.DI
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterModule<RepositoriesDiModule>();
-            builder.RegisterType<LoggingService>().As<ILoggingService>();
+            
+            builder
+                .RegisterType<LoggingService>()
+                //.FindConstructorsWith()
+                .As<ILoggingService>();
         }
     }
 }

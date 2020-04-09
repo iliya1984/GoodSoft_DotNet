@@ -1,0 +1,6 @@
+2020-04-08 11:01:20.7968|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2020-04-08 11:01:20.8767|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2020-04-08 11:01:20.8767|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-08 11:01:20.8767|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-08 11:01:20.8767|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api
+2020-04-08 11:01:29.0368|ERROR|Default|Test Error

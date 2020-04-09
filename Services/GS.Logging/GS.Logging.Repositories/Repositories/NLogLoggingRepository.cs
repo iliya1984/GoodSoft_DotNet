@@ -31,6 +31,7 @@ namespace GS.Logging.Repositories.Repositories
                 await Task.Run(() =>
                 {
                     _logger.Error(record.Message);
+                    int i = 1;
                 });
             }
             catch(Exception ex)

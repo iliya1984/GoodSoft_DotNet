@@ -13,6 +13,7 @@ using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using GS.Logging.Api.DI;
+using NLog;
 
 namespace GS.Logging.Api
 {
@@ -21,6 +22,8 @@ namespace GS.Logging.Api
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
+            LogManager.Configuration.Variables["configDir"] = @"var\log";
         }
 
         public IConfiguration Configuration { get; }
