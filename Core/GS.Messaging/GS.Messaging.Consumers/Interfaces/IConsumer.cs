@@ -6,6 +6,8 @@ namespace GS.Messaging.Consumers.Interfaces
 {
     public interface IConsumer
     {
+        EMessaging.Technology Technology { get; }
+
         void Subscribe(Topic topic);
         void Subscribe(IEnumerable<Topic> topics);
         void Subscribe(SubscriptionRequest request);

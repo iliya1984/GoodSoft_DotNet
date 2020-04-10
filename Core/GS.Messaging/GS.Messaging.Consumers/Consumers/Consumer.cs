@@ -11,11 +11,14 @@ namespace GS.Messaging.Consumers.Consumers
     {
         private ConsumerSettings _settings;
         protected ILogger Logger { get; private set; }
-        
+
+        public EMessaging.Technology Technology { get; private set;}
 
         protected Consumer(ConsumerSettings settings, LogFactory logFactory)
         {
             _settings = settings;
+
+            Technology = _settings.Technology;
             Logger = logFactory.GetCurrentClassLogger();
         }
 

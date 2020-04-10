@@ -12,10 +12,10 @@ namespace GS.Messaging.Consumers.Consumers
     public class KafkaConsumer : Consumer
     {
         private ConsumerConfig _settings;
-        private ConsumerBuilder<string, string> _builder;
+        private KafkaConsumerClientBuilder _builder;
         private Lazy<IConsumer<string, string>> _consumer;
 
-        public KafkaConsumer(ConsumerSettings settings, ConsumerBuilder<string, string> builder, LogFactory logFactory) : base(settings, logFactory)
+        public KafkaConsumer(ConsumerSettings settings, KafkaConsumerClientBuilder builder, LogFactory logFactory) : base(settings, logFactory)
         {
             _settings = new ConsumerConfig();
             setConfiguration(_settings, settings);
@@ -23,7 +23,7 @@ namespace GS.Messaging.Consumers.Consumers
             _builder = builder;
             _consumer = new Lazy<IConsumer<string, string>>(() =>
             {
-                return _builder.Build();
+                return _builder.Build(_settings);
             }, 
             true);
         }
@@ -91,8 +91,11 @@ namespace GS.Messaging.Consumers.Consumers
         //Maps generic consumer settings to Kafka consumer settings
         private void setConfiguration(ConsumerConfig kafkaSettings, ConsumerSettings settings)
         {
+            var servers = settings.Servers.Select(s => $"{s.Host}:{s.Port}").ToArray();
+            kafkaSettings.BootstrapServers = string.Join(",", servers);
             
-            
+            kafkaSettings.GroupId = settings.Group;
+            kafkaSettings.SessionTimeoutMs = settings.SessionTimeout;
         }
 
         private bool validateTopic(Topic topic)
