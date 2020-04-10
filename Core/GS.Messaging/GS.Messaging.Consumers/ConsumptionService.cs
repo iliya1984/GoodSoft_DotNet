@@ -6,6 +6,7 @@ using GS.Messaging.Entities.Consumers;
 using GS.Messaging.Entities.Interfaces;
 using GS.Messaging.Interfaces;
 using Microsoft.Extensions.Hosting;
+using NLog;
 
 namespace GS.Messaging.Consumers
 {
@@ -14,10 +15,12 @@ namespace GS.Messaging.Consumers
         private ConsumerSettings _settings;
         private IConsumerFactory _factory;
         private Lazy<IConsumer> _consumer;
+        protected ILogger Logger { get; private set;}
 
-        public ConsumptionService(IConsumerFactory factory)
+        public ConsumptionService(IConsumerFactory factory, LogFactory logFactory)
         {
             _factory = factory;
+            Logger = logFactory.GetCurrentClassLogger();
 
             _consumer = new Lazy<IConsumer>(() =>
             {
@@ -42,7 +45,7 @@ namespace GS.Messaging.Consumers
             }
             catch(Exception ex)
             {
-                //TODO: log error
+                Logger.Error(ex);
             }
         }
         

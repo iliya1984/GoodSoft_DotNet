@@ -5,17 +5,17 @@ using System.Text.Json;
 using Confluent.Kafka;
 using GS.Messaging.Entities;
 using GS.Messaging.Entities.Consumers;
+using NLog;
 
 namespace GS.Messaging.Consumers.Consumers
 {
     public class KafkaConsumer : Consumer
     {
         private ConsumerConfig _settings;
-        private string _topicName;
         private ConsumerBuilder<string, string> _builder;
         private Lazy<IConsumer<string, string>> _consumer;
 
-        public KafkaConsumer(ConsumerSettings settings, ConsumerBuilder<string, string> builder) : base(settings)
+        public KafkaConsumer(ConsumerSettings settings, ConsumerBuilder<string, string> builder, LogFactory logFactory) : base(settings, logFactory)
         {
             _settings = new ConsumerConfig();
             setConfiguration(_settings, settings);
@@ -38,7 +38,7 @@ namespace GS.Messaging.Consumers.Consumers
             }
             catch(Exception ex)
             {
-                //TODO: log error
+                Logger.Error(ex);
                 return default(T);
             }
         }
@@ -54,7 +54,7 @@ namespace GS.Messaging.Consumers.Consumers
             }
             catch(Exception ex)
             {
-                //TODO: log error
+                Logger.Error(ex);
             }
         }
 
@@ -69,7 +69,7 @@ namespace GS.Messaging.Consumers.Consumers
             }
             catch(Exception ex)
             {
-                //TODO: log error
+                Logger.Error(ex);
             }
         }
 
@@ -84,7 +84,7 @@ namespace GS.Messaging.Consumers.Consumers
             }
             catch(Exception ex)
             {
-                //TODO: log error
+                Logger.Error(ex);
             }
         }
 
@@ -96,9 +96,20 @@ namespace GS.Messaging.Consumers.Consumers
         }
 
         private bool validateTopic(Topic topic)
-        {
-            return topic != null && false == string.IsNullOrEmpty(topic.Name);
-            //TODO: log validation error
+        {   
+            if(topic == null)
+            {
+                Logger.Error("Topic validation error, topic is NULL");
+                return false;
+            }
+
+            if(false == string.IsNullOrEmpty(topic.Name))
+            {
+                Logger.Error("Topic validation error, topic name was not found");
+                return false;
+            }
+
+            return true;
         }
     }
 }

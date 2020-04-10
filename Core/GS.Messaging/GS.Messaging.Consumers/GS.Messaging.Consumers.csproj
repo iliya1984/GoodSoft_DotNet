@@ -4,11 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Confluent.Kafka" Version="1.4.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.3" />
     <Content Include="Interfaces\IConsumer.cs" />
     <Content Include="Consumer.cs" />
     <Content Include="ConsumptionService.cs" />
+    <PackageReference Include="NLog" Version="4.7.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GS.Messaging.Entities\GS.Messaging.Entities.csproj" />
