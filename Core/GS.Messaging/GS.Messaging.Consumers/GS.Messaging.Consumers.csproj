@@ -23,5 +23,6 @@
     <Content Include="Services\ConsumptionService.cs" />
     <Content Include="Consumers\KafkaConsumerClientBuilder.cs" />
     <Content Include="Configuration\ConfigurationManager.cs" />
+    <Content Include="Configuration\ConsumerConfigurationManager.cs" />
   </ItemGroup>
 </Project>
