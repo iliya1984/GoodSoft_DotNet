@@ -1,4 +1,4 @@
-using GS.Messaging.Interfaces;
+using GS.Messaging.Consumers.Interfaces;
 using GS.Messaging.Entities.Consumers;
 using GS.Messaging.Entities;
 using System.Collections.Generic;

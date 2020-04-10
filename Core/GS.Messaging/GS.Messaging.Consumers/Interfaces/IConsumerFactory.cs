@@ -1,5 +1,5 @@
 using GS.Messaging.Entities.Consumers;
-using GS.Messaging.Interfaces;
+using GS.Messaging.Consumers.Interfaces;
 
 namespace GS.Messaging.Consumers.Interfaces
 {

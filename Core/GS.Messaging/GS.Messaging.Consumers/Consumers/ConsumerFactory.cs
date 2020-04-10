@@ -1,7 +1,6 @@
 using System;
 using GS.Messaging.Consumers.Interfaces;
 using GS.Messaging.Entities.Consumers;
-using GS.Messaging.Interfaces;
 using NLog;
 
 namespace GS.Messaging.Consumers.Consumers

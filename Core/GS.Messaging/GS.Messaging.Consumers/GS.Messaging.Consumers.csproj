@@ -19,5 +19,6 @@
     <Content Include="Consumers\ConsumerFactory.cs" />
     <Content Include="Consumers\Consumer.cs" />
     <Content Include="Consumers\KafkaConsumer.cs" />
+    <Content Include="DI\ConsumerDIModule.cs" />
   </ItemGroup>
 </Project>

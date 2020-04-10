@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using GS.Messaging.Entities;
 using GS.Messaging.Entities.Consumers;
 
-namespace GS.Messaging.Interfaces
+namespace GS.Messaging.Consumers.Interfaces
 {
     public interface IConsumer
     {

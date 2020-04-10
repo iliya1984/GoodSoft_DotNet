@@ -4,11 +4,10 @@ using System.Threading.Tasks;
 using GS.Messaging.Consumers.Interfaces;
 using GS.Messaging.Entities.Consumers;
 using GS.Messaging.Entities.Interfaces;
-using GS.Messaging.Interfaces;
 using Microsoft.Extensions.Hosting;
 using NLog;
 
-namespace GS.Messaging.Consumers
+namespace GS.Messaging.Consumers.Services
 {
     public abstract class ConsumptionService : BackgroundService
     {
