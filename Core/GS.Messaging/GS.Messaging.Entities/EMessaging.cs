@@ -9,5 +9,19 @@ namespace GS.Messaging.Entities
             RabbitMq,
             MsMq
         }
+
+        public enum Action
+        {
+            None,
+            Produce,
+            Consume
+        }
+
+        public enum ActionResult
+        {
+            None,
+            Ok,
+            Error
+        }
     }
 }

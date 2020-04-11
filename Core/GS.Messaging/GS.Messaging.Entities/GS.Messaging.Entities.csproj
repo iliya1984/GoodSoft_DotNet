@@ -4,12 +4,20 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Topic.cs" />
     <Content Include="Consumers\ConsumerSettings.cs" />
     <Content Include="Consumers\SubscriptionRequest.cs" />
     <Content Include="Interfaces\IConsumptionExecutionRequest.cs" />
     <Content Include="Interfaces\IConsumptionRequest.cs" />
     <Content Include="Consumers\ConsumptionRequest.cs" />
     <Content Include="Producers\ProducerSettings.cs" />
+    <Content Include="Messages\KeyValueMessage.cs" />
+    <Content Include="Messages\Message.cs" />
+    <Content Include="Common\Topic.cs" />
+    <Content Include="Producers\ProduceResult.cs" />
+    <Content Include="Interfaces\IMessagingResult.cs" />
+    <Content Include="Common\MessagingResult.cs" />
+    <Content Include="Consumers\ConsumeResult.cs" />
+    <Content Include="Interfaces\IConsumeResult.cs" />
+    <Content Include="EMessagingExtensions.cs" />
   </ItemGroup>
 </Project>

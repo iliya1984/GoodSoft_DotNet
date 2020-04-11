@@ -4,6 +4,8 @@ using GS.Messaging.Entities;
 using System.Collections.Generic;
 using NLog;
 using NLog.Extensions.Logging;
+using GS.Messaging.Entities.Common;
+using GS.Messaging.Entities.Interfaces;
 
 namespace GS.Messaging.Consumers.Consumers
 {
@@ -25,7 +27,7 @@ namespace GS.Messaging.Consumers.Consumers
         public abstract void Subscribe(Topic topic);
         public abstract void Subscribe(IEnumerable<Topic> topics);
         public abstract void Subscribe(SubscriptionRequest request);
-        public abstract T Consume<T>();
+        public abstract IConsumeResult<T> Consume<T>();
         public abstract void Dispose();
     }
 }

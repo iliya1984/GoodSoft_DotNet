@@ -1,11 +1,14 @@
+using System.Threading;
+using System.Threading.Tasks;
 using GS.Messaging.Entities;
+using GS.Messaging.Entities.Interfaces;
 using GS.Messaging.Entities.Producers;
 using GS.Messaging.Producers.Interfaces;
 using NLog;
 
 namespace GS.Messaging.Producers.Producers
 {
-    public class Producer : IProducer
+    public abstract class Producer : IProducer
     {
         private ProducerSettings _settings;
         protected ILogger Logger { get; private set; }
@@ -19,5 +22,7 @@ namespace GS.Messaging.Producers.Producers
             Technology = _settings.Technology;
             Logger = logFactory.GetCurrentClassLogger();
         }
+
+        public abstract Task<IMessagingResult> ProduceAsync<T>(string key, T value, CancellationToken cancellationToken);
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IkSlSN7rvRUz4nfulrbGMp+HkSFWpulioqBNynL1jGzOY2ZG9Kgnx7GkFuaIAU5lZMwLEvZmxJwBS2sXnoQSvw==",
+  "dgSpecHash": "l4/amBZ+cs/WLZtoI9vHQpYmQE/kub21nTOCxSWvdDapQUOLeDsJrsHVVJTA//K+Hys4UBUw6rvuUCjc89rCeQ==",
   "success": true,
   "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/home/ilya/.nuget/packages/microsoft.aspnetcore.http.features/2.1.0/microsoft.aspnetcore.http.features.2.1.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.1.0/microsoft.aspnetcore.routing.abstractions.2.1.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/microsoft.aspnetcore.webutilities/2.1.0/microsoft.aspnetcore.webutilities.2.1.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/microsoft.extensions.configuration/2.1.0/microsoft.extensions.configuration.2.1.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/microsoft.extensions.configuration.abstractions/2.1.0/microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/microsoft.extensions.configuration.binder/2.1.0/microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
@@ -31,10 +32,12 @@
     "/home/ilya/.nuget/packages/nlog.extensions.logging/1.6.2/nlog.extensions.logging.1.6.2.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog.web.aspnetcore/4.9.1/nlog.web.aspnetcore.4.9.1.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
-    "/home/ilya/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
-    "/home/ilya/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
-    "/home/ilya/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
-    "/home/ilya/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "/home/ilya/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/ilya/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.0/system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/system.text.encodings.web/4.7.0/system.text.encodings.web.4.7.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/system.text.json/4.7.1/system.text.json.4.7.1.nupkg.sha512",
+    "/home/ilya/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }

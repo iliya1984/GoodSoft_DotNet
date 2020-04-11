@@ -1,5 +1,10 @@
 using System;
+using System.Text.Json;
+using System.Threading;
+using System.Threading.Tasks;
 using Confluent.Kafka;
+using GS.Messaging.Entities;
+using GS.Messaging.Entities.Interfaces;
 using GS.Messaging.Entities.Producers;
 using NLog;
 
@@ -22,6 +27,32 @@ namespace GS.Messaging.Producers.Producers
                 return _builder.Build(_settings);
             },
             true);
+        }
+
+        public override async Task<IMessagingResult> ProduceAsync<T>(string key, T value, CancellationToken cancellationToken)
+        {
+            try
+            {
+                var messageValue = JsonSerializer.Serialize<T>(value);
+                var message = new Message<string,string>
+                {
+                    Key = key,
+                    Value = messageValue
+                };
+
+                var result = await _producer.Value.ProduceAsync(key, message, cancellationToken);
+                
+                return new ProduceResult<T>
+                {
+                    Key = key,
+                    Value = value
+                };
+            }
+            catch(Exception ex)
+            {
+                Logger.Error(ex);
+                return ex.AsProduceResult(key, value);
+            }
         }
 
         private void setConfiguration(ProducerConfig kafkaSettings, ProducerSettings settings)

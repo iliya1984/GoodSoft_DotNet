@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GS.Messaging.Entities
+namespace GS.Messaging.Entities.Common
 {
     public class Topic
     {

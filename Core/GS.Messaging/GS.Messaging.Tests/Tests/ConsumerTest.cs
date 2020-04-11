@@ -5,6 +5,7 @@ using GS.Messaging.Consumers.Configuration;
 using GS.Messaging.Consumers.Interfaces;
 using GS.Messaging.Entities;
 using GS.Messaging.Tests.Entities;
+using GS.Messaging.Entities.Common;
 
 namespace GS.Messaging.Tests.Tests
 {
@@ -30,10 +31,10 @@ namespace GS.Messaging.Tests.Tests
             {
                 //Act
                 consumer.Subscribe(topic);
-                TestMessage message = consumer.Consume<TestMessage>();
+                var message = consumer.Consume<TestMessage>();
 
                 //Assert
-                Assert.Equal(message.Text, "Hello from Kafka");
+                Assert.Equal(message.Value.Text, "Hello from Kafka");
             }
         }
     }

@@ -5,7 +5,9 @@ using System.Text.Json;
 using System.Threading;
 using Confluent.Kafka;
 using GS.Messaging.Entities;
+using GS.Messaging.Entities.Common;
 using GS.Messaging.Entities.Consumers;
+using GS.Messaging.Entities.Interfaces;
 using NLog;
 
 namespace GS.Messaging.Consumers.Consumers
@@ -29,7 +31,7 @@ namespace GS.Messaging.Consumers.Consumers
             },
             true);
         }
-        public override T Consume<T>()
+        public override IConsumeResult<T> Consume<T>()
         {
             try
             {
@@ -58,12 +60,12 @@ namespace GS.Messaging.Consumers.Consumers
                     consumeTries++;
                 }
 
-                return message;
+                return new ConsumeResult<T>{ Value = message };
             }
             catch (Exception ex)
             {
                 Logger.Error(ex);
-                return default(T);
+                return ex.AsConsumeResult<T>();
             }
         }
 
