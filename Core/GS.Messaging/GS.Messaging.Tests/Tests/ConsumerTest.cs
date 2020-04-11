@@ -33,7 +33,7 @@ namespace GS.Messaging.Tests.Tests
                 TestMessage message = consumer.Consume<TestMessage>();
 
                 //Assert
-                Assert.Equal(message.Text, "kafka test success");
+                Assert.Equal(message.Text, "Hello from Kafka");
             }
         }
     }

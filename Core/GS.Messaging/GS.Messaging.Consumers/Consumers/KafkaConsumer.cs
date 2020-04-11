@@ -14,7 +14,7 @@ namespace GS.Messaging.Consumers.Consumers
 {
     public class KafkaConsumer : Consumer
     {
-        private const byte MaxConsumeTries = 5;
+        private const byte MaxConsumeTries = 100;
 
         private ConsumerConfig _settings;
         private KafkaConsumerClientBuilder _builder;

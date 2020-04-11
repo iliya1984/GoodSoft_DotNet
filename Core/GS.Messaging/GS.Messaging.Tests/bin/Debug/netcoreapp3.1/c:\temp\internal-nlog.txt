@@ -100,3 +100,27 @@
 2020-04-11 03:09:12.5892 Info Loading assembly: NLog.Web.AspNetCore
 2020-04-11 03:09:12.6410 Info Adding target FileTarget(Name=messagingLogs)
 2020-04-11 03:09:12.7036 Info Found 16 configuration items
+2020-04-11 03:26:49.8295 Info Message Template Auto Format enabled
+2020-04-11 03:26:49.8612 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-11 03:26:50.0660 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-11 03:26:50.2304 Info Found 16 configuration items
+2020-04-11 03:27:38.0026 Info AppDomain Shutting down. Logger closing...
+2020-04-11 03:27:38.0451 Info Logger has been shut down.
+2020-04-11 03:28:51.5687 Info Message Template Auto Format enabled
+2020-04-11 03:28:51.5844 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-11 03:28:51.6304 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-11 03:28:51.6792 Info Found 16 configuration items
+2020-04-11 03:37:56.2435 Info Message Template Auto Format enabled
+2020-04-11 03:37:56.2534 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-11 03:37:56.2971 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-11 03:37:56.3300 Info Found 16 configuration items
+2020-04-11 03:39:02.8340 Info Message Template Auto Format enabled
+2020-04-11 03:39:02.8512 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-11 03:39:02.8924 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-11 03:39:02.9490 Info Found 16 configuration items
+2020-04-11 03:39:51.6374 Info Message Template Auto Format enabled
+2020-04-11 03:39:51.6454 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-11 03:39:51.6937 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-11 03:39:51.7286 Info Found 16 configuration items
+2020-04-11 03:40:05.4051 Info AppDomain Shutting down. Logger closing...
+2020-04-11 03:40:05.4203 Info Logger has been shut down.
