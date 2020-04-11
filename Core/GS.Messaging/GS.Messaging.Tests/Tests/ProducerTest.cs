@@ -38,10 +38,12 @@ namespace GS.Messaging.Tests.Tests
             {
                 //Act
                 IMessagingResult result = default(IMessagingResult); 
-                Task.Run(async () =>
+                var task = Task.Run(async () =>
                 {
                    result = await producer.ProduceAsync(topic, key, value, cancellationToken);
                 });
+                //result = producer.ProduceAsync(topic, key, value, cancellationToken).Result;
+                task.Wait();
 
                 //Assert
                 Assert.Equal(result.Result, EMessaging.ActionResult.Ok);
