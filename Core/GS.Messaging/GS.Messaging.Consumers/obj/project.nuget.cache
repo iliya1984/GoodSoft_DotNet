@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "swaZryGLvEc4Y7iheCcNa8JaROkpY8H8VVLHlsosbV96glVzfz0Jri72vAcLVXNpbyykYjVGRvw7n2v3cla7rg==",
+  "dgSpecHash": "aDUUIEHDYB9q2dj1swhqEJwjgSVH8LKWKkYr99UjDd2rbitml50O2TUff75LnPW+RNgYEk1nIV+kHzKbcYbbWg==",
   "success": true,
   "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Consumers/GS.Messaging.Consumers.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "/home/ilya/.nuget/packages/microsoft.net.http.headers/2.1.0/microsoft.net.http.headers.2.1.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/ilya/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog/4.7.0/nlog.4.7.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog.extensions.logging/1.6.2/nlog.extensions.logging.1.6.2.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog.web.aspnetcore/4.9.1/nlog.web.aspnetcore.4.9.1.nupkg.sha512",

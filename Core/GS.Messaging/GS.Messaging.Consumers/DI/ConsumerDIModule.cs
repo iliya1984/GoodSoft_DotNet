@@ -16,16 +16,16 @@ namespace GS.Messaging.Consumers.DI
     {
         private LogFactory _loggerFactory;
         private ILogger _logger;
+        private IConfiguration _configuration;
 
-        public ConsumerDIModule()
+        public ConsumerDIModule(IConfiguration configuration)
         {
-            
+            _configuration = configuration;
         }
 
         protected override void Load(ContainerBuilder builder)
         {
-             var configuration = builder.Build().Resolve<IConfiguration>();
-             string loggingSettingsFile = configuration["Messaging:LoggingSettingsFile"];
+             string loggingSettingsFile = _configuration["Messaging:LoggingSettingsFile"];
              
             _loggerFactory = NLogBuilder.ConfigureNLog(loggingSettingsFile);
             _logger = _loggerFactory.GetCurrentClassLogger();
@@ -35,7 +35,7 @@ namespace GS.Messaging.Consumers.DI
                 {
                     try
                     {
-                        return new ConsumerConfigurationManager(configuration, _loggerFactory);
+                        return new ConsumerConfigurationManager(_configuration, _loggerFactory);
                     }
                     catch(Exception ex)
                     {

@@ -154,3 +154,5 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Tests/bin/Debug/netcoreapp3.1/GS.Messaging.Entities.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Tests/bin/Debug/netcoreapp3.1/GS.Messaging.Entities.pdb
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Tests/bin/Debug/netcoreapp3.1/GS.Messaging.Consumers.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Tests/bin/Debug/netcoreapp3.1/nlog.config
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Tests/bin/Debug/netcoreapp3.1/appSettings.json

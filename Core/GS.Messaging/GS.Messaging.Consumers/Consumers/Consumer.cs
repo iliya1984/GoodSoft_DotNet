@@ -26,5 +26,6 @@ namespace GS.Messaging.Consumers.Consumers
         public abstract void Subscribe(IEnumerable<Topic> topics);
         public abstract void Subscribe(SubscriptionRequest request);
         public abstract T Consume<T>();
+        public abstract void Dispose();
     }
 }

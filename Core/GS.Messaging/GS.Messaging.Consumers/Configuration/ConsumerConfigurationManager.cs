@@ -23,7 +23,7 @@ namespace GS.Messaging.Consumers.Configuration
             {
                 var consumerSettings = new ConsumerSettings();
 
-                var serversJson = _configuration.GetSection("Messaging:Consumers:BrokerServers");
+                var serversJson = _configuration.GetSection("Messaging:BrokerServers");
                 foreach(var serverJson in serversJson.GetChildren())
                 {
                     var brokerServer = new BrokerServer();
@@ -32,7 +32,7 @@ namespace GS.Messaging.Consumers.Configuration
                     consumerSettings.Servers.Add(brokerServer);
                 }
 
-                consumerSettings.Group = _configuration.GetValue<string>("Messaging:Consumers:Group");
+                consumerSettings.Group = _configuration.GetValue<string>("Messaging:Group");
                 return consumerSettings;
             }
             catch(Exception ex)
