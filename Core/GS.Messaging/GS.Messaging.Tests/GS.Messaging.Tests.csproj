@@ -20,5 +20,9 @@
     <Content Include="Entities\TestMessage.cs" />
     <Content Include="Tests\ConsumerTest.cs" />
     <Content Include="Tests\MessagingTest.cs" />
+    <Content Include="Tests\ProducerTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Messaging.Producers\GS.Messaging.Producers.csproj" />
   </ItemGroup>
 </Project>

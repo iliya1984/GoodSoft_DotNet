@@ -20,5 +20,6 @@
     <Content Include="DI\ProducersDIModule.cs" />
     <Content Include="Configuration\ProducerConfigurationManager.cs" />
     <Content Include="Producers\ProducerFactory.cs" />
+    <Content Include="DI\ProducerDIModule.cs" />
   </ItemGroup>
 </Project>

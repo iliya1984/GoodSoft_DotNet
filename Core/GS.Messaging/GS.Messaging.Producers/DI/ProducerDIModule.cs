@@ -11,13 +11,13 @@ using NLog.Web;
 
 namespace GS.Messaging.Producers.DI
 {
-    public class ProducersDIModule : Module
+    public class ProducerDIModule : Module
     {
         private LogFactory _loggerFactory;
         private ILogger _logger;
         private IConfiguration _configuration;
 
-        public ProducersDIModule(IConfiguration configuration)
+        public ProducerDIModule(IConfiguration configuration)
         {
             _configuration = configuration;
         }

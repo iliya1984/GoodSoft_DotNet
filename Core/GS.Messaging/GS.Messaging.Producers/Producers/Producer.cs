@@ -25,5 +25,6 @@ namespace GS.Messaging.Producers.Producers
         }
 
         public abstract Task<IMessagingResult> ProduceAsync<T>(Topic topic, string key, T value, CancellationToken cancellationToken);
+        public abstract void Dispose();
     }
 }

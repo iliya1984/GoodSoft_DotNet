@@ -31,6 +31,18 @@ namespace GS.Messaging.Producers.Producers
             true);
         }
 
+        public override void Dispose()
+        {
+            try
+            {
+                _producer.Value.Dispose();
+            }
+            catch(Exception ex)
+            {
+                Logger.Error(ex);
+            }
+        }
+
         public override async Task<IMessagingResult> ProduceAsync<T>(Topic topic, string key, T value, CancellationToken cancellationToken)
         {
             try
