@@ -6,16 +6,13 @@ using System.Threading;
 using Confluent.Kafka;
 using GS.Messaging.Entities;
 using GS.Messaging.Entities.Consumers;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
 using NLog;
 
 namespace GS.Messaging.Consumers.Consumers
 {
     public class KafkaConsumer : Consumer
     {
-        private const byte MaxConsumeTries = 100;
-
+        private const short MaxConsumeTries = 1000;
         private ConsumerConfig _settings;
         private KafkaConsumerClientBuilder _builder;
         private Lazy<IConsumer<string, string>> _consumer;
@@ -32,7 +29,6 @@ namespace GS.Messaging.Consumers.Consumers
             },
             true);
         }
-
         public override T Consume<T>()
         {
             try
@@ -56,7 +52,7 @@ namespace GS.Messaging.Consumers.Consumers
                     catch (JsonException jex)
                     {
                         Logger.Error(jex);
-                        Logger.Error($"Error occured while parsing consumed message to JSON format. Failed to parse {message}");
+                        Logger.Error($"Error occured while parsing consumed message to JSON format. Failed to parse {messageString}");
                     }
 
                     consumeTries++;

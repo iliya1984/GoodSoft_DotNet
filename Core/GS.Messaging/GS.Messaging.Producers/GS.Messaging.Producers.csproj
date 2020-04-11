@@ -1,7 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <Content Include="Interfaces\IProducer.cs" />
+    <Content Include="Interfaces\IProducerFactory.cs" />
+    <Content Include="Producers\KafkaProducer.cs" />
+    <Content Include="Producers\Producer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Messaging.Entities\GS.Messaging.Entities.csproj" />
+    <PackageReference Include="confluent.kafka" Version="1.4.0" />
+    <PackageReference Include="nlog" Version="4.7.0" />
+    <PackageReference Include="nlog.web.aspnetcore" Version="4.9.1" />
+  </ItemGroup>
 </Project>

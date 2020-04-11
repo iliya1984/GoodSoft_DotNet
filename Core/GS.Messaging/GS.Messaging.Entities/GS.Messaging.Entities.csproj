@@ -10,5 +10,6 @@
     <Content Include="Interfaces\IConsumptionExecutionRequest.cs" />
     <Content Include="Interfaces\IConsumptionRequest.cs" />
     <Content Include="Consumers\ConsumptionRequest.cs" />
+    <Content Include="Producers\ProducerSettings.cs" />
   </ItemGroup>
 </Project>
