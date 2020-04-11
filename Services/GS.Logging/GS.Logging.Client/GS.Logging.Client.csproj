@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Interfaces\ILoggingClient.cs" />
+    <Content Include="Interfaces\ILoggingFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Logging.Entities\GS.Logging.Entities.csproj" />
+    <ProjectReference Include="..\..\..\Core\GS.Messaging\GS.Messaging.Entities\GS.Messaging.Entities.csproj" />
+    <ProjectReference Include="..\..\..\Core\GS.Messaging\GS.Messaging.Producers\GS.Messaging.Producers.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.1" />
+    <Content Include="Clients\LoggingClient.cs" />
+    <Content Include="Clients\AsynchLoggingClient.cs" />
+    <Content Include="Clients\AsynchLoggingClientArguments.cs" />
+  </ItemGroup>
+</Project>
