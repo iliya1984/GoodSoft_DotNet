@@ -1,7 +1,9 @@
+using GS.Messaging.Entities.Producers;
+
 namespace GS.Messaging.Producers.Interfaces
 {
-    public class IProducerFactory
+    public interface IProducerFactory
     {
-        
+        IProducer CreateProducer(ProducerSettings settings);
     }
 }

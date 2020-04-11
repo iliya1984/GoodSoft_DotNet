@@ -1,6 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using GS.Messaging.Entities;
+using GS.Messaging.Entities.Common;
 using GS.Messaging.Entities.Interfaces;
 using GS.Messaging.Entities.Producers;
 using GS.Messaging.Producers.Interfaces;
@@ -23,6 +24,6 @@ namespace GS.Messaging.Producers.Producers
             Logger = logFactory.GetCurrentClassLogger();
         }
 
-        public abstract Task<IMessagingResult> ProduceAsync<T>(string key, T value, CancellationToken cancellationToken);
+        public abstract Task<IMessagingResult> ProduceAsync<T>(Topic topic, string key, T value, CancellationToken cancellationToken);
     }
 }

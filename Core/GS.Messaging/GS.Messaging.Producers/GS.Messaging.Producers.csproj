@@ -10,11 +10,15 @@
     <Content Include="Producers\Producer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="System.Text.Json" Version="4.7.1" />
     <ProjectReference Include="..\GS.Messaging.Entities\GS.Messaging.Entities.csproj" />
     <PackageReference Include="confluent.kafka" Version="1.4.0" />
     <PackageReference Include="nlog" Version="4.7.0" />
     <PackageReference Include="nlog.web.aspnetcore" Version="4.9.1" />
     <Content Include="Producers\KafkaProducerClientBuilder.cs" />
+    <Content Include="DI\ProducersDIModule.cs" />
+    <Content Include="Configuration\ProducerConfigurationManager.cs" />
+    <Content Include="Producers\ProducerFactory.cs" />
   </ItemGroup>
 </Project>

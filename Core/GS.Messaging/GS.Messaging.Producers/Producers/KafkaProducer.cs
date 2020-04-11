@@ -1,9 +1,11 @@
 using System;
+using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using Confluent.Kafka;
 using GS.Messaging.Entities;
+using GS.Messaging.Entities.Common;
 using GS.Messaging.Entities.Interfaces;
 using GS.Messaging.Entities.Producers;
 using NLog;
@@ -29,7 +31,7 @@ namespace GS.Messaging.Producers.Producers
             true);
         }
 
-        public override async Task<IMessagingResult> ProduceAsync<T>(string key, T value, CancellationToken cancellationToken)
+        public override async Task<IMessagingResult> ProduceAsync<T>(Topic topic, string key, T value, CancellationToken cancellationToken)
         {
             try
             {
@@ -40,7 +42,7 @@ namespace GS.Messaging.Producers.Producers
                     Value = messageValue
                 };
 
-                var result = await _producer.Value.ProduceAsync(key, message, cancellationToken);
+                var result = await _producer.Value.ProduceAsync(topic.Name, message, cancellationToken);
                 
                 return new ProduceResult<T>
                 {
@@ -57,7 +59,9 @@ namespace GS.Messaging.Producers.Producers
 
         private void setConfiguration(ProducerConfig kafkaSettings, ProducerSettings settings)
         {
-            throw new NotImplementedException();
+            var servers = settings.Servers.Select(s => $"{s.Host}:{s.Port}").ToArray();
+            kafkaSettings.BootstrapServers = string.Join(",", servers);
+
         }
     }
 }

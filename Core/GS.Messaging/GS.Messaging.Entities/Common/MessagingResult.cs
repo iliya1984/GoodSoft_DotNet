@@ -15,6 +15,7 @@ namespace GS.Messaging.Entities.Common
             }
         }
         public List<MessagingError> Errors { get; set;}
+        public Topic Topic { get; set; }
 
         public MessagingResult(EMessaging.Action action)
         {

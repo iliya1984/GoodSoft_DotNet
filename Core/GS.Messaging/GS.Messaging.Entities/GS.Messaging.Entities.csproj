@@ -19,5 +19,6 @@
     <Content Include="Consumers\ConsumeResult.cs" />
     <Content Include="Interfaces\IConsumeResult.cs" />
     <Content Include="EMessagingExtensions.cs" />
+    <Content Include="Common\MessagingSettings.cs" />
   </ItemGroup>
 </Project>

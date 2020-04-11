@@ -1,7 +1,9 @@
+using GS.Messaging.Entities.Common;
+
 namespace GS.Messaging.Entities.Producers
 {
-    public class ProducerSettings
+    public class ProducerSettings : MessagingSettings
     {
-        public EMessaging.Technology Technology { get; set; }
+        
     }
 }
