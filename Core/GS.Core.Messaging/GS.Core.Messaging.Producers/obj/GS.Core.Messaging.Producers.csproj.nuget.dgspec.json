@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj": {}
+  },
+  "projects": {
+    "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj",
+        "projectName": "GS.Core.Messaging.Entities",
+        "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj",
+        "packagesPath": "/home/ilya/.nuget/packages/",
+        "outputPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ilya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj",
+        "projectName": "GS.Core.Messaging.Producers",
+        "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj",
+        "packagesPath": "/home/ilya/.nuget/packages/",
+        "outputPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ilya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj": {
+                "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "confluent.kafka": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "nlog": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "nlog.web.aspnetcore": {
+              "target": "Package",
+              "version": "[4.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
