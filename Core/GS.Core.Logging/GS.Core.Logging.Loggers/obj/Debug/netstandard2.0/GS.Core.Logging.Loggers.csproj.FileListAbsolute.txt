@@ -1,0 +1,9 @@
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/obj/Debug/netstandard2.0/GS.Core.Logging.Loggers.csprojAssemblyReference.cache
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/obj/Debug/netstandard2.0/GS.Core.Logging.Loggers.csproj.CoreCompileInputs.cache
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/obj/Debug/netstandard2.0/GS.Core.Logging.Loggers.AssemblyInfoInputs.cache
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/obj/Debug/netstandard2.0/GS.Core.Logging.Loggers.AssemblyInfo.cs
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/bin/Debug/netstandard2.0/GS.Core.Logging.Loggers.deps.json
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/bin/Debug/netstandard2.0/GS.Core.Logging.Loggers.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/bin/Debug/netstandard2.0/GS.Core.Logging.Loggers.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/obj/Debug/netstandard2.0/GS.Core.Logging.Loggers.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Logging/GS.Core.Logging.Loggers/obj/Debug/netstandard2.0/GS.Core.Logging.Loggers.pdb
