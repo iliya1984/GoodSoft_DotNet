@@ -2,12 +2,13 @@ using System;
 using GS.Core.Messaging.Entities.Consumers;
 using GS.Core.Messaging.Entities.Environment;
 using GS.Core.Messaging.Entities.Producers;
+using GS.Core.Messaging.Producers.Interfaces;
 using Microsoft.Extensions.Configuration;
 using NLog;
 
 namespace GS.Core.Messaging.Producers.Configuration
 {
-    public class ProducerConfigurationManager
+    public class ProducerConfigurationManager : IProducerConfigurationManager
     {
         private ILogger _logger;
         private IConfiguration _configuration;

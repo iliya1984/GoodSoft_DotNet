@@ -9,8 +9,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GS.Logging.Entities\GS.Logging.Entities.csproj" />
-    <ProjectReference Include="..\..\..\Core\GS.Messaging\GS.Messaging.Entities\GS.Messaging.Entities.csproj" />
-    <ProjectReference Include="..\..\..\Core\GS.Messaging\GS.Messaging.Producers\GS.Messaging.Producers.csproj" />
+    <ProjectReference Include="..\..\..\Core\GS.Core.Messaging\GS.Core.Messaging.Entities\GS.Core.Messaging.Entities.csproj" />
+    <ProjectReference Include="..\..\..\Core\GS.Core.Messaging\GS.Core.Messaging.Producers\GS.Core.Messaging.Producers.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.7.0" />

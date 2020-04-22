@@ -1,5 +1,5 @@
-using GS.Messaging.Entities.Producers;
-using GS.Messaging.Producers.Interfaces;
+using GS.Core.Messaging.Entities.Producers;
+using GS.Core.Messaging.Producers.Interfaces;
 using Microsoft.Extensions.Configuration;
 using NLog;
 

@@ -3,9 +3,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using GS.Logging.Client.Interfaces;
 using GS.Logging.Entities.Records;
-using GS.Messaging.Entities.Common;
-using GS.Messaging.Entities.Producers;
-using GS.Messaging.Producers.Interfaces;
+using GS.Core.Messaging.Entities.Common;
+using GS.Core.Messaging.Entities.Producers;
+using GS.Core.Messaging.Producers.Interfaces;
 using Microsoft.Extensions.Configuration;
 using NLog;
 
@@ -59,7 +59,7 @@ namespace GS.Logging.Client.Clients
         {
             try
             {
-
+                throw new NotImplementedException();
             }
             catch(Exception ex)
             {
@@ -71,7 +71,7 @@ namespace GS.Logging.Client.Clients
         {
             try
             {
-
+                throw new NotImplementedException();
             }
             catch(Exception ex)
             {

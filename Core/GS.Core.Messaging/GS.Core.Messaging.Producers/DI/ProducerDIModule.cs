@@ -42,7 +42,7 @@ namespace GS.Core.Messaging.Producers.DI
                         return null;
                     }
                 })
-                .AsSelf();
+                .As<IProducerConfigurationManager>();
 
 
             builder
@@ -69,13 +69,14 @@ namespace GS.Core.Messaging.Producers.DI
                 {
                     try
                     {
+                        var configurationMananger = c.Resolve<IProducerConfigurationManager>();
                         var consumerBuilder = c.Resolve<KafkaProducerClientBuilder>();
                         var factory = new Func<ProducerSettings, IProducer>(cs =>
                         {
                             return new KafkaProducer(cs, consumerBuilder, _loggerFactory);
                         });
 
-                        return new ProducerFactory(factory, _loggerFactory);
+                        return new ProducerFactory(factory, configurationMananger, _loggerFactory);
                     }
                     catch(Exception ex)
                     {

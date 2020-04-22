@@ -4,6 +4,6 @@ namespace GS.Core.Messaging.Producers.Interfaces
 {
     public interface IProducerFactory
     {
-        IProducer CreateProducer(ProducerSettings settings);
+        IProducer CreateProducer();
     }
 }

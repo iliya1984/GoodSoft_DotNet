@@ -510,6 +510,34 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "GS.Core.Messaging.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GS.Core.Messaging.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GS.Core.Messaging.Entities.dll": {}
+        }
+      },
+      "GS.Core.Messaging.Producers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "GS.Core.Messaging.Entities": "1.0.0",
+          "System.Text.Json": "4.7.1",
+          "confluent.kafka": "1.4.0",
+          "nlog": "4.7.0",
+          "nlog.web.aspnetcore": "4.9.1"
+        },
+        "compile": {
+          "bin/placeholder/GS.Core.Messaging.Producers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GS.Core.Messaging.Producers.dll": {}
+        }
+      },
       "GS.Logging.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -518,34 +546,6 @@
         },
         "runtime": {
           "bin/placeholder/GS.Logging.Entities.dll": {}
-        }
-      },
-      "GS.Messaging.Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/GS.Messaging.Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GS.Messaging.Entities.dll": {}
-        }
-      },
-      "GS.Messaging.Producers/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Autofac.Extensions.DependencyInjection": "6.0.0",
-          "GS.Messaging.Entities": "1.0.0",
-          "System.Text.Json": "4.7.1",
-          "confluent.kafka": "1.4.0",
-          "nlog": "4.7.0",
-          "nlog.web.aspnetcore": "4.9.1"
-        },
-        "compile": {
-          "bin/placeholder/GS.Messaging.Producers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GS.Messaging.Producers.dll": {}
         }
       }
     }
@@ -1342,27 +1342,27 @@
         "version.txt"
       ]
     },
+    "GS.Core.Messaging.Entities/1.0.0": {
+      "type": "project",
+      "path": "../../../Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj",
+      "msbuildProject": "../../../Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj"
+    },
+    "GS.Core.Messaging.Producers/1.0.0": {
+      "type": "project",
+      "path": "../../../Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj",
+      "msbuildProject": "../../../Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj"
+    },
     "GS.Logging.Entities/1.0.0": {
       "type": "project",
       "path": "../GS.Logging.Entities/GS.Logging.Entities.csproj",
       "msbuildProject": "../GS.Logging.Entities/GS.Logging.Entities.csproj"
-    },
-    "GS.Messaging.Entities/1.0.0": {
-      "type": "project",
-      "path": "../../../Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj",
-      "msbuildProject": "../../../Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj"
-    },
-    "GS.Messaging.Producers/1.0.0": {
-      "type": "project",
-      "path": "../../../Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj",
-      "msbuildProject": "../../../Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "GS.Core.Messaging.Entities >= 1.0.0",
+      "GS.Core.Messaging.Producers >= 1.0.0",
       "GS.Logging.Entities >= 1.0.0",
-      "GS.Messaging.Entities >= 1.0.0",
-      "GS.Messaging.Producers >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "NLog >= 4.7.0",
       "NLog.Web.AspNetCore >= 4.9.1"
@@ -1392,11 +1392,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj": {
-              "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj"
+            "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj": {
+              "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj"
             },
-            "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj": {
-              "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj"
+            "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj": {
+              "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj"
             },
             "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/GS.Logging.Entities.csproj": {
               "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/GS.Logging.Entities.csproj"

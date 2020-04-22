@@ -9,9 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "GS.Logging.Client/1.0.0": {
         "dependencies": {
+          "GS.Core.Messaging.Entities": "1.0.0",
+          "GS.Core.Messaging.Producers": "1.0.0",
           "GS.Logging.Entities": "1.0.0",
-          "GS.Messaging.Entities": "1.0.0",
-          "GS.Messaging.Producers": "1.0.0",
           "NETStandard.Library": "2.0.3",
           "NLog": "4.7.0",
           "NLog.Web.AspNetCore": "4.9.1"
@@ -402,27 +402,27 @@
           }
         }
       },
-      "GS.Logging.Entities/1.0.0": {
+      "GS.Core.Messaging.Entities/1.0.0": {
         "runtime": {
-          "GS.Logging.Entities.dll": {}
+          "GS.Core.Messaging.Entities.dll": {}
         }
       },
-      "GS.Messaging.Entities/1.0.0": {
-        "runtime": {
-          "GS.Messaging.Entities.dll": {}
-        }
-      },
-      "GS.Messaging.Producers/1.0.0": {
+      "GS.Core.Messaging.Producers/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "6.0.0",
-          "GS.Messaging.Entities": "1.0.0",
+          "GS.Core.Messaging.Entities": "1.0.0",
           "System.Text.Json": "4.7.1",
           "Confluent.Kafka": "1.4.0",
           "NLog": "4.7.0",
           "NLog.Web.AspNetCore": "4.9.1"
         },
         "runtime": {
-          "GS.Messaging.Producers.dll": {}
+          "GS.Core.Messaging.Producers.dll": {}
+        }
+      },
+      "GS.Logging.Entities/1.0.0": {
+        "runtime": {
+          "GS.Logging.Entities.dll": {}
         }
       }
     }
@@ -685,17 +685,17 @@
       "path": "system.threading.tasks.extensions/4.5.2",
       "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
     },
+    "GS.Core.Messaging.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GS.Core.Messaging.Producers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GS.Logging.Entities/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GS.Messaging.Entities/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "GS.Messaging.Producers/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

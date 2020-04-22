@@ -18,8 +18,6 @@ namespace GS.Core.Messaging.Tests.Tests
         public void When_Produce_Message_GetSuccess()
         {
             //Arrange
-            var configurationManager = Container.Resolve<ProducerConfigurationManager>();
-            var settings = configurationManager.GetSettings();
             var factory = Container.Resolve<IProducerFactory>();
             var key = Guid.NewGuid().ToString();
             var value = new TestMessage
@@ -34,7 +32,7 @@ namespace GS.Core.Messaging.Tests.Tests
             };
 
             var cancellationToken = new CancellationToken();
-            using (var producer = factory.CreateProducer(settings))
+            using (var producer = factory.CreateProducer())
             {
                 //Act
                 IMessagingResult result = default(IMessagingResult); 

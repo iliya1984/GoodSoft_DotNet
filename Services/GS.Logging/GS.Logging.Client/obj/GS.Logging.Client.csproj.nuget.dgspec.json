@@ -4,14 +4,14 @@
     "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Client/GS.Logging.Client.csproj": {}
   },
   "projects": {
-    "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj": {
+    "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj",
-        "projectName": "GS.Messaging.Entities",
-        "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj",
+        "projectUniqueName": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj",
+        "projectName": "GS.Core.Messaging.Entities",
+        "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj",
         "packagesPath": "/home/ilya/.nuget/packages/",
-        "outputPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/obj/",
+        "outputPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ilya/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj": {
+    "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj",
-        "projectName": "GS.Messaging.Producers",
-        "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj",
+        "projectUniqueName": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj",
+        "projectName": "GS.Core.Messaging.Producers",
+        "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj",
         "packagesPath": "/home/ilya/.nuget/packages/",
-        "outputPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/obj/",
+        "outputPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ilya/.nuget/NuGet/NuGet.Config"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj": {
-                "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj"
+              "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj": {
+                "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj"
               }
             }
           }
@@ -155,11 +155,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj": {
-                "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Entities/GS.Messaging.Entities.csproj"
+              "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj": {
+                "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj"
               },
-              "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj": {
-                "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Messaging/GS.Messaging.Producers/GS.Messaging.Producers.csproj"
+              "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj": {
+                "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Core/GS.Core.Messaging/GS.Core.Messaging.Producers/GS.Core.Messaging.Producers.csproj"
               },
               "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/GS.Logging.Entities.csproj": {
                 "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/GS.Logging.Entities.csproj"
