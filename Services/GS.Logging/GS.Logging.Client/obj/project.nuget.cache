@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2+ulKhmq0zcbEQof69gVJNnGz6i5R76DwMlXRYTg6SwBRifjqD0tgFTVz4BIFfmK+2/nEUdx6RrvoOKRLOWpvQ==",
+  "dgSpecHash": "dALci7jTY7fFmXtMZWvSUzV0fwMUixq4dIwDIzrXKT3B0cVCOBqDuJ3ihhxDOLlZR6PsrLFilOzyxtS+NVzhNQ==",
   "success": true,
   "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Client/GS.Logging.Client.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,7 @@
     "/home/ilya/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog/4.7.0/nlog.4.7.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog.extensions.logging/1.6.2/nlog.extensions.logging.1.6.2.nupkg.sha512",
-    "/home/ilya/.nuget/packages/nlog.web.aspnetcore/4.9.1/nlog.web.aspnetcore.4.9.1.nupkg.sha512",
+    "/home/ilya/.nuget/packages/nlog.web.aspnetcore/4.9.2/nlog.web.aspnetcore.4.9.2.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",

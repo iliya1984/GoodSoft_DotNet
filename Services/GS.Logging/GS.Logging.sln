@@ -13,9 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Logging.Services", "GS.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Logging.Client", "GS.Logging.Client\GS.Logging.Client.csproj", "{3405CBC4-0D21-41FC-8C4D-600B24464C8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Messaging.Entities", "..\..\Core\GS.Core.Messaging\GS.Core.Messaging.Entities\GS.Core.Messaging.Entities.csproj", "{3A6FBF6A-1D4F-41A0-8532-835E294389B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Messaging.Entities", "..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Entities\GS.Core.Messaging.Entities.csproj", "{3A6FBF6A-1D4F-41A0-8532-835E294389B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Messaging.Consumers", "..\..\Core\GS.Core.Messaging\GS.Core.Messaging.Consumers\GS.Core.Messaging.Consumers.csproj", "{67A4FF9A-8F64-4376-B4DB-1F49D2EC3FA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Messaging.Consumers", "..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Consumers\GS.Core.Messaging.Consumers.csproj", "{67A4FF9A-8F64-4376-B4DB-1F49D2EC3FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Logging", "..\..\GS.Core\GS.Core.Logging\GS.Core.Logging.csproj", "{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -114,5 +116,17 @@ Global
 		{67A4FF9A-8F64-4376-B4DB-1F49D2EC3FA7}.Release|x64.Build.0 = Release|Any CPU
 		{67A4FF9A-8F64-4376-B4DB-1F49D2EC3FA7}.Release|x86.ActiveCfg = Release|Any CPU
 		{67A4FF9A-8F64-4376-B4DB-1F49D2EC3FA7}.Release|x86.Build.0 = Release|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Debug|x64.Build.0 = Debug|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Debug|x86.Build.0 = Debug|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Release|x64.ActiveCfg = Release|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Release|x64.Build.0 = Release|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Release|x86.ActiveCfg = Release|Any CPU
+		{9FBB1DB9-F1D6-41FD-A94F-196FF5738874}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
