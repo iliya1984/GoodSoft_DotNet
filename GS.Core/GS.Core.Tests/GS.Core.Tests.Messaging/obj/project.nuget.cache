@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7BCPTdLePdIBorm5QDriAJGll3wStOqyT5Hxkj87Z1xK2VCndpkHRdpJxjv19vvodRJqkVhhgb7yn5xTm5gt7g==",
+  "dgSpecHash": "kh2QrfLkEtmCudaIQjj4lk5K9T40GzwPHe0U9oGJNvw0+ylWouSeMapMOulQaKwfXSAy9Y33ZkIiblwveO80jg==",
   "success": true,
   "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Tests/GS.Core.Tests.Messaging/GS.Core.Tests.Messaging.csproj",
   "expectedPackageFiles": [

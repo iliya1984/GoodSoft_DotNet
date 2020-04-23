@@ -1,4 +1,5 @@
 using System;
+using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Entities.Consumers;
 using GS.Core.Messaging.Entities.Environment;
 using Microsoft.Extensions.Configuration;
@@ -8,13 +9,13 @@ namespace GS.Core.Messaging.Consumers.Configuration
 {
     public class ConsumerConfigurationManager
     {
-        private ILogger _logger;
+        private ICoreLogger _logger;
         private IConfiguration _configuration;
 
-        public ConsumerConfigurationManager(IConfiguration configuration, LogFactory logFactory)
+        public ConsumerConfigurationManager(IConfiguration configuration, ICoreLoggerFactory logFactory)
         {
             _configuration = configuration;
-            _logger = logFactory.GetCurrentClassLogger();
+            _logger = logFactory.GetLoggerForType<ConsumerConfigurationManager>();
         }
 
         public ConsumerSettings GetSettings()

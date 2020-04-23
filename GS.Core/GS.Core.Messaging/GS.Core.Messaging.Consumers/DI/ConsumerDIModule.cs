@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using Autofac;
 using Confluent.Kafka;
+using GS.Core.Logging.DI;
+using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Consumers.Configuration;
 using GS.Core.Messaging.Consumers.Consumers;
 using GS.Core.Messaging.Consumers.Interfaces;
@@ -14,8 +16,6 @@ namespace GS.Core.Messaging.Consumers.DI
 {
     public class ConsumerDIModule : Module
     {
-        private LogFactory _loggerFactory;
-        private ILogger _logger;
         private IConfiguration _configuration;
 
         public ConsumerDIModule(IConfiguration configuration)
@@ -25,21 +25,20 @@ namespace GS.Core.Messaging.Consumers.DI
 
         protected override void Load(ContainerBuilder builder)
         {
-             string loggingSettingsFile = _configuration["Messaging:LoggingSettingsFile"];
-             
-            _loggerFactory = NLogBuilder.ConfigureNLog(loggingSettingsFile);
-            _logger = _loggerFactory.GetCurrentClassLogger();
+             builder
+                .RegisterModule(new CoreLoggingDIModule(_configuration));   
 
             builder
                 .Register(c => 
                 {
+                    var loggerFactory = c.Resolve<ICoreLoggerFactory>();
                     try
                     {
-                        return new ConsumerConfigurationManager(_configuration, _loggerFactory);
+                        return new ConsumerConfigurationManager(_configuration, loggerFactory);
                     }
                     catch(Exception ex)
                     {
-                        _logger.Error(ex);
+                        loggerFactory.GetLoggerForType<ConsumerDIModule>().Error(ex);
                         return null;
                     }
                 })
@@ -49,17 +48,18 @@ namespace GS.Core.Messaging.Consumers.DI
             builder
                 .Register(c => 
                 {
+                    var loggerFactory = c.Resolve<ICoreLoggerFactory>();
                     try
                     {
                         return new KafkaConsumerClientBuilder(consumerConfig =>
                         {
                             return new ConsumerBuilder<string, string>(consumerConfig);
                         }, 
-                        _loggerFactory);
+                        loggerFactory);
                     }
                     catch(Exception ex)
                     {
-                        _logger.Error(ex);
+                        loggerFactory.GetLoggerForType<ConsumerDIModule>().Error(ex);
                         return null;
                     }
                 })
@@ -68,19 +68,20 @@ namespace GS.Core.Messaging.Consumers.DI
             builder
                 .Register(c => 
                 {
+                    var loggerFactory = c.Resolve<ICoreLoggerFactory>();
                     try
                     {
                         var consumerBuilder = c.Resolve<KafkaConsumerClientBuilder>();
                         var factory = new Func<ConsumerSettings, IConsumer>(cs =>
                         {
-                            return new KafkaConsumer(cs, consumerBuilder, _loggerFactory);
+                            return new KafkaConsumer(cs, consumerBuilder, loggerFactory);
                         });
 
-                        return new ConsumerFactory(factory, _loggerFactory);
+                        return new ConsumerFactory(factory, loggerFactory);
                     }
                     catch(Exception ex)
                     {
-                        _logger.Error(ex);
+                         loggerFactory.GetLoggerForType<ConsumerDIModule>().Error(ex);
                         return null;
                     }
                 })

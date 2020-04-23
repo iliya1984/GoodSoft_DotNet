@@ -1,5 +1,6 @@
 using System;
 using Confluent.Kafka;
+using GS.Core.Logging.Interfaces;
 using NLog;
 
 namespace GS.Core.Messaging.Consumers.Consumers
@@ -7,12 +8,12 @@ namespace GS.Core.Messaging.Consumers.Consumers
     public class KafkaConsumerClientBuilder
     {
         private Func<ConsumerConfig, ConsumerBuilder<string, string>> _factory;
-        private ILogger _logger;
+        private ICoreLogger _logger;
 
-        public KafkaConsumerClientBuilder(Func<ConsumerConfig, ConsumerBuilder<string, string>> factory, LogFactory loggerFactory)
+        public KafkaConsumerClientBuilder(Func<ConsumerConfig, ConsumerBuilder<string, string>> factory, ICoreLoggerFactory loggerFactory)
         {
             _factory = factory;
-            _logger = loggerFactory.GetCurrentClassLogger();
+            _logger = loggerFactory.GetLoggerForType<KafkaConsumerClientBuilder>();
         }
 
         public IConsumer<string,string> Build(ConsumerConfig config)

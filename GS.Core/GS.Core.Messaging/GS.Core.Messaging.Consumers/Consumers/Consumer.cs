@@ -6,22 +6,23 @@ using NLog;
 using NLog.Extensions.Logging;
 using GS.Core.Messaging.Entities.Common;
 using GS.Core.Messaging.Entities.Interfaces;
+using GS.Core.Logging.Interfaces;
 
 namespace GS.Core.Messaging.Consumers.Consumers
 {
     public abstract class Consumer : IConsumer
     {
         private ConsumerSettings _settings;
-        protected ILogger Logger { get; private set; }
+        protected ICoreLogger Logger { get; private set; }
 
         public EMessaging.Technology Technology { get; private set;}
 
-        protected Consumer(ConsumerSettings settings, LogFactory logFactory)
+        protected Consumer(ConsumerSettings settings, ICoreLoggerFactory logFactory)
         {
             _settings = settings;
 
             Technology = _settings.Technology;
-            Logger = logFactory.GetCurrentClassLogger();
+            Logger = logFactory.GetLoggerForType(this.GetType());
         }
 
         public abstract void Subscribe(Topic topic);

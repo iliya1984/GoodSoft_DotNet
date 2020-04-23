@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QAa4lu0iEUHhNA6pgQ/Co8Ue0Xv1ePnQPS8WGiB8jD4twMoe8sDNkCKw9uX60wMmuoSygsn42SoKAFwYgM1rIw==",
+  "dgSpecHash": "kiZZu9wLn278575W6LCIYWS8rvEwXBnY9STfnHIm8wkrZPy4g135eeZeOXvwlf2mRfHBAH1F/2VLy6tWkRDS8Q==",
   "success": true,
   "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/GS.Core.Messaging.Consumers.csproj",
   "expectedPackageFiles": [
@@ -47,7 +47,7 @@
     "/home/ilya/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog/4.7.0/nlog.4.7.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog.extensions.logging/1.6.2/nlog.extensions.logging.1.6.2.nupkg.sha512",
-    "/home/ilya/.nuget/packages/nlog.web.aspnetcore/4.9.1/nlog.web.aspnetcore.4.9.1.nupkg.sha512",
+    "/home/ilya/.nuget/packages/nlog.web.aspnetcore/4.9.2/nlog.web.aspnetcore.4.9.2.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.diagnostics.eventlog/4.7.0/system.diagnostics.eventlog.4.7.0.nupkg.sha512",

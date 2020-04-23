@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using Confluent.Kafka;
+using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Entities;
 using GS.Core.Messaging.Entities.Common;
 using GS.Core.Messaging.Entities.Consumers;
@@ -19,7 +20,7 @@ namespace GS.Core.Messaging.Consumers.Consumers
         private KafkaConsumerClientBuilder _builder;
         private Lazy<IConsumer<string, string>> _consumer;
 
-        public KafkaConsumer(ConsumerSettings settings, KafkaConsumerClientBuilder builder, LogFactory logFactory) : base(settings, logFactory)
+        public KafkaConsumer(ConsumerSettings settings, KafkaConsumerClientBuilder builder, ICoreLoggerFactory logFactory) : base(settings, logFactory)
         {
             _settings = new ConsumerConfig();
             setConfiguration(_settings, settings);

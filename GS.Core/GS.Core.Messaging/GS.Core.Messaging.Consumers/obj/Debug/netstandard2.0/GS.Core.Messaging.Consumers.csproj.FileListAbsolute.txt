@@ -22,3 +22,5 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.csproj.CopyComplete
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Logging.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Logging.pdb
