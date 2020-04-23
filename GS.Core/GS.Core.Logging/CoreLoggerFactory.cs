@@ -5,7 +5,7 @@ using NLog;
 
 namespace GS.Core.Logging
 {
-    public class CoreLoggerFactory : ICoreLoggerFactory
+    internal class CoreLoggerFactory : ICoreLoggerFactory
     {
         private Func<LoggingSettings, ICoreLogger> _factory;
         private ILogger _innerLogger;

@@ -1,5 +1,6 @@
 using System;
 using Confluent.Kafka;
+using GS.Core.Logging.Interfaces;
 using NLog;
 
 namespace GS.Core.Messaging.Producers.Producers
@@ -7,12 +8,12 @@ namespace GS.Core.Messaging.Producers.Producers
     public class KafkaProducerClientBuilder
     {
         private Func<ProducerConfig, ProducerBuilder<string, string>> _factory;
-        private ILogger _logger;
+        private ICoreLogger _logger;
 
-        public KafkaProducerClientBuilder(Func<ProducerConfig, ProducerBuilder<string, string>> factory, LogFactory loggerFactory)
+        public KafkaProducerClientBuilder(Func<ProducerConfig, ProducerBuilder<string, string>> factory, ICoreLoggerFactory loggerFactory)
         {
             _factory = factory;
-            _logger = loggerFactory.GetCurrentClassLogger();
+            _logger = loggerFactory.GetLoggerForType<KafkaProducerClientBuilder>();
         }
 
         public IProducer<string,string> Build(ProducerConfig config)

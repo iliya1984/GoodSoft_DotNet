@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L8ClLDTcKiDhilBFnKC7eGJIBeSgMu1XKh+fJQuK11ClzCTgggIQdQEYvVgKBOffWnn5VLutY5/s7nIwBrtUBA==",
+  "dgSpecHash": "7BCPTdLePdIBorm5QDriAJGll3wStOqyT5Hxkj87Z1xK2VCndpkHRdpJxjv19vvodRJqkVhhgb7yn5xTm5gt7g==",
   "success": true,
   "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Tests/GS.Core.Tests.Messaging/GS.Core.Tests.Messaging.csproj",
   "expectedPackageFiles": [
@@ -45,7 +45,7 @@
     "/home/ilya/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog/4.7.0/nlog.4.7.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/nlog.extensions.logging/1.6.2/nlog.extensions.logging.1.6.2.nupkg.sha512",
-    "/home/ilya/.nuget/packages/nlog.web.aspnetcore/4.9.1/nlog.web.aspnetcore.4.9.1.nupkg.sha512",
+    "/home/ilya/.nuget/packages/nlog.web.aspnetcore/4.9.2/nlog.web.aspnetcore.4.9.2.nupkg.sha512",
     "/home/ilya/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.collections/4.0.11/system.collections.4.0.11.nupkg.sha512",
     "/home/ilya/.nuget/packages/system.diagnostics.debug/4.0.11/system.diagnostics.debug.4.0.11.nupkg.sha512",

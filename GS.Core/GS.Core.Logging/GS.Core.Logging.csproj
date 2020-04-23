@@ -17,5 +17,6 @@
     <Content Include="CoreLoggerFactory.cs" />
     <Content Include="Entities\ECoreLogging.cs" />
     <Content Include="CoreLoggerConfigurationManager.cs" />
+    <Content Include="Interfaces\ICoreLoggerConfigurationManager.cs" />
   </ItemGroup>
 </Project>

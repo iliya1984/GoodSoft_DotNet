@@ -28,7 +28,7 @@ namespace GS.Core.Tests.Logging
             var logger = createLogger();
 
             //Act
-            logger.Exception(new Exception("Test exception"));
+            logger.Error(new Exception("Test exception"));
 
             //Assert
         }

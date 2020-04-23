@@ -794,14 +794,14 @@
           }
         }
       },
-      "NLog.Web.AspNetCore/4.9.1": {
+      "NLog.Web.AspNetCore/4.9.2": {
         "dependencies": {
           "NLog.Extensions.Logging": "1.6.2"
         },
         "runtime": {
           "lib/netcoreapp3.0/NLog.Web.AspNetCore.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.9.1.1587"
+            "fileVersion": "4.9.2.1619"
           }
         }
       },
@@ -1219,6 +1219,16 @@
           "Microsoft.NET.Test.Sdk": "16.5.0"
         }
       },
+      "GS.Core.Logging/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "NLog": "4.7.0",
+          "NLog.Web.AspNetCore": "4.9.2"
+        },
+        "runtime": {
+          "GS.Core.Logging.dll": {}
+        }
+      },
       "GS.Core.Messaging.Consumers/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "6.0.0",
@@ -1226,7 +1236,7 @@
           "GS.Core.Messaging.Entities": "1.0.0",
           "Microsoft.Extensions.Hosting": "3.1.3",
           "NLog": "4.7.0",
-          "NLog.Web.AspNetCore": "4.9.1"
+          "NLog.Web.AspNetCore": "4.9.2"
         },
         "runtime": {
           "GS.Core.Messaging.Consumers.dll": {}
@@ -1240,11 +1250,10 @@
       "GS.Core.Messaging.Producers/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "GS.Core.Logging": "1.0.0",
           "GS.Core.Messaging.Entities": "1.0.0",
           "System.Text.Json": "4.7.1",
-          "Confluent.Kafka": "1.4.0",
-          "NLog": "4.7.0",
-          "NLog.Web.AspNetCore": "4.9.1"
+          "Confluent.Kafka": "1.4.0"
         },
         "runtime": {
           "GS.Core.Messaging.Producers.dll": {}
@@ -1545,12 +1554,12 @@
       "path": "nlog.extensions.logging/1.6.2",
       "hashPath": "nlog.extensions.logging.1.6.2.nupkg.sha512"
     },
-    "NLog.Web.AspNetCore/4.9.1": {
+    "NLog.Web.AspNetCore/4.9.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NQhA/ger1QzCrbXnq8X48Sp9OvjH15QZOx3Hg/W3heaUR5h6Ai3tjO2YFJ4VuX9wYL1FSHWOAa9qe7EcbwMnmQ==",
-      "path": "nlog.web.aspnetcore/4.9.1",
-      "hashPath": "nlog.web.aspnetcore.4.9.1.nupkg.sha512"
+      "sha512": "sha512-C12FzK0z67Y6FC+NDckeZzJmJZmnM+fKCmKbe7at2XBj1O58PPhOZYnKC8Ryw4u+3cyHiMBVlZYwRhWJXs6RFg==",
+      "path": "nlog.web.aspnetcore/4.9.2",
+      "hashPath": "nlog.web.aspnetcore.4.9.2.nupkg.sha512"
     },
     "NuGet.Frameworks/5.0.0": {
       "type": "package",
@@ -1873,6 +1882,11 @@
       "sha512": "sha512-3eq5cGXbEJkqW9nwLuXwtxy9B5gMA8i7HW4rN63AhAvy5UvEcQbZnve23wx/oPrkyg/4CbfNhxkBezS0b1oUdQ==",
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
+    },
+    "GS.Core.Logging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "GS.Core.Messaging.Consumers/1.0.0": {
       "type": "project",

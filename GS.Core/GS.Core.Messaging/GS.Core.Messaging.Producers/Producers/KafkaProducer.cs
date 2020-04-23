@@ -4,6 +4,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using Confluent.Kafka;
+using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Entities;
 using GS.Core.Messaging.Entities.Common;
 using GS.Core.Messaging.Entities.Interfaces;
@@ -18,7 +19,7 @@ namespace GS.Core.Messaging.Producers.Producers
         private KafkaProducerClientBuilder _builder;
         private Lazy<IProducer<string, string>> _producer;
 
-        public KafkaProducer(ProducerSettings settings, KafkaProducerClientBuilder builder, LogFactory logFactory) : base(settings, logFactory)
+        public KafkaProducer(ProducerSettings settings, KafkaProducerClientBuilder builder, ICoreLoggerFactory logFactory) : base(settings, logFactory)
         {
             _settings = new ProducerConfig();
             setConfiguration(_settings, settings);

@@ -159,3 +159,5 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Tests/GS.Core.Tests.Messaging/obj/Debug/netcoreapp3.1/GS.Core.Tests.Messaging.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Tests/GS.Core.Tests.Messaging/obj/Debug/netcoreapp3.1/GS.Core.Tests.Messaging.pdb
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Tests/GS.Core.Tests.Messaging/obj/Debug/netcoreapp3.1/GS.Core.Tests.Messaging.genruntimeconfig.cache
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Tests/GS.Core.Tests.Messaging/bin/Debug/netcoreapp3.1/GS.Core.Logging.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Tests/GS.Core.Tests.Messaging/bin/Debug/netcoreapp3.1/GS.Core.Logging.pdb

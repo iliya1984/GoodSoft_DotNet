@@ -1,4 +1,5 @@
 using System;
+using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Entities.Consumers;
 using GS.Core.Messaging.Entities.Environment;
 using GS.Core.Messaging.Entities.Producers;
@@ -10,13 +11,13 @@ namespace GS.Core.Messaging.Producers.Configuration
 {
     public class ProducerConfigurationManager : IProducerConfigurationManager
     {
-        private ILogger _logger;
+        private ICoreLogger _logger;
         private IConfiguration _configuration;
 
-        public ProducerConfigurationManager(IConfiguration configuration, LogFactory logFactory)
+        public ProducerConfigurationManager(IConfiguration configuration, ICoreLoggerFactory loggerFactory)
         {
             _configuration = configuration;
-            _logger = logFactory.GetCurrentClassLogger();
+            _logger = loggerFactory.GetLoggerForType<ProducerConfigurationManager>();
         }
 
         public ProducerSettings GetSettings()

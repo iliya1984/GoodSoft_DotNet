@@ -827,7 +827,7 @@
           "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {}
         }
       },
-      "NLog.Web.AspNetCore/4.9.1": {
+      "NLog.Web.AspNetCore/4.9.2": {
         "type": "package",
         "dependencies": {
           "NLog.Extensions.Logging": "1.6.2"
@@ -1468,6 +1468,21 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
+      "GS.Core.Logging/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "nlog": "4.7.0",
+          "nlog.web.aspnetcore": "4.9.2"
+        },
+        "compile": {
+          "bin/placeholder/GS.Core.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GS.Core.Logging.dll": {}
+        }
+      },
       "GS.Core.Messaging.Consumers/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1501,11 +1516,10 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "GS.Core.Logging": "1.0.0",
           "GS.Core.Messaging.Entities": "1.0.0",
           "System.Text.Json": "4.7.1",
-          "confluent.kafka": "1.4.0",
-          "nlog": "4.7.0",
-          "nlog.web.aspnetcore": "4.9.1"
+          "confluent.kafka": "1.4.0"
         },
         "compile": {
           "bin/placeholder/GS.Core.Messaging.Producers.dll": {}
@@ -2549,10 +2563,10 @@
         "nlog.extensions.logging.nuspec"
       ]
     },
-    "NLog.Web.AspNetCore/4.9.1": {
-      "sha512": "NQhA/ger1QzCrbXnq8X48Sp9OvjH15QZOx3Hg/W3heaUR5h6Ai3tjO2YFJ4VuX9wYL1FSHWOAa9qe7EcbwMnmQ==",
+    "NLog.Web.AspNetCore/4.9.2": {
+      "sha512": "C12FzK0z67Y6FC+NDckeZzJmJZmnM+fKCmKbe7at2XBj1O58PPhOZYnKC8Ryw4u+3cyHiMBVlZYwRhWJXs6RFg==",
       "type": "package",
-      "path": "nlog.web.aspnetcore/4.9.1",
+      "path": "nlog.web.aspnetcore/4.9.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2566,7 +2580,7 @@
         "lib/netstandard1.5/NLog.Web.AspNetCore.xml",
         "lib/netstandard2.0/NLog.Web.AspNetCore.dll",
         "lib/netstandard2.0/NLog.Web.AspNetCore.xml",
-        "nlog.web.aspnetcore.4.9.1.nupkg.sha512",
+        "nlog.web.aspnetcore.4.9.2.nupkg.sha512",
         "nlog.web.aspnetcore.nuspec"
       ]
     },
@@ -4923,6 +4937,11 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "GS.Core.Logging/1.0.0": {
+      "type": "project",
+      "path": "../../GS.Core.Logging/GS.Core.Logging.csproj",
+      "msbuildProject": "../../GS.Core.Logging/GS.Core.Logging.csproj"
     },
     "GS.Core.Messaging.Consumers/1.0.0": {
       "type": "project",

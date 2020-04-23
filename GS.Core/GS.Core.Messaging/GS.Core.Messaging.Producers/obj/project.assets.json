@@ -412,7 +412,7 @@
           "lib/netstandard2.0/NLog.Extensions.Logging.dll": {}
         }
       },
-      "NLog.Web.AspNetCore/4.9.1": {
+      "NLog.Web.AspNetCore/4.9.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.0",
@@ -508,6 +508,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "GS.Core.Logging/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "nlog": "4.7.0",
+          "nlog.web.aspnetcore": "4.9.2"
+        },
+        "compile": {
+          "bin/placeholder/GS.Core.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GS.Core.Logging.dll": {}
         }
       },
       "GS.Core.Messaging.Entities/1.0.0": {
@@ -1093,10 +1108,10 @@
         "nlog.extensions.logging.nuspec"
       ]
     },
-    "NLog.Web.AspNetCore/4.9.1": {
-      "sha512": "NQhA/ger1QzCrbXnq8X48Sp9OvjH15QZOx3Hg/W3heaUR5h6Ai3tjO2YFJ4VuX9wYL1FSHWOAa9qe7EcbwMnmQ==",
+    "NLog.Web.AspNetCore/4.9.2": {
+      "sha512": "C12FzK0z67Y6FC+NDckeZzJmJZmnM+fKCmKbe7at2XBj1O58PPhOZYnKC8Ryw4u+3cyHiMBVlZYwRhWJXs6RFg==",
       "type": "package",
-      "path": "nlog.web.aspnetcore/4.9.1",
+      "path": "nlog.web.aspnetcore/4.9.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1110,7 +1125,7 @@
         "lib/netstandard1.5/NLog.Web.AspNetCore.xml",
         "lib/netstandard2.0/NLog.Web.AspNetCore.dll",
         "lib/netstandard2.0/NLog.Web.AspNetCore.xml",
-        "nlog.web.aspnetcore.4.9.1.nupkg.sha512",
+        "nlog.web.aspnetcore.4.9.2.nupkg.sha512",
         "nlog.web.aspnetcore.nuspec"
       ]
     },
@@ -1314,6 +1329,11 @@
         "version.txt"
       ]
     },
+    "GS.Core.Logging/1.0.0": {
+      "type": "project",
+      "path": "../../GS.Core.Logging/GS.Core.Logging.csproj",
+      "msbuildProject": "../../GS.Core.Logging/GS.Core.Logging.csproj"
+    },
     "GS.Core.Messaging.Entities/1.0.0": {
       "type": "project",
       "path": "../GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj",
@@ -1323,12 +1343,11 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
+      "GS.Core.Logging >= 1.0.0",
       "GS.Core.Messaging.Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "System.Text.Json >= 4.7.1",
-      "confluent.kafka >= 1.4.0",
-      "nlog >= 4.7.0",
-      "nlog.web.aspnetcore >= 4.9.1"
+      "confluent.kafka >= 1.4.0"
     ]
   },
   "packageFolders": {
@@ -1355,6 +1374,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Logging/GS.Core.Logging.csproj": {
+              "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Logging/GS.Core.Logging.csproj"
+            },
             "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj": {
               "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj"
             }
@@ -1387,14 +1409,6 @@
           "confluent.kafka": {
             "target": "Package",
             "version": "[1.4.0, )"
-          },
-          "nlog": {
-            "target": "Package",
-            "version": "[4.7.0, )"
-          },
-          "nlog.web.aspnetcore": {
-            "target": "Package",
-            "version": "[4.9.1, )"
           }
         },
         "imports": [

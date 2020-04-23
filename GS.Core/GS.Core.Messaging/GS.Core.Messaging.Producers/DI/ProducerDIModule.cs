@@ -1,6 +1,8 @@
 using System;
 using Autofac;
 using Confluent.Kafka;
+using GS.Core.Logging.DI;
+using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Entities.Producers;
 using GS.Core.Messaging.Producers.Configuration;
 using GS.Core.Messaging.Producers.Interfaces;
@@ -13,8 +15,6 @@ namespace GS.Core.Messaging.Producers.DI
 {
     public class ProducerDIModule : Module
     {
-        private LogFactory _loggerFactory;
-        private ILogger _logger;
         private IConfiguration _configuration;
 
         public ProducerDIModule(IConfiguration configuration)
@@ -24,21 +24,19 @@ namespace GS.Core.Messaging.Producers.DI
 
         protected override void Load(ContainerBuilder builder)
         {
-             string loggingSettingsFile = _configuration["Messaging:LoggingSettingsFile"];
-             
-            _loggerFactory = NLogBuilder.ConfigureNLog(loggingSettingsFile);
-            _logger = _loggerFactory.GetCurrentClassLogger();
-
+            builder.RegisterModule(new CoreLoggingDIModule(_configuration));
+            
             builder
                 .Register(c => 
                 {
+                    var loggerFactory = c.Resolve<ICoreLoggerFactory>();
                     try
                     {
-                        return new ProducerConfigurationManager(_configuration, _loggerFactory);
+                        return new ProducerConfigurationManager(_configuration, loggerFactory);
                     }
                     catch(Exception ex)
                     {
-                        _logger.Error(ex);
+                        loggerFactory.GetLoggerForType<ProducerDIModule>().Error(ex);
                         return null;
                     }
                 })
@@ -48,17 +46,19 @@ namespace GS.Core.Messaging.Producers.DI
             builder
                 .Register(c => 
                 {
+                    var loggerFactory = c.Resolve<ICoreLoggerFactory>();
                     try
                     {
+
                         return new KafkaProducerClientBuilder(config =>
                         {
                             return new ProducerBuilder<string, string>(config);
                         }, 
-                        _loggerFactory);
+                        loggerFactory);
                     }
                     catch(Exception ex)
                     {
-                        _logger.Error(ex);
+                        loggerFactory.GetLoggerForType<ProducerDIModule>().Error(ex);
                         return null;
                     }
                 })
@@ -67,20 +67,21 @@ namespace GS.Core.Messaging.Producers.DI
             builder
                 .Register(c => 
                 {
+                    var loggerFactory = c.Resolve<ICoreLoggerFactory>();
                     try
                     {
                         var configurationMananger = c.Resolve<IProducerConfigurationManager>();
                         var consumerBuilder = c.Resolve<KafkaProducerClientBuilder>();
                         var factory = new Func<ProducerSettings, IProducer>(cs =>
                         {
-                            return new KafkaProducer(cs, consumerBuilder, _loggerFactory);
+                            return new KafkaProducer(cs, consumerBuilder, loggerFactory);
                         });
 
-                        return new ProducerFactory(factory, configurationMananger, _loggerFactory);
+                        return new ProducerFactory(factory, configurationMananger, loggerFactory);
                     }
                     catch(Exception ex)
                     {
-                        _logger.Error(ex);
+                        loggerFactory.GetLoggerForType<ProducerDIModule>().Error(ex);
                         return null;
                     }
                 })

@@ -32,7 +32,7 @@ namespace GS.Core.Logging.Loggers
             }
         }
 
-        public void Exception(Exception exception)
+        public void Error(Exception exception)
         {
             try
             {

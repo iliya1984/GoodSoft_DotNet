@@ -1,5 +1,6 @@
 using System.Threading;
 using System.Threading.Tasks;
+using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Entities;
 using GS.Core.Messaging.Entities.Common;
 using GS.Core.Messaging.Entities.Interfaces;
@@ -12,16 +13,16 @@ namespace GS.Core.Messaging.Producers.Producers
     public abstract class Producer : IProducer
     {
         private ProducerSettings _settings;
-        protected ILogger Logger { get; private set; }
+        protected ICoreLogger Logger { get; private set; }
 
         public EMessaging.Technology Technology { get; private set;}
 
-        protected Producer(ProducerSettings settings, LogFactory logFactory)
+        protected Producer(ProducerSettings settings, ICoreLoggerFactory logFactory)
         {
             _settings = settings;
 
             Technology = _settings.Technology;
-            Logger = logFactory.GetCurrentClassLogger();
+            Logger = logFactory.GetLoggerForType(this.GetType());
         }
 
         public abstract Task<IMessagingResult> ProduceAsync<T>(Topic topic, string key, T value, CancellationToken cancellationToken);
