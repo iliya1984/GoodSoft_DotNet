@@ -1,12 +1,12 @@
 using System;
 
-namespace GS.Core.Logging.Loggers.Interfaces
+namespace GS.Core.Logging.Interfaces
 {
       public interface ICoreLogger
     {
-         void Error(string errorMessage, string stackTrace = "", object data = null);
-         void Exception(Exception exception, object data = null);
-         void Info(string text, object data = null);
-         void Warning(string warningMessage, object data = null);
+         void Error(string errorMessage);
+         void Exception(Exception exception);
+         void Info(string text);
+         void Warning(string warningMessage);
     }
 }

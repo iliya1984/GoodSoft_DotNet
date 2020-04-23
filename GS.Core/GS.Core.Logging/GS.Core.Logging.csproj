@@ -5,6 +5,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Interfaces\ICoreLogger.cs" />
-    <Content Include="NLogLogger.cs" />
+    <Content Include="Interfaces\ICoreLoggerFactory.cs" />
+    <Content Include="Entities\LoggingSettings.cs" />
+    <Content Include="Loggers\NLogLogger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <Content Include="DI\CoreLoggingDIModule.cs" />
+    <PackageReference Include="nlog" Version="4.7.0" />
+    <PackageReference Include="nlog.web.aspnetcore" Version="4.9.2" />
+    <Content Include="CoreLoggerFactory.cs" />
+    <Content Include="Entities\ECoreLogging.cs" />
+    <Content Include="CoreLoggerConfigurationManager.cs" />
   </ItemGroup>
 </Project>
