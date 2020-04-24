@@ -16,3 +16,5 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Client/bin/Debug/netstandard2.0/GS.Core.Messaging.Producers.pdb
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Client/bin/Debug/netstandard2.0/GS.Core.Logging.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Client/bin/Debug/netstandard2.0/GS.Core.Logging.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Client/bin/Debug/netstandard2.0/GS.Core.Helpers.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Client/bin/Debug/netstandard2.0/GS.Core.Helpers.pdb

@@ -5,7 +5,7 @@ using GS.Logging.Client.Interfaces;
 
 namespace GS.Logging.Client.Clients
 {
-    public abstract class AbsLoggingClient : ILoggingClient
+    internal abstract class AbsLoggingClient : ILoggingClient
     {
          protected ICoreLogger Logger { get; private set;}
          protected LoggingClientSettings Settings { get; private set;}

@@ -10,6 +10,7 @@
       "GS.Logging.Client/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "GS.Core.Helpers": "1.0.0",
           "GS.Core.Logging": "1.0.0",
           "GS.Core.Messaging.Entities": "1.0.0",
           "GS.Core.Messaging.Producers": "1.0.0",
@@ -404,6 +405,11 @@
           }
         }
       },
+      "GS.Core.Helpers/1.0.0": {
+        "runtime": {
+          "GS.Core.Helpers.dll": {}
+        }
+      },
       "GS.Core.Logging/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "6.0.0",
@@ -695,6 +701,11 @@
       "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
       "path": "system.threading.tasks.extensions/4.5.2",
       "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    },
+    "GS.Core.Helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "GS.Core.Logging/1.0.0": {
       "type": "project",

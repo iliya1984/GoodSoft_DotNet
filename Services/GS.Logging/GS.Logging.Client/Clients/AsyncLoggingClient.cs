@@ -13,15 +13,16 @@ using GS.Logging.Client.Entities;
 
 namespace GS.Logging.Client.Clients
 {
-    public class AsynchLoggingClient : AbsLoggingClient
+    internal class AsyncLoggingClient : AbsLoggingClient
     {
         private IProducerFactory _producerFactory;
         private Lazy<IProducer> _producer;
 
-        public AsynchLoggingClient(AsynchLoggingClientArgs arguments, LoggingClientSettings settings)
-            : base(arguments.LoggerFactory, settings)
+        public AsyncLoggingClient(
+            ICoreLoggerFactory loggerFactory, IProducerFactory producerFactory, LoggingClientSettings settings)
+            : base(loggerFactory, settings)
         {
-            _producerFactory = arguments.ProducerFactory;
+            _producerFactory = producerFactory;
         }
 
         public override async Task ErrorAsync(string errorMessage, string stackTrace, object data = null)

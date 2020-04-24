@@ -4,10 +4,11 @@ using GS.Logging.Client.Entities;
 
 namespace GS.Logging.Client.Clients
 {
-    public class LoggingClient : AbsLoggingClient
+    internal class LoggingClient : AbsLoggingClient
     {
         public LoggingClient(ICoreLoggerFactory loggerFactory, LoggingClientSettings settings) : base(loggerFactory, settings)
         {
+
         }
 
         public override Task ErrorAsync(string errorMessage, string stackTrace, object data = null)

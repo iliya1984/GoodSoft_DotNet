@@ -12,13 +12,13 @@
     <ProjectReference Include="..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Entities\GS.Core.Messaging.Entities.csproj" />
     <ProjectReference Include="..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Producers\GS.Core.Messaging.Producers.csproj" />
     <ProjectReference Include="..\..\..\GS.Core\GS.Core.Logging\GS.Core.Logging.csproj" />
+    <ProjectReference Include="..\..\..\GS.Core\GS.Core.Helpers\GS.Core.Helpers.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.7.0" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.2" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <Content Include="Clients\LoggingClient.cs" />
-    <Content Include="Clients\AsynchLoggingClient.cs" />
     <Content Include="Clients\AsynchLoggingClientArguments.cs" />
     <Content Include="Interfaces\ILoggingClientArgs.cs" />
     <Content Include="Clients\AsynchLoggingClientArgs.cs" />
@@ -32,5 +32,8 @@
     <Content Include="Clients\LoggingConfigurationManager.cs" />
     <Content Include="Clients\LoggingFactory.cs" />
     <Content Include="Clients\AbsLoggingClient.cs" />
+    <Content Include="Clients\LoggingClientArgs.cs" />
+    <Content Include="DI\LoggingClientDIModule.cs" />
+    <Content Include="Clients\AsyncLoggingClient.cs" />
   </ItemGroup>
 </Project>
