@@ -17,7 +17,10 @@ namespace GS.Logging.Entities
             Api,
             DataLayer,
             BusinessLayer,
-            Repository
+            Repository,
+            Client,
+            ApiTest,
+            ClientTest
         }
 
         public enum TargetGroup

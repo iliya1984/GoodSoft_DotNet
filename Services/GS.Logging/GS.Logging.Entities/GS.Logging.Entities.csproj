@@ -15,5 +15,7 @@
     <Content Include="Interfaces\ILoggingRequest.cs" />
     <Content Include="Interfaces\ILoggingResponse.cs" />
     <Content Include="Requests\ErrorLoggingRequest.cs" />
+    <Content Include="ELogs.cs" />
+    <Content Include="Messages\LoggingMessage.cs" />
   </ItemGroup>
 </Project>

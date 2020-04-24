@@ -13,8 +13,10 @@ namespace GS.Core.Helpers.Extensions
                 var registry = new ModuleRegistry(builder);
                 registryMethod.Invoke(registry);
             }
-
-            throw new Exception("Error: Failed to create Module Registry, container builder was not set");
+            else
+            {
+                throw new Exception("Error: Failed to create Module Registry, container builder was not set");
+            }
         }
     }
 }

@@ -24,5 +24,6 @@
     <ProjectReference Include="..\..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Producers\GS.Core.Messaging.Producers.csproj" />
     <ProjectReference Include="..\..\..\..\GS.Core\GS.Core.Logging\GS.Core.Logging.csproj" />
     <Content Include="AsyncLoggingClientTest.cs" />
+    <Content Include="LoggingTestLoggableAttribute.cs" />
   </ItemGroup>
 </Project>

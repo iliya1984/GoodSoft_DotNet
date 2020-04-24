@@ -16,6 +16,7 @@ namespace GS.Logging.Client.Clients
             ILoggingConfigurationManager configurationManager, 
             ICoreLoggerFactory loggerFactory)
         {
+            _factory = factory;
             _configurationManager = configurationManager;
             _logger = loggerFactory.GetLoggerForType<LoggingFactory>();
         }

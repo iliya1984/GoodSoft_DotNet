@@ -48,11 +48,12 @@ namespace GS.Logging.Client.DI
                     var loggerFactory = c.Resolve<ICoreLoggerFactory>();
                     try
                     {
+                        var producerFactory = c.Resolve<IProducerFactory>();
                         Func<LoggingClientSettings, ILoggingClient> factory = settings =>
                         {
                             if(settings.IsAsync)
                             {
-                                var producerFactory = c.Resolve<IProducerFactory>();
+                                
                                 return new AsyncLoggingClient(loggerFactory, producerFactory, settings);
                             }
                             else
