@@ -13,6 +13,7 @@ using GS.Logging.Client.Entities;
 using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces.Records;
 using GS.Logging.Entities.Messages;
+using GS.Logging.Entities.Interfaces;
 
 namespace GS.Logging.Client.Clients
 {
@@ -41,7 +42,6 @@ namespace GS.Logging.Client.Clients
                 };
                
                 var message = createErrorMessage(error);
-                message.Severity = ELogs.Severity.Error;
 
                 var cancellationToken = new CancellationToken();
                 var topic = Settings.Topics.ErrorTopic;
@@ -68,7 +68,6 @@ namespace GS.Logging.Client.Clients
                     Data = data
                 };
                 var message = createMessage(record);
-                message.Severity = ELogs.Severity.Info;
 
                 var cancellationToken = new CancellationToken();
                 var topic = Settings.Topics.InfoTopic;
@@ -96,7 +95,6 @@ namespace GS.Logging.Client.Clients
                 };
 
                 var message = createMessage(record);
-                message.Severity = ELogs.Severity.Warning;
 
                 var cancellationToken = new CancellationToken();
                 var topic = Settings.Topics.WarningTopic;
@@ -119,9 +117,8 @@ namespace GS.Logging.Client.Clients
 
         private LogMessage createMessage(LogRecord record)
         {
-            var message = new LogMessage();
-            message.Key = Guid.NewGuid().ToString();
-            message.Module = Settings.Module;
+            var message = new LogMessage();  
+            setMessageDetails(message, record);
             message.Record = record;
             return message;
         }
@@ -129,10 +126,17 @@ namespace GS.Logging.Client.Clients
          private ErrorLogMessage createErrorMessage(ErrorRecord record)
         {
             var message = new ErrorLogMessage();
-            message.Key = Guid.NewGuid().ToString();
-            message.Module = Settings.Module;
+            setMessageDetails(message, record);
             message.ErrorRecord = record;
             return message;
+        }
+
+        private void setMessageDetails(AbsLogMessage message, ILogRecord record)
+        {
+            message.Key = Guid.NewGuid().ToString();
+            message.Module = Settings.Module;
+            message.LoggerName = Settings.LoggerName;
+            message.Severity = record.Severity;
         }
     }
 }

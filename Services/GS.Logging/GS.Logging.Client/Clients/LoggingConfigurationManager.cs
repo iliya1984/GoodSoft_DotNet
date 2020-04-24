@@ -89,8 +89,10 @@ namespace GS.Logging.Client.Clients
     
         private void setTypeSettings(Type type, LoggingClientSettings settings)
         {
-            settings.LoggerName = type.FullName;
-            settings.ClassName = type.FullName;
+            settings.LoggerName = type.Name;
+            settings.LoggerFullName = type.FullName;
+            settings.ClassName = type.Name;
+            settings.ClassFullName = type.FullName;
 
             //TODO: Add module by type caching
             

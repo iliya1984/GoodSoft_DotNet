@@ -7,6 +7,7 @@ namespace GS.Logging.Entities.Messages
     {
         public string Key { get; set; }
         public ELogs.Severity Severity { get; set;}
+        public string LoggerName { get; set;}
         public LoggingModule Module { get; set; }
     }
 }

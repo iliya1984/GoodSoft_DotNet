@@ -37,7 +37,7 @@ namespace GS.Logging.Api.Hosting
                         if(result != null && result.Value != null && result.Value.ErrorRecord != null && result.Value.Module != null)
                         {
                             var settings = new LoggingSettings();
-                            settings.LoggerName = "Default";
+                            settings.LoggerName = result.Value.LoggerName;
 
                             var module = result.Value.Module;
                             var severity = result.Value.Severity;

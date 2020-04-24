@@ -9,7 +9,7 @@ namespace GS.Logging.Entities.Records
     
         public ErrorRecord() : base(ELogs.Severity.Error)
         {
-
+            
         }
     }
 }

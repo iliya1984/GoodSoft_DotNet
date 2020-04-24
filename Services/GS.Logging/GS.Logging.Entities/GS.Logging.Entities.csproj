@@ -19,5 +19,6 @@
     <Content Include="Messages\LoggingMessage.cs" />
     <Content Include="Messages\AbsLogMessage.cs" />
     <Content Include="Messages\AbsLoggingMessage.cs" />
+    <Content Include="Messages\ErrorLogMessage.cs" />
   </ItemGroup>
 </Project>

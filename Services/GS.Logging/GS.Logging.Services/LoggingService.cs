@@ -49,8 +49,8 @@ namespace GS.Logging.Services
                     {
                         var moduleName = _module.Name;
                         var moduleLayer = _module.Layer.Group.ToString();
-                        var fileName = $"{moduleName}{moduleLayer}";
-                        target.FileName = fileName;
+                        var directory = $"{moduleName}{moduleLayer}";
+                        target.Directory = directory;
                     }
                     _repository.Targets.Add(target);
                 }

@@ -46,10 +46,16 @@ namespace GS.Core.Messaging.Consumers.Consumers
 
 
                 T message = default(T);
-
-              
-
                 var result = consumer.Consume(timeOut);
+                
+                if(result == null)
+                {
+                    return new ConsumeResult<T>
+                    {
+                        IsEmpty = true
+                    };
+                }
+                
                 string messageString = result.Message.Value;
 
                  message = JsonSerializer.Deserialize<T>(messageString);

@@ -37,9 +37,10 @@ namespace GS.Logging.Repositories.Repositories
                     foreach (var target in Targets)
                     {
                         var logEvent = new LogEventInfo();
+                        logEvent.LoggerName = Settings.LoggerName + "_Error";
                         logEvent.Level = LogLevel.Error;
                         logEvent.Message = record.Message;
-                        logEvent.Properties["CustomFileName"] = target.FileName + "_Error";
+                        logEvent.Properties["CustomFolderName"] = target.Directory ;
                         logEvent.Properties["Extension"] = getFileExtensionForTarget(target);
                         _logger.Log(logEvent);
                     }

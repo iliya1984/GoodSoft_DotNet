@@ -150,3 +150,27 @@
 2020-04-24 21:29:14.3637 Info Adding target FileTarget(Name=messagingLogs)
 2020-04-24 21:29:14.3637 Info Closing old configuration.
 2020-04-24 21:29:14.4151 Info Found 32 configuration items
+2020-04-25 00:11:51.5732 Info Message Template Auto Format enabled
+2020-04-25 00:11:51.5979 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-25 00:11:51.6456 Info Adding target FileTarget(Name=coreLogs)
+2020-04-25 00:11:51.6511 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-25 00:11:51.6879 Info Found 32 configuration items
+2020-04-25 00:11:51.7416 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/Tests/GS.Logging.Tests.Client/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-25 00:11:51.7463 Info Message Template Auto Format enabled
+2020-04-25 00:11:51.7463 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-25 00:11:51.7463 Info Adding target FileTarget(Name=coreLogs)
+2020-04-25 00:11:51.7463 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-25 00:11:51.7463 Info Closing old configuration.
+2020-04-25 00:11:52.1209 Info Found 32 configuration items
+2020-04-25 00:15:36.7904 Info Message Template Auto Format enabled
+2020-04-25 00:15:36.8031 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-25 00:15:36.8569 Info Adding target FileTarget(Name=coreLogs)
+2020-04-25 00:15:36.8611 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-25 00:15:36.9140 Info Found 32 configuration items
+2020-04-25 00:15:36.9521 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/Tests/GS.Logging.Tests.Client/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-25 00:15:36.9563 Info Message Template Auto Format enabled
+2020-04-25 00:15:36.9563 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-25 00:15:36.9563 Info Adding target FileTarget(Name=coreLogs)
+2020-04-25 00:15:36.9563 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-25 00:15:36.9563 Info Closing old configuration.
+2020-04-25 00:15:36.9940 Info Found 32 configuration items
