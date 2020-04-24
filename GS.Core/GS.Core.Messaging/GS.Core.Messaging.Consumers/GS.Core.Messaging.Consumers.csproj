@@ -25,5 +25,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\GS.Core.Logging\GS.Core.Logging.csproj" />
+    <Content Include="Hosting\ConsumptionService.cs" />
+    <Content Include="Hosting\ConsumerBackgroundService.cs" />
+    <Content Include="Interfaces\IConsumerConfigurationManager.cs" />
   </ItemGroup>
 </Project>

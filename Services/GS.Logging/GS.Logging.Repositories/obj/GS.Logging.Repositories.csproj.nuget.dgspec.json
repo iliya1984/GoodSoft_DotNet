@@ -109,7 +109,7 @@
             },
             "NLog.Web.AspNetCore": {
               "target": "Package",
-              "version": "[4.9.1, )"
+              "version": "[4.9.2, )"
             }
           },
           "imports": [

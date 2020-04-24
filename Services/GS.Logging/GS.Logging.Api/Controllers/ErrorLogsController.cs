@@ -13,12 +13,12 @@ namespace GS.Logging.Api.Controllers
     [Route("api/errors")]
     public class ErrorLogsController : ControllerBase
     {
+        private ILoggingServiceFactory _serviceFactory;
         private ILoggingService _service;
         private IConfiguration _configuration;
 
-        public ErrorLogsController(ILoggingService service, IConfiguration configuration)
+        public ErrorLogsController(ILoggingServiceFactory serviceFactory, IConfiguration configuration)
         {
-            _service = service;
             _configuration = configuration;
         }
 
@@ -29,7 +29,8 @@ namespace GS.Logging.Api.Controllers
                 var settings = new LoggingSettings();
                 settings.LoggerName = "Default";
                 
-                _service.Intialize(settings, request.Module);
+                
+                _service = _serviceFactory.CreateService(settings, request.Module);
 
                 var response = await _service.WriteErrorAsync(request);
                 return new JsonResult(response);

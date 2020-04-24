@@ -10,7 +10,7 @@ namespace GS.Core.Messaging.Producers.Producers
         private Func<ProducerConfig, ProducerBuilder<string, string>> _factory;
         private ICoreLogger _logger;
 
-        public KafkaProducerClientBuilder(Func<ProducerConfig, ProducerBuilder<string, string>> factory, ICoreLoggerFactory loggerFactory)
+        internal KafkaProducerClientBuilder(Func<ProducerConfig, ProducerBuilder<string, string>> factory, ICoreLoggerFactory loggerFactory)
         {
             _factory = factory;
             _logger = loggerFactory.GetLoggerForType<KafkaProducerClientBuilder>();

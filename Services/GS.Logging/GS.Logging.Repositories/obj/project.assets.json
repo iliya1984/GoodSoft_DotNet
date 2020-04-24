@@ -323,7 +323,7 @@
           "lib/netstandard2.0/NLog.Extensions.Logging.dll": {}
         }
       },
-      "NLog.Web.AspNetCore/4.9.1": {
+      "NLog.Web.AspNetCore/4.9.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.0",
@@ -922,10 +922,10 @@
         "nlog.extensions.logging.nuspec"
       ]
     },
-    "NLog.Web.AspNetCore/4.9.1": {
-      "sha512": "NQhA/ger1QzCrbXnq8X48Sp9OvjH15QZOx3Hg/W3heaUR5h6Ai3tjO2YFJ4VuX9wYL1FSHWOAa9qe7EcbwMnmQ==",
+    "NLog.Web.AspNetCore/4.9.2": {
+      "sha512": "C12FzK0z67Y6FC+NDckeZzJmJZmnM+fKCmKbe7at2XBj1O58PPhOZYnKC8Ryw4u+3cyHiMBVlZYwRhWJXs6RFg==",
       "type": "package",
-      "path": "nlog.web.aspnetcore/4.9.1",
+      "path": "nlog.web.aspnetcore/4.9.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -939,7 +939,7 @@
         "lib/netstandard1.5/NLog.Web.AspNetCore.xml",
         "lib/netstandard2.0/NLog.Web.AspNetCore.dll",
         "lib/netstandard2.0/NLog.Web.AspNetCore.xml",
-        "nlog.web.aspnetcore.4.9.1.nupkg.sha512",
+        "nlog.web.aspnetcore.4.9.2.nupkg.sha512",
         "nlog.web.aspnetcore.nuspec"
       ]
     },
@@ -1145,7 +1145,7 @@
       "GS.Logging.Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "NLog >= 4.7.0",
-      "NLog.Web.AspNetCore >= 4.9.1"
+      "NLog.Web.AspNetCore >= 4.9.2"
     ]
   },
   "packageFolders": {
@@ -1203,7 +1203,7 @@
           },
           "NLog.Web.AspNetCore": {
             "target": "Package",
-            "version": "[4.9.1, )"
+            "version": "[4.9.2, )"
           }
         },
         "imports": [

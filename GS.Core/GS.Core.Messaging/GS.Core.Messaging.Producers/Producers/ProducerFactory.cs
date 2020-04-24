@@ -7,7 +7,7 @@ using NLog;
 
 namespace GS.Core.Messaging.Producers.Producers
 {
-    public class ProducerFactory : IProducerFactory
+    internal class ProducerFactory : IProducerFactory
     {
         private IProducerConfigurationManager _configurationMananger;
         private readonly Func<ProducerSettings, IProducer> _factory;

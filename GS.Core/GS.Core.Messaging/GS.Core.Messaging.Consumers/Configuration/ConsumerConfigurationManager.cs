@@ -1,5 +1,6 @@
 using System;
 using GS.Core.Logging.Interfaces;
+using GS.Core.Messaging.Consumers.Interfaces;
 using GS.Core.Messaging.Entities.Consumers;
 using GS.Core.Messaging.Entities.Environment;
 using Microsoft.Extensions.Configuration;
@@ -7,7 +8,7 @@ using NLog;
 
 namespace GS.Core.Messaging.Consumers.Configuration
 {
-    public class ConsumerConfigurationManager
+    public class ConsumerConfigurationManager : IConsumerConfigurationManager
     {
         private ICoreLogger _logger;
         private IConfiguration _configuration;

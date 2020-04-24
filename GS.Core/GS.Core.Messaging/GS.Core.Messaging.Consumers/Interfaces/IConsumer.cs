@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using GS.Core.Messaging.Entities;
 using GS.Core.Messaging.Entities.Common;
 using GS.Core.Messaging.Entities.Consumers;
@@ -14,7 +15,8 @@ namespace GS.Core.Messaging.Consumers.Interfaces
         void Subscribe(Topic topic);
         void Subscribe(IEnumerable<Topic> topics);
         void Subscribe(SubscriptionRequest request);
-        IConsumeResult<T> Consume<T>();
+        IConsumeResult<T> Consume<T>(int timeOut);
+        IConsumeResult<T> Consume<T>(CancellationToken cancellationToken);
 
     }
 }

@@ -16,8 +16,6 @@ namespace GS.Core.Messaging.Tests.Tests
         public void When_Consume_Recieves_Message()
         {
             //Arrange
-            var configurationManager = Container.Resolve<ConsumerConfigurationManager>();
-            var settings = configurationManager.GetSettings();
             var consumerFactory = Container.Resolve<IConsumerFactory>();
             ;
 
@@ -27,11 +25,11 @@ namespace GS.Core.Messaging.Tests.Tests
                 Name = "kafka-test-topic"
             };
 
-            using (var consumer = consumerFactory.CreateConsumer(settings))
+            using (var consumer = consumerFactory.CreateConsumer())
             {
                 //Act
                 consumer.Subscribe(topic);
-                var message = consumer.Consume<TestMessage>();
+                var message = consumer.Consume<TestMessage>(30000);
 
                 //Assert
                 Assert.Equal(message.Value.Text, "Hello from Kafka");

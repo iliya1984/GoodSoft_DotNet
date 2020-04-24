@@ -13,7 +13,7 @@
           "GS.Logging.Entities": "1.0.0",
           "NETStandard.Library": "2.0.3",
           "NLog": "4.7.0",
-          "NLog.Web.AspNetCore": "4.9.1"
+          "NLog.Web.AspNetCore": "4.9.2"
         },
         "runtime": {
           "GS.Logging.Repositories.dll": {}
@@ -298,7 +298,7 @@
           }
         }
       },
-      "NLog.Web.AspNetCore/4.9.1": {
+      "NLog.Web.AspNetCore/4.9.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.Http": "2.1.0",
@@ -308,7 +308,7 @@
         "runtime": {
           "lib/netstandard2.0/NLog.Web.AspNetCore.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.9.1.1587"
+            "fileVersion": "4.9.2.1619"
           }
         }
       },
@@ -563,12 +563,12 @@
       "path": "nlog.extensions.logging/1.6.2",
       "hashPath": "nlog.extensions.logging.1.6.2.nupkg.sha512"
     },
-    "NLog.Web.AspNetCore/4.9.1": {
+    "NLog.Web.AspNetCore/4.9.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NQhA/ger1QzCrbXnq8X48Sp9OvjH15QZOx3Hg/W3heaUR5h6Ai3tjO2YFJ4VuX9wYL1FSHWOAa9qe7EcbwMnmQ==",
-      "path": "nlog.web.aspnetcore/4.9.1",
-      "hashPath": "nlog.web.aspnetcore.4.9.1.nupkg.sha512"
+      "sha512": "sha512-C12FzK0z67Y6FC+NDckeZzJmJZmnM+fKCmKbe7at2XBj1O58PPhOZYnKC8Ryw4u+3cyHiMBVlZYwRhWJXs6RFg==",
+      "path": "nlog.web.aspnetcore/4.9.2",
+      "hashPath": "nlog.web.aspnetcore.4.9.2.nupkg.sha512"
     },
     "System.Buffers/4.5.0": {
       "type": "package",

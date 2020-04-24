@@ -13,7 +13,7 @@ using NLog;
 
 namespace GS.Core.Messaging.Consumers.Consumers
 {
-    public class KafkaConsumer : Consumer
+    internal class KafkaConsumer : Consumer
     {
         private const short MaxConsumeTries = 1000;
         private ConsumerConfig _settings;
@@ -32,36 +32,29 @@ namespace GS.Core.Messaging.Consumers.Consumers
             },
             true);
         }
-        public override IConsumeResult<T> Consume<T>()
+
+        public override IConsumeResult<T> Consume<T>(CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override IConsumeResult<T> Consume<T>(int timeOut)
         {
             try
             {
                 var consumer = _consumer.Value;
 
-                bool consumeSuccess = false;
-                int consumeTries = 0;
+
                 T message = default(T);
 
-                while (false == consumeSuccess && consumeTries < MaxConsumeTries)
-                {
-                    var result = consumer.Consume(30000);
-                    string messageString = result.Message.Value;
+                var result = consumer.Consume(timeOut);
+                string messageString = result.Message.Value;
 
-                    try
-                    {
-                        message = JsonSerializer.Deserialize<T>(messageString);
-                        consumeSuccess = true;
-                    }
-                    catch (JsonException jex)
-                    {
-                        Logger.Error(jex);
-                        Logger.Error($"Error occured while parsing consumed message to JSON format. Failed to parse {messageString}");
-                    }
+                 message = JsonSerializer.Deserialize<T>(messageString);
 
-                    consumeTries++;
-                }
+                return new ConsumeResult<T> { Value = message };
 
-                return new ConsumeResult<T>{ Value = message };
+
             }
             catch (Exception ex)
             {
@@ -76,9 +69,10 @@ namespace GS.Core.Messaging.Consumers.Consumers
             {
                 _consumer.Value.Dispose();
             }
-            catch(Exception ex)     
+            catch (Exception ex)
             {
-                Logger.Error(ex);            }
+                Logger.Error(ex);
+            }
         }
 
         public override void Subscribe(Topic topic)

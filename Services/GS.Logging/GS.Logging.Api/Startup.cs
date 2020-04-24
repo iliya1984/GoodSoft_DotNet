@@ -67,7 +67,7 @@ namespace GS.Logging.Api
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            builder.RegisterModule<ApiDiModule>();
+            builder.RegisterModule(new ApiDiModule(Configuration));
         }
     }
 }

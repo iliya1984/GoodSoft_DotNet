@@ -42,7 +42,7 @@ namespace GS.Core.Messaging.Consumers.DI
                         return null;
                     }
                 })
-                .AsSelf();
+                .As<IConsumerConfigurationManager>();
 
 
             builder
@@ -72,12 +72,14 @@ namespace GS.Core.Messaging.Consumers.DI
                     try
                     {
                         var consumerBuilder = c.Resolve<KafkaConsumerClientBuilder>();
+                        var configurationManager = c.Resolve<ConsumerConfigurationManager>();
+
                         var factory = new Func<ConsumerSettings, IConsumer>(cs =>
                         {
                             return new KafkaConsumer(cs, consumerBuilder, loggerFactory);
                         });
 
-                        return new ConsumerFactory(factory, loggerFactory);
+                        return new ConsumerFactory(factory, configurationManager, loggerFactory);
                     }
                     catch(Exception ex)
                     {

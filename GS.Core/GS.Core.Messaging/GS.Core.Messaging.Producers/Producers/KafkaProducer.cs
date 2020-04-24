@@ -13,7 +13,7 @@ using NLog;
 
 namespace GS.Core.Messaging.Producers.Producers
 {
-    public class KafkaProducer : Producer
+    internal class KafkaProducer : Producer
     {
         private ProducerConfig _settings;
         private KafkaProducerClientBuilder _builder;

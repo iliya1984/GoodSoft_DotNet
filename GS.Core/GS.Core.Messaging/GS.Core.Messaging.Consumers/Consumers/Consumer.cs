@@ -7,10 +7,11 @@ using NLog.Extensions.Logging;
 using GS.Core.Messaging.Entities.Common;
 using GS.Core.Messaging.Entities.Interfaces;
 using GS.Core.Logging.Interfaces;
+using System.Threading;
 
 namespace GS.Core.Messaging.Consumers.Consumers
 {
-    public abstract class Consumer : IConsumer
+    internal abstract class Consumer : IConsumer
     {
         private ConsumerSettings _settings;
         protected ICoreLogger Logger { get; private set; }
@@ -28,7 +29,8 @@ namespace GS.Core.Messaging.Consumers.Consumers
         public abstract void Subscribe(Topic topic);
         public abstract void Subscribe(IEnumerable<Topic> topics);
         public abstract void Subscribe(SubscriptionRequest request);
-        public abstract IConsumeResult<T> Consume<T>();
         public abstract void Dispose();
+        public abstract IConsumeResult<T> Consume<T>(int timeOut);
+        public abstract IConsumeResult<T> Consume<T>(CancellationToken cancellationToken);
     }
 }

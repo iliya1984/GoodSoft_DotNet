@@ -10,6 +10,7 @@
       "GS.Logging.Services/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "GS.Core.Logging": "1.0.0",
           "GS.Logging.Repositories": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -296,7 +297,7 @@
           }
         }
       },
-      "NLog.Web.AspNetCore/4.9.1": {
+      "NLog.Web.AspNetCore/4.9.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.Http": "2.1.0",
@@ -306,7 +307,7 @@
         "runtime": {
           "lib/netstandard2.0/NLog.Web.AspNetCore.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.9.1.1587"
+            "fileVersion": "4.9.2.1619"
           }
         }
       },
@@ -366,6 +367,16 @@
           }
         }
       },
+      "GS.Core.Logging/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "NLog": "4.7.0",
+          "NLog.Web.AspNetCore": "4.9.2"
+        },
+        "runtime": {
+          "GS.Core.Logging.dll": {}
+        }
+      },
       "GS.Logging.Entities/1.0.0": {
         "runtime": {
           "GS.Logging.Entities.dll": {}
@@ -376,7 +387,7 @@
           "Autofac.Extensions.DependencyInjection": "6.0.0",
           "GS.Logging.Entities": "1.0.0",
           "NLog": "4.7.0",
-          "NLog.Web.AspNetCore": "4.9.1"
+          "NLog.Web.AspNetCore": "4.9.2"
         },
         "runtime": {
           "GS.Logging.Repositories.dll": {}
@@ -572,12 +583,12 @@
       "path": "nlog.extensions.logging/1.6.2",
       "hashPath": "nlog.extensions.logging.1.6.2.nupkg.sha512"
     },
-    "NLog.Web.AspNetCore/4.9.1": {
+    "NLog.Web.AspNetCore/4.9.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NQhA/ger1QzCrbXnq8X48Sp9OvjH15QZOx3Hg/W3heaUR5h6Ai3tjO2YFJ4VuX9wYL1FSHWOAa9qe7EcbwMnmQ==",
-      "path": "nlog.web.aspnetcore/4.9.1",
-      "hashPath": "nlog.web.aspnetcore.4.9.1.nupkg.sha512"
+      "sha512": "sha512-C12FzK0z67Y6FC+NDckeZzJmJZmnM+fKCmKbe7at2XBj1O58PPhOZYnKC8Ryw4u+3cyHiMBVlZYwRhWJXs6RFg==",
+      "path": "nlog.web.aspnetcore/4.9.2",
+      "hashPath": "nlog.web.aspnetcore.4.9.2.nupkg.sha512"
     },
     "System.Buffers/4.5.0": {
       "type": "package",
@@ -620,6 +631,11 @@
       "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
       "path": "system.threading.tasks.extensions/4.5.2",
       "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    },
+    "GS.Core.Logging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "GS.Logging.Entities/1.0.0": {
       "type": "project",

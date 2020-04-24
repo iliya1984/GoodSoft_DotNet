@@ -10,7 +10,7 @@ using NLog;
 
 namespace GS.Core.Messaging.Producers.Producers
 {
-    public abstract class Producer : IProducer
+    internal abstract class Producer : IProducer
     {
         private ProducerSettings _settings;
         protected ICoreLogger Logger { get; private set; }

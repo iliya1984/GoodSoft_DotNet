@@ -5,6 +5,6 @@ namespace GS.Core.Messaging.Consumers.Interfaces
 {
     public interface IConsumerFactory
     {
-         IConsumer CreateConsumer(ConsumerSettings settings);
+         IConsumer CreateConsumer();
     }
 }

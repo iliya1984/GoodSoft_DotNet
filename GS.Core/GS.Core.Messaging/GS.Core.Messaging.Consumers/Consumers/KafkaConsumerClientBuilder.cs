@@ -5,7 +5,7 @@ using NLog;
 
 namespace GS.Core.Messaging.Consumers.Consumers
 {
-    public class KafkaConsumerClientBuilder
+    internal class KafkaConsumerClientBuilder
     {
         private Func<ConsumerConfig, ConsumerBuilder<string, string>> _factory;
         private ICoreLogger _logger;

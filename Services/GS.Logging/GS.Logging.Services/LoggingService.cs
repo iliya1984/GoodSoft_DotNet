@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using GS.Core.Logging.Interfaces;
 using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces;
 using GS.Logging.Entities.Modules;
@@ -15,37 +16,50 @@ namespace GS.Logging.Services
 {
     public class LoggingService : ILoggingService
     {
+        private LoggingSettings _settings;
+        private LoggingModule _module;
         private ILoggingRepository _repository;
         private IConfiguration _configuration;
+        private ICoreLogger _logger;
 
-        public LoggingService(ILoggingRepository repository, IConfiguration configuration)
+        public LoggingService(LoggingSettings settings, LoggingModule module, IConfiguration configuration, ILoggingRepository repository, ICoreLoggerFactory loggerFactory)
         {
             _repository = repository;
+            _settings = settings;
+            _module = module;
             _configuration = configuration;
+
+            _logger = loggerFactory.GetLoggerForType<LoggingService>();
+
+            Intialize();
         }
 
-        public void Intialize(LoggingSettings settings, LoggingModule module = null)
+        public void Intialize()
         {
-            var target = _configuration.GetTarget();
-
-            if (target != null)
+            try
             {
-                target.Format = ELogs.TargetFormat.Text;
-                target.Group = ELogs.TargetGroup.File;
+                var target = _configuration.GetTarget();
 
-                if (module != null)
+                if (target != null)
                 {
-                    var moduleName = module.Name;
-                    var moduleLayer = module.Layer.Group.ToString();
-                    var fileName = $"{moduleName}{moduleLayer}";
-                    target.FileName = fileName;
+                    target.Format = ELogs.TargetFormat.Text;
+                    target.Group = ELogs.TargetGroup.File;
+
+                    if (_module != null)
+                    {
+                        var moduleName = _module.Name;
+                        var moduleLayer = _module.Layer.Group.ToString();
+                        var fileName = $"{moduleName}{moduleLayer}";
+                        target.FileName = fileName;
+                    }
+                    _repository.Targets.Add(target);
                 }
-
-                _repository.Targets.Add(target);
+                _repository.Initialize(_settings);
             }
-
-
-            _repository.Initialize(settings);
+            catch (Exception ex)
+            {
+                _logger.Error(ex);
+            }
         }
 
         public async Task<ILoggingResponse> WriteExceptionAsync(Exception exception, object data = null)
