@@ -15,6 +15,7 @@ using Microsoft.Extensions.Logging;
 using GS.Logging.Api.DI;
 using NLog;
 using System.Text.Json.Serialization;
+using GS.Logging.Api.Hosting;
 
 namespace GS.Logging.Api
 {
@@ -41,6 +42,8 @@ namespace GS.Logging.Api
             {
                 opt.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
             });
+
+            services.AddHostedService<LoggingBackgroundService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,6 +66,7 @@ namespace GS.Logging.Api
             });
 
             AutofacContainer = app.ApplicationServices.GetAutofacRoot();
+
         }
 
         public void ConfigureContainer(ContainerBuilder builder)

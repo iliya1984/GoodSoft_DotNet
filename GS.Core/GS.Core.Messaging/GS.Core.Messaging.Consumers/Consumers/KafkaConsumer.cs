@@ -47,6 +47,8 @@ namespace GS.Core.Messaging.Consumers.Consumers
 
                 T message = default(T);
 
+              
+
                 var result = consumer.Consume(timeOut);
                 string messageString = result.Message.Value;
 

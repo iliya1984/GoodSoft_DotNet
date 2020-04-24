@@ -32,9 +32,9 @@ namespace GS.Logging.Api.Hosting
 
                     while(false == request.CancellationToken.IsCancellationRequested)
                     {
-                        var result = consumer.Consume<LoggingMessage>(30000);
+                        var result = consumer.Consume<ErrorLogMessage>(30000);
 
-                        if(result == null)
+                        if(result != null && result.Value != null && result.Value.ErrorRecord != null && result.Value.Module != null)
                         {
                             var settings = new LoggingSettings();
                             settings.LoggerName = "Default";
@@ -47,7 +47,7 @@ namespace GS.Logging.Api.Hosting
                             {
                                 case ELogs.Severity.Error:
 
-                                    var errorRecord = (ErrorRecord)result.Value.Record;
+                                    var errorRecord = (ErrorRecord)result.Value.ErrorRecord;
                                     var response = await servie.WriteErrorAsync(errorRecord.Message, errorRecord.StackTrace, errorRecord.Data);
                                     break;
                             }

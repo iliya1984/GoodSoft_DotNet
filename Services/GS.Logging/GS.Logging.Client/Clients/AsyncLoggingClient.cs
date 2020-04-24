@@ -32,14 +32,15 @@ namespace GS.Logging.Client.Clients
         {
             try
             {
-                var message = createMessage();
+                
                 var error = new ErrorRecord
                 {
                     Message = errorMessage,
                     StackTrace = stackTrace,
                     Data = data
                 };
-                message.Record = error;
+               
+                var message = createErrorMessage(error);
                 message.Severity = ELogs.Severity.Error;
 
                 var cancellationToken = new CancellationToken();
@@ -47,7 +48,7 @@ namespace GS.Logging.Client.Clients
 
                 using(var producer = createProducer())
                 {
-                   var result = await producer.ProduceAsync<LoggingMessage>(topic, message.Key, message, cancellationToken);
+                   var result = await producer.ProduceAsync<ErrorLogMessage>(topic, message.Key, message, cancellationToken);
                 }    
             }
             catch(Exception ex)
@@ -60,13 +61,13 @@ namespace GS.Logging.Client.Clients
         {
              try
             {
-                var message = createMessage();
+                
                 var record = new LogRecord(ELogs.Severity.Info)
                 {
                     Message = text,
                     Data = data
                 };
-                message.Record = record;
+                var message = createMessage(record);
                 message.Severity = ELogs.Severity.Info;
 
                 var cancellationToken = new CancellationToken();
@@ -74,7 +75,7 @@ namespace GS.Logging.Client.Clients
 
                 using(var producer = createProducer())
                 {
-                   var result = await producer.ProduceAsync<LoggingMessage>(topic, message.Key, message, cancellationToken);
+                   var result = await producer.ProduceAsync<LogMessage>(topic, message.Key, message, cancellationToken);
                 }    
             }
             catch(Exception ex)
@@ -87,13 +88,14 @@ namespace GS.Logging.Client.Clients
         {
             try
             {
-                var message = createMessage();
+                
                 var record = new LogRecord(ELogs.Severity.Warning)
                 {
                     Message = text,
                     Data = data
                 };
-                message.Record = record;
+
+                var message = createMessage(record);
                 message.Severity = ELogs.Severity.Warning;
 
                 var cancellationToken = new CancellationToken();
@@ -101,7 +103,7 @@ namespace GS.Logging.Client.Clients
 
                 using(var producer = createProducer())
                 {
-                   var result = await producer.ProduceAsync<LoggingMessage>(topic, message.Key, message, cancellationToken);
+                   var result = await producer.ProduceAsync<LogMessage>(topic, message.Key, message, cancellationToken);
                 }    
             }
             catch(Exception ex)
@@ -115,11 +117,21 @@ namespace GS.Logging.Client.Clients
             return _producerFactory.CreateProducer();
         }
 
-        private LoggingMessage createMessage()
+        private LogMessage createMessage(LogRecord record)
         {
-            var message = new LoggingMessage();
+            var message = new LogMessage();
             message.Key = Guid.NewGuid().ToString();
             message.Module = Settings.Module;
+            message.Record = record;
+            return message;
+        }
+
+         private ErrorLogMessage createErrorMessage(ErrorRecord record)
+        {
+            var message = new ErrorLogMessage();
+            message.Key = Guid.NewGuid().ToString();
+            message.Module = Settings.Module;
+            message.ErrorRecord = record;
             return message;
         }
     }

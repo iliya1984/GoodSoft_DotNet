@@ -16,8 +16,9 @@
     <Content Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-  <ProjectReference Include="..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Entities\GS.Core.Messaging.Entities.csproj" />
+    <ProjectReference Include="..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Entities\GS.Core.Messaging.Entities.csproj" />
     <ProjectReference Include="..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Consumers\GS.Core.Messaging.Consumers.csproj" />
     <Content Include="Hosting\LoggingBackgroundService.cs" />
+    <Content Include="DI\ApiDiModule.cs" />
   </ItemGroup>
 </Project>

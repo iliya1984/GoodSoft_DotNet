@@ -72,7 +72,7 @@ namespace GS.Core.Messaging.Consumers.DI
                     try
                     {
                         var consumerBuilder = c.Resolve<KafkaConsumerClientBuilder>();
-                        var configurationManager = c.Resolve<ConsumerConfigurationManager>();
+                        var configurationManager = c.Resolve<IConsumerConfigurationManager>();
 
                         var factory = new Func<ConsumerSettings, IConsumer>(cs =>
                         {

@@ -545,3 +545,1840 @@
    at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
    at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
    at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:04:09.3307 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:04:09.3752 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:04:09.4205 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:04:09.4237 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:04:09.4292 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:04:09.4292 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:04:09.4292 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:04:09.4357 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:04:09.4429 Info Message Template Auto Format enabled
+2020-04-24 20:04:09.4476 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:04:09.5381 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:04:09.5791 Info Found 17 configuration items
+2020-04-24 20:04:09.5970 Info Configuration initialized.
+2020-04-24 20:04:09.5970 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:09:03.0632 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:09:03.0874 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:09:03.1378 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:09:03.1378 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:09:03.1440 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:09:03.1451 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:09:03.1451 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:09:03.1489 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:09:03.1489 Info Message Template Auto Format enabled
+2020-04-24 20:09:03.1643 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:09:03.2657 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:09:03.2695 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:09:03.2695 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:09:03.2695 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:09:03.3380 Info Found 65 configuration items
+2020-04-24 20:09:03.3698 Info Configuration initialized.
+2020-04-24 20:09:03.3798 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:09:03.6819 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:09:03.6819 Info Message Template Auto Format enabled
+2020-04-24 20:09:03.6881 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:09:03.6954 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:09:03.6954 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:09:03.6954 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:09:03.6954 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:09:03.6954 Info Closing old configuration.
+2020-04-24 20:09:03.7421 Info Found 65 configuration items
+2020-04-24 20:09:03.8003 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:09:03.8019 Info Message Template Auto Format enabled
+2020-04-24 20:09:03.8019 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:09:03.8019 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:09:03.8058 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:09:03.8058 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:09:03.8058 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:09:03.8058 Info Closing old configuration.
+2020-04-24 20:09:03.8311 Info Found 65 configuration items
+2020-04-24 20:17:10.1241 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:17:10.2052 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:17:10.2546 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:17:10.2653 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:17:10.2653 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:17:10.2653 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:17:10.2698 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:17:10.2698 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:17:10.2800 Info Message Template Auto Format enabled
+2020-04-24 20:17:10.2919 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:17:10.3903 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:17:10.3903 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:17:10.3935 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:17:10.3935 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:17:10.4380 Info Found 65 configuration items
+2020-04-24 20:17:10.4713 Info Configuration initialized.
+2020-04-24 20:17:10.4886 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:17:10.8217 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:17:10.8217 Info Message Template Auto Format enabled
+2020-04-24 20:17:10.8248 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:17:10.8248 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:17:10.8332 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:17:10.8332 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:17:10.8371 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:17:10.8371 Info Closing old configuration.
+2020-04-24 20:17:10.9129 Info Found 65 configuration items
+2020-04-24 20:17:10.9643 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:17:10.9876 Info Message Template Auto Format enabled
+2020-04-24 20:17:10.9887 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:17:10.9887 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:17:11.0000 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:17:11.0013 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:17:11.0013 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:17:11.0013 Info Closing old configuration.
+2020-04-24 20:17:11.0115 Info Found 65 configuration items
+2020-04-24 20:17:12.0435 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:17:12.0507 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:17:12.0579 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:17:12.0610 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:17:12.0610 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:18:15.1052 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:18:15.1437 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:18:15.2043 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:18:15.2086 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:18:15.2138 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:18:15.2138 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:18:15.2138 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:18:15.2189 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:18:15.2290 Info Message Template Auto Format enabled
+2020-04-24 20:18:15.2346 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:18:15.3103 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:18:15.3161 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:18:15.3185 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:18:15.3185 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:18:15.3751 Info Found 65 configuration items
+2020-04-24 20:18:15.4131 Info Configuration initialized.
+2020-04-24 20:18:15.4131 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:18:15.6285 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:18:15.6331 Info Message Template Auto Format enabled
+2020-04-24 20:18:15.6331 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:18:15.6331 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:18:15.6380 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:18:15.6380 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:18:15.6380 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:18:15.6380 Info Closing old configuration.
+2020-04-24 20:18:15.6984 Info Found 65 configuration items
+2020-04-24 20:18:15.7355 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:18:15.7465 Info Message Template Auto Format enabled
+2020-04-24 20:18:15.7465 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:18:15.7492 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:18:15.7492 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:18:15.7536 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:18:15.7536 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:18:15.7536 Info Closing old configuration.
+2020-04-24 20:18:15.7856 Info Found 65 configuration items
+2020-04-24 20:18:16.8525 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:18:16.8691 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:18:16.8691 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:18:16.8735 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:18:16.8735 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:29.7948 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:20:29.8376 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:20:29.9135 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:20:29.9262 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:20:29.9262 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:20:29.9262 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:20:29.9299 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:20:29.9382 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:20:29.9433 Info Message Template Auto Format enabled
+2020-04-24 20:20:29.9521 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:20:30.0790 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:20:30.0790 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:20:30.0853 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:20:30.0853 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:20:30.1405 Info Found 65 configuration items
+2020-04-24 20:20:30.2160 Info Configuration initialized.
+2020-04-24 20:20:30.2195 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:20:30.5540 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:20:30.5540 Info Message Template Auto Format enabled
+2020-04-24 20:20:30.5569 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:20:30.5569 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:20:30.5645 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:20:30.5660 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:20:30.5660 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:20:30.5660 Info Closing old configuration.
+2020-04-24 20:20:30.6412 Info Found 65 configuration items
+2020-04-24 20:20:30.7385 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:20:30.7522 Info Message Template Auto Format enabled
+2020-04-24 20:20:30.7571 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:20:30.7571 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:20:30.7645 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:20:30.7659 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:20:30.7659 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:20:30.7659 Info Closing old configuration.
+2020-04-24 20:20:30.7928 Info Found 65 configuration items
+2020-04-24 20:20:32.0768 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:32.1148 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:32.1306 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:32.1306 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:32.1374 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:52.5683 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:20:52.6099 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:20:52.7063 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:20:52.7111 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:20:52.7175 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:20:52.7175 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:20:52.7175 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:20:52.7235 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:20:52.7278 Info Message Template Auto Format enabled
+2020-04-24 20:20:52.7358 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:20:52.8494 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:20:52.8494 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:20:52.8535 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:20:52.8535 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:20:52.9039 Info Found 65 configuration items
+2020-04-24 20:20:52.9357 Info Configuration initialized.
+2020-04-24 20:20:52.9373 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:20:53.3191 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:20:53.3191 Info Message Template Auto Format enabled
+2020-04-24 20:20:53.3254 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:20:53.3270 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:20:53.3371 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:20:53.3371 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:20:53.3371 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:20:53.3371 Info Closing old configuration.
+2020-04-24 20:20:53.4251 Info Found 65 configuration items
+2020-04-24 20:20:53.5037 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:20:53.5181 Info Message Template Auto Format enabled
+2020-04-24 20:20:53.5181 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:20:53.5238 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:20:53.5301 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:20:53.5301 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:20:53.5301 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:20:53.5356 Info Closing old configuration.
+2020-04-24 20:20:53.5590 Info Found 65 configuration items
+2020-04-24 20:20:54.8985 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:54.9226 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:54.9297 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:54.9344 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:20:54.9369 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:25:24.6176 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:25:24.6536 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:25:24.7035 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:25:24.7192 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:25:24.7221 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:25:24.7253 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:25:24.7291 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:25:24.7291 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:25:24.7345 Info Message Template Auto Format enabled
+2020-04-24 20:25:24.7436 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:25:24.8311 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:25:24.8365 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:25:24.8394 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:25:24.8394 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:25:24.9037 Info Found 65 configuration items
+2020-04-24 20:25:24.9398 Info Configuration initialized.
+2020-04-24 20:25:24.9413 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:25:25.1759 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:25:25.1772 Info Message Template Auto Format enabled
+2020-04-24 20:25:25.1772 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:25:25.1772 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:25:25.1849 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:25:25.1860 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:25:25.1860 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:25:25.1860 Info Closing old configuration.
+2020-04-24 20:25:25.2321 Info Found 65 configuration items
+2020-04-24 20:25:25.2777 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:25:25.2777 Info Message Template Auto Format enabled
+2020-04-24 20:25:25.2777 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:25:25.2823 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:25:25.3073 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:25:25.3073 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:25:25.3093 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:25:25.3167 Info Closing old configuration.
+2020-04-24 20:25:25.3483 Info Found 65 configuration items
+2020-04-24 20:25:25.3646 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:25:25.3659 Info Message Template Auto Format enabled
+2020-04-24 20:25:25.3659 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:25:25.3659 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:25:25.3697 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:25:25.3697 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:25:25.3697 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:25:25.3697 Info Closing old configuration.
+2020-04-24 20:25:25.3979 Info Found 65 configuration items
+2020-04-24 20:25:25.4029 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:25:25.4054 Info Message Template Auto Format enabled
+2020-04-24 20:25:25.4054 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:25:25.4103 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:25:25.4137 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:25:25.4137 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:25:25.4137 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:25:25.4137 Info Closing old configuration.
+2020-04-24 20:25:25.4392 Info Found 65 configuration items
+2020-04-24 20:25:26.4907 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:25:26.5108 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:25:26.5242 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:25:26.5303 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:25:26.5478 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:27:22.8655 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:27:22.8946 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:27:22.9470 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:27:22.9499 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:27:22.9534 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:27:22.9534 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:27:22.9534 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:27:22.9580 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:27:22.9678 Info Message Template Auto Format enabled
+2020-04-24 20:27:22.9792 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:27:23.0830 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:27:23.0858 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:27:23.0893 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:27:23.0893 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:27:23.1260 Info Found 65 configuration items
+2020-04-24 20:27:23.1445 Info Configuration initialized.
+2020-04-24 20:27:23.1462 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:27:23.3814 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:27:23.3814 Info Message Template Auto Format enabled
+2020-04-24 20:27:23.3849 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:27:23.3849 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:27:23.3899 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:27:23.3899 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:27:23.3899 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:27:23.3935 Info Closing old configuration.
+2020-04-24 20:27:23.4396 Info Found 65 configuration items
+2020-04-24 20:27:23.4804 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:27:23.4858 Info Message Template Auto Format enabled
+2020-04-24 20:27:23.4858 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:27:23.4858 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:27:23.4896 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:27:23.4933 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:27:23.4933 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:27:23.4933 Info Closing old configuration.
+2020-04-24 20:27:23.5190 Info Found 65 configuration items
+2020-04-24 20:27:23.5390 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:27:23.5390 Info Message Template Auto Format enabled
+2020-04-24 20:27:23.5413 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:27:23.5413 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:27:23.5413 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:27:23.5453 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:27:23.5508 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:27:23.5508 Info Closing old configuration.
+2020-04-24 20:27:23.5752 Info Found 65 configuration items
+2020-04-24 20:27:23.5790 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:27:23.5820 Info Message Template Auto Format enabled
+2020-04-24 20:27:23.5856 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:27:23.5856 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:27:23.5856 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:27:23.5856 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:27:23.5891 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:27:23.5891 Info Closing old configuration.
+2020-04-24 20:27:23.6138 Info Found 65 configuration items
+2020-04-24 20:27:24.2254 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:30:33.0261 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:30:33.0633 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:30:33.1154 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:30:33.1284 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:30:33.1296 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:30:33.1296 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:30:33.1296 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:30:33.1342 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:30:33.1455 Info Message Template Auto Format enabled
+2020-04-24 20:30:33.1551 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:30:33.2945 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:30:33.3019 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:30:33.3068 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:30:33.3068 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:30:33.4015 Info Found 65 configuration items
+2020-04-24 20:30:33.4895 Info Configuration initialized.
+2020-04-24 20:30:33.4939 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:30:33.9672 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:30:33.9672 Info Message Template Auto Format enabled
+2020-04-24 20:30:33.9696 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:30:33.9696 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:30:33.9696 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:30:33.9727 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:30:33.9727 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:30:33.9727 Info Closing old configuration.
+2020-04-24 20:30:34.0452 Info Found 65 configuration items
+2020-04-24 20:30:34.1226 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:30:34.1226 Info Message Template Auto Format enabled
+2020-04-24 20:30:34.1258 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:30:34.1296 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:30:34.1339 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:30:34.1339 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:30:34.1370 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:30:34.1370 Info Closing old configuration.
+2020-04-24 20:30:34.1621 Info Found 65 configuration items
+2020-04-24 20:30:34.1773 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:30:34.1822 Info Message Template Auto Format enabled
+2020-04-24 20:30:34.1860 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:30:34.1860 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:30:34.1897 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:30:34.1897 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:30:34.1897 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:30:34.1897 Info Closing old configuration.
+2020-04-24 20:30:34.2158 Info Found 65 configuration items
+2020-04-24 20:30:34.2196 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:30:34.2224 Info Message Template Auto Format enabled
+2020-04-24 20:30:34.2259 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:30:34.2259 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:30:34.2290 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:30:34.2290 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:30:34.2290 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:30:34.2290 Info Closing old configuration.
+2020-04-24 20:30:34.2539 Info Found 65 configuration items
+2020-04-24 20:30:34.8739 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:31:46.9997 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:31:47.0422 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:31:47.0996 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:31:47.1028 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:31:47.1028 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:31:47.1054 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:31:47.1054 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:31:47.1100 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:31:47.1169 Info Message Template Auto Format enabled
+2020-04-24 20:31:47.1328 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:31:47.2146 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:31:47.2146 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:31:47.2177 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:31:47.2177 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:31:47.2536 Info Found 65 configuration items
+2020-04-24 20:31:47.2976 Info Configuration initialized.
+2020-04-24 20:31:47.2976 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:31:47.5643 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:31:47.5702 Info Message Template Auto Format enabled
+2020-04-24 20:31:47.5702 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:31:47.5731 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:31:47.5731 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:31:47.5731 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:31:47.5731 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:31:47.5731 Info Closing old configuration.
+2020-04-24 20:31:47.6222 Info Found 65 configuration items
+2020-04-24 20:31:47.6890 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:31:47.6890 Info Message Template Auto Format enabled
+2020-04-24 20:31:47.6890 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:31:47.6933 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:31:47.6933 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:31:47.6933 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:31:47.6933 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:31:47.6933 Info Closing old configuration.
+2020-04-24 20:31:47.7202 Info Found 65 configuration items
+2020-04-24 20:31:47.7310 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:31:47.7413 Info Message Template Auto Format enabled
+2020-04-24 20:31:47.7413 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:31:47.7491 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:31:47.7491 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:31:47.7491 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:31:47.7546 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:31:47.7546 Info Closing old configuration.
+2020-04-24 20:31:47.7805 Info Found 65 configuration items
+2020-04-24 20:31:47.7847 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:31:47.7861 Info Message Template Auto Format enabled
+2020-04-24 20:31:47.7944 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:31:47.7944 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:31:47.7969 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:31:47.7969 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:31:47.7969 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:31:47.7969 Info Closing old configuration.
+2020-04-24 20:31:47.8218 Info Found 65 configuration items
+2020-04-24 20:33:10.4139 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:35:25.3434 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:35:25.3732 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:35:25.4350 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:35:25.4418 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:35:25.4418 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:35:25.4418 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:35:25.4461 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:35:25.4461 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:35:25.4516 Info Message Template Auto Format enabled
+2020-04-24 20:35:25.4568 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:35:25.5570 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:35:25.5618 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:35:25.5618 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:35:25.5618 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:35:25.6175 Info Found 65 configuration items
+2020-04-24 20:35:25.6519 Info Configuration initialized.
+2020-04-24 20:35:25.6534 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:35:25.9265 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:35:25.9399 Info Message Template Auto Format enabled
+2020-04-24 20:35:25.9410 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:35:25.9410 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:35:25.9505 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:35:25.9505 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:35:25.9505 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:35:25.9505 Info Closing old configuration.
+2020-04-24 20:35:26.0324 Info Found 65 configuration items
+2020-04-24 20:35:26.0886 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:35:26.0950 Info Message Template Auto Format enabled
+2020-04-24 20:35:26.0950 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:35:26.0977 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:35:26.0977 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:35:26.1030 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:35:26.1030 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:35:26.1030 Info Closing old configuration.
+2020-04-24 20:35:26.1281 Info Found 65 configuration items
+2020-04-24 20:35:26.1486 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:35:26.1498 Info Message Template Auto Format enabled
+2020-04-24 20:35:26.1498 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:35:26.1498 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:35:26.1558 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:35:26.1558 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:35:26.1572 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:35:26.1572 Info Closing old configuration.
+2020-04-24 20:35:26.1808 Info Found 65 configuration items
+2020-04-24 20:35:26.1894 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:35:26.1943 Info Message Template Auto Format enabled
+2020-04-24 20:35:26.1943 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:35:26.1983 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:35:26.1983 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:35:26.1983 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:35:26.2013 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:35:26.2013 Info Closing old configuration.
+2020-04-24 20:35:26.2251 Info Found 65 configuration items
+2020-04-24 20:36:29.1582 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:37:41.1654 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:37:41.1929 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:37:41.2395 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:37:41.2444 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:37:41.2455 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:37:41.2455 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:37:41.2455 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:37:41.2503 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:37:41.2503 Info Message Template Auto Format enabled
+2020-04-24 20:37:41.2571 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:37:41.3517 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:37:41.3538 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:37:41.3574 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:37:41.3574 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:37:41.4133 Info Found 65 configuration items
+2020-04-24 20:37:41.4386 Info Configuration initialized.
+2020-04-24 20:37:41.4519 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:37:41.7909 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:37:41.7909 Info Message Template Auto Format enabled
+2020-04-24 20:37:41.7934 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:37:41.7934 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:37:41.7977 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:37:41.7977 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:37:41.7977 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:37:41.7977 Info Closing old configuration.
+2020-04-24 20:37:41.8320 Info Found 65 configuration items
+2020-04-24 20:37:41.8745 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:37:41.8795 Info Message Template Auto Format enabled
+2020-04-24 20:37:41.8817 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:37:41.8817 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:37:41.8817 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:37:41.8857 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:37:41.8857 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:37:41.8857 Info Closing old configuration.
+2020-04-24 20:37:41.9107 Info Found 65 configuration items
+2020-04-24 20:37:41.9340 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:37:41.9340 Info Message Template Auto Format enabled
+2020-04-24 20:37:41.9372 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:37:41.9372 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:37:41.9372 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:37:41.9408 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:37:41.9408 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:37:41.9408 Info Closing old configuration.
+2020-04-24 20:37:41.9657 Info Found 65 configuration items
+2020-04-24 20:37:41.9657 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:37:41.9657 Info Message Template Auto Format enabled
+2020-04-24 20:37:41.9657 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:37:41.9726 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:37:41.9738 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:37:41.9738 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:37:41.9777 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:37:41.9777 Info Closing old configuration.
+2020-04-24 20:37:42.0043 Info Found 65 configuration items
+2020-04-24 20:41:44.6814 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:41:44.7286 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:41:44.7861 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:41:44.7925 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:41:44.7937 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:41:44.7937 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:41:44.7937 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:41:44.7984 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:41:44.8032 Info Message Template Auto Format enabled
+2020-04-24 20:41:44.8091 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:41:44.9083 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:41:44.9145 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:41:44.9145 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:41:44.9174 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:41:44.9657 Info Found 65 configuration items
+2020-04-24 20:41:44.9969 Info Configuration initialized.
+2020-04-24 20:41:45.0012 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:41:45.2826 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:41:45.2850 Info Message Template Auto Format enabled
+2020-04-24 20:41:45.2850 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:41:45.2909 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:41:45.2909 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:41:45.2909 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:41:45.2936 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:41:45.2936 Info Closing old configuration.
+2020-04-24 20:41:45.3437 Info Found 65 configuration items
+2020-04-24 20:41:45.3926 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:41:45.3954 Info Message Template Auto Format enabled
+2020-04-24 20:41:45.3954 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:41:45.4005 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:41:45.4019 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:41:45.4050 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:41:45.4050 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:41:45.4050 Info Closing old configuration.
+2020-04-24 20:41:45.4293 Info Found 65 configuration items
+2020-04-24 20:41:45.4459 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:41:45.4459 Info Message Template Auto Format enabled
+2020-04-24 20:41:45.4494 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:41:45.4494 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:41:45.4582 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:41:45.4582 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:41:45.4582 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:41:45.4582 Info Closing old configuration.
+2020-04-24 20:41:45.4832 Info Found 65 configuration items
+2020-04-24 20:41:45.4874 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:41:45.4888 Info Message Template Auto Format enabled
+2020-04-24 20:41:45.4888 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:41:45.4888 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:41:45.4942 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:41:45.4942 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:41:45.4942 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:41:45.4942 Info Closing old configuration.
+2020-04-24 20:41:45.5205 Info Found 65 configuration items
+2020-04-24 20:51:15.9935 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:51:16.0440 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:51:16.0895 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:51:16.0954 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:51:16.0954 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:51:16.0973 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:51:16.0973 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:51:16.1026 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:51:16.1058 Info Message Template Auto Format enabled
+2020-04-24 20:51:16.1097 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:51:16.2070 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:51:16.2123 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:51:16.2137 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:51:16.2217 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:51:16.2575 Info Found 65 configuration items
+2020-04-24 20:51:16.2762 Info Configuration initialized.
+2020-04-24 20:51:16.2780 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:51:16.5092 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:51:16.5092 Info Message Template Auto Format enabled
+2020-04-24 20:51:16.5092 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:51:16.5144 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:51:16.5180 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:51:16.5207 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:51:16.5207 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:51:16.5207 Info Closing old configuration.
+2020-04-24 20:51:16.5805 Info Found 65 configuration items
+2020-04-24 20:51:16.6274 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:51:16.6274 Info Message Template Auto Format enabled
+2020-04-24 20:51:16.6296 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:51:16.6296 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:51:16.6340 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:51:16.6340 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:51:16.6340 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:51:16.6340 Info Closing old configuration.
+2020-04-24 20:51:16.6596 Info Found 65 configuration items
+2020-04-24 20:51:16.6724 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:51:16.6783 Info Message Template Auto Format enabled
+2020-04-24 20:51:16.6816 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:51:16.6956 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:51:16.6988 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:51:16.7040 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:51:16.7057 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:51:16.7057 Info Closing old configuration.
+2020-04-24 20:51:16.7132 Info Found 65 configuration items
+2020-04-24 20:51:16.7203 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:51:16.7241 Info Message Template Auto Format enabled
+2020-04-24 20:51:16.7252 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:51:16.7252 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:51:16.7252 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:51:16.7252 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:51:16.7252 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:51:16.7252 Info Closing old configuration.
+2020-04-24 20:51:16.7551 Info Found 65 configuration items
+2020-04-24 20:51:52.3139 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 20:55:15.4585 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:55:15.5050 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:55:15.5579 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:55:15.5579 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:55:15.5634 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:55:15.5647 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:55:15.5647 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:55:15.5647 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:55:15.5712 Info Message Template Auto Format enabled
+2020-04-24 20:55:15.5760 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:55:15.6918 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:55:15.6988 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:55:15.6988 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:55:15.7016 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:55:15.7286 Info Found 65 configuration items
+2020-04-24 20:55:15.7452 Info Configuration initialized.
+2020-04-24 20:55:15.7452 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:55:15.9909 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:55:15.9939 Info Message Template Auto Format enabled
+2020-04-24 20:55:15.9939 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:55:15.9939 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:55:15.9981 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:55:15.9981 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:55:15.9981 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:55:16.0017 Info Closing old configuration.
+2020-04-24 20:55:16.0689 Info Found 65 configuration items
+2020-04-24 20:55:16.1028 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:55:16.1028 Info Message Template Auto Format enabled
+2020-04-24 20:55:16.1028 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:55:16.1067 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:55:16.1067 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:55:16.1067 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:55:16.1095 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:55:16.1095 Info Closing old configuration.
+2020-04-24 20:55:16.1328 Info Found 65 configuration items
+2020-04-24 20:55:16.1438 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:55:16.1474 Info Message Template Auto Format enabled
+2020-04-24 20:55:16.1474 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:55:16.1495 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:55:16.1495 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:55:16.1495 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:55:16.1530 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:55:16.1530 Info Closing old configuration.
+2020-04-24 20:55:16.1773 Info Found 65 configuration items
+2020-04-24 20:55:16.1811 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:55:16.1848 Info Message Template Auto Format enabled
+2020-04-24 20:55:16.1861 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:55:16.1861 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:55:16.1899 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:55:16.1899 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:55:16.1899 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:55:16.1928 Info Closing old configuration.
+2020-04-24 20:55:16.2162 Info Found 65 configuration items
+2020-04-24 20:59:25.3113 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:59:25.3369 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 20:59:25.3950 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 20:59:25.3981 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 20:59:25.3981 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:59:25.4009 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 20:59:25.4009 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 20:59:25.4048 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 20:59:25.4048 Info Message Template Auto Format enabled
+2020-04-24 20:59:25.4160 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:59:25.5073 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:59:25.5091 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:59:25.5091 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:59:25.5091 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:59:25.5454 Info Found 65 configuration items
+2020-04-24 20:59:25.5640 Info Configuration initialized.
+2020-04-24 20:59:25.5658 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 20:59:25.8141 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:59:25.8141 Info Message Template Auto Format enabled
+2020-04-24 20:59:25.8141 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:59:25.8141 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:59:25.8217 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:59:25.8217 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:59:25.8217 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:59:25.8217 Info Closing old configuration.
+2020-04-24 20:59:25.8571 Info Found 65 configuration items
+2020-04-24 20:59:25.9173 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:59:25.9173 Info Message Template Auto Format enabled
+2020-04-24 20:59:25.9220 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:59:25.9220 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:59:25.9251 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:59:25.9251 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:59:25.9251 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:59:25.9251 Info Closing old configuration.
+2020-04-24 20:59:25.9504 Info Found 65 configuration items
+2020-04-24 20:59:25.9632 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:59:25.9674 Info Message Template Auto Format enabled
+2020-04-24 20:59:25.9688 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:59:25.9688 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:59:25.9688 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:59:25.9688 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:59:25.9769 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:59:25.9776 Info Closing old configuration.
+2020-04-24 20:59:26.0011 Info Found 65 configuration items
+2020-04-24 20:59:26.0011 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 20:59:26.0011 Info Message Template Auto Format enabled
+2020-04-24 20:59:26.0011 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 20:59:26.0011 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 20:59:26.0011 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 20:59:26.0011 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 20:59:26.0127 Info Adding target FileTarget(Name=logfile)
+2020-04-24 20:59:26.0127 Info Closing old configuration.
+2020-04-24 20:59:26.0387 Info Found 65 configuration items
+2020-04-24 21:03:13.9806 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:03:14.0473 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:03:14.1366 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:03:14.1514 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:03:14.1649 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:03:14.1676 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:03:14.1676 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:03:14.1747 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:03:14.1839 Info Message Template Auto Format enabled
+2020-04-24 21:03:14.1959 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:03:14.3110 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:03:14.3110 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:03:14.3162 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:03:14.3177 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:03:14.3962 Info Found 65 configuration items
+2020-04-24 21:03:14.4358 Info Configuration initialized.
+2020-04-24 21:03:14.4546 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:03:14.7510 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:03:14.7510 Info Message Template Auto Format enabled
+2020-04-24 21:03:14.7533 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:03:14.7533 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:03:14.7582 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:03:14.7582 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:03:14.7582 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:03:14.7582 Info Closing old configuration.
+2020-04-24 21:03:14.8000 Info Found 65 configuration items
+2020-04-24 21:03:14.8616 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:03:14.8616 Info Message Template Auto Format enabled
+2020-04-24 21:03:14.8616 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:03:14.8732 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:03:14.8732 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:03:14.8732 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:03:14.8732 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:03:14.8732 Info Closing old configuration.
+2020-04-24 21:03:14.9005 Info Found 65 configuration items
+2020-04-24 21:03:14.9148 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:03:14.9221 Info Message Template Auto Format enabled
+2020-04-24 21:03:14.9221 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:03:14.9264 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:03:14.9264 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:03:14.9264 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:03:14.9292 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:03:14.9292 Info Closing old configuration.
+2020-04-24 21:03:14.9535 Info Found 65 configuration items
+2020-04-24 21:03:14.9535 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:03:14.9535 Info Message Template Auto Format enabled
+2020-04-24 21:03:14.9535 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:03:14.9535 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:03:14.9535 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:03:14.9728 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:03:14.9728 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:03:14.9781 Info Closing old configuration.
+2020-04-24 21:03:15.0018 Info Found 65 configuration items
+2020-04-24 21:04:36.6865 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:04:36.7146 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:04:36.7644 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:04:36.7672 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:04:36.7705 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:04:36.7737 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:04:36.7737 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:04:36.7772 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:04:36.7772 Info Message Template Auto Format enabled
+2020-04-24 21:04:36.7890 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:04:36.8819 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:04:36.8819 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:04:36.8853 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:04:36.8853 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:04:36.9236 Info Found 65 configuration items
+2020-04-24 21:04:36.9568 Info Configuration initialized.
+2020-04-24 21:04:36.9696 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:04:37.2799 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:04:37.2862 Info Message Template Auto Format enabled
+2020-04-24 21:04:37.2862 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:04:37.2862 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:04:37.2939 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:04:37.2939 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:04:37.2939 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:04:37.2972 Info Closing old configuration.
+2020-04-24 21:04:37.3771 Info Found 65 configuration items
+2020-04-24 21:04:37.4366 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:04:37.4472 Info Message Template Auto Format enabled
+2020-04-24 21:04:37.4494 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:04:37.4494 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:04:37.4494 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:04:37.4533 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:04:37.4614 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:04:37.4614 Info Closing old configuration.
+2020-04-24 21:04:37.4875 Info Found 65 configuration items
+2020-04-24 21:04:37.5022 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:04:37.5066 Info Message Template Auto Format enabled
+2020-04-24 21:04:37.5066 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:04:37.5098 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:04:37.5098 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:04:37.5145 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:04:37.5259 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:04:37.5259 Info Closing old configuration.
+2020-04-24 21:04:37.5538 Info Found 65 configuration items
+2020-04-24 21:04:37.5538 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:04:37.5538 Info Message Template Auto Format enabled
+2020-04-24 21:04:37.5538 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:04:37.5669 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:04:37.5697 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:04:37.5697 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:04:37.5697 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:04:37.5697 Info Closing old configuration.
+2020-04-24 21:04:37.5985 Info Found 65 configuration items
+2020-04-24 21:06:16.5625 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:08:06.7048 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:08:06.7401 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:08:06.7999 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:08:06.8122 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:08:06.8140 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:08:06.8140 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:08:06.8140 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:08:06.8188 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:08:06.8248 Info Message Template Auto Format enabled
+2020-04-24 21:08:06.8322 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:08:06.9272 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:08:06.9290 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:08:06.9290 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:08:06.9290 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:08:06.9858 Info Found 65 configuration items
+2020-04-24 21:08:07.0187 Info Configuration initialized.
+2020-04-24 21:08:07.0209 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:08:07.2586 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:08:07.2586 Info Message Template Auto Format enabled
+2020-04-24 21:08:07.2586 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:08:07.2624 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:08:07.2624 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:08:07.2660 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:08:07.2660 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:08:07.2711 Info Closing old configuration.
+2020-04-24 21:08:07.3454 Info Found 65 configuration items
+2020-04-24 21:08:07.4404 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:08:07.4541 Info Message Template Auto Format enabled
+2020-04-24 21:08:07.4541 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:08:07.4541 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:08:07.4594 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:08:07.4594 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:08:07.4594 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:08:07.4652 Info Closing old configuration.
+2020-04-24 21:08:07.4900 Info Found 65 configuration items
+2020-04-24 21:08:07.5147 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:08:07.5168 Info Message Template Auto Format enabled
+2020-04-24 21:08:07.5168 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:08:07.5168 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:08:07.5210 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:08:07.5256 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:08:07.5256 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:08:07.5256 Info Closing old configuration.
+2020-04-24 21:08:07.5520 Info Found 65 configuration items
+2020-04-24 21:08:07.5561 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:08:07.5593 Info Message Template Auto Format enabled
+2020-04-24 21:08:07.5593 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:08:07.5622 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:08:07.5696 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:08:07.5736 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:08:07.5736 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:08:07.5736 Info Closing old configuration.
+2020-04-24 21:08:07.5993 Info Found 65 configuration items
+2020-04-24 21:09:44.3415 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:09:44.3816 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:09:44.4400 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:09:44.4469 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:09:44.4500 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:09:44.4500 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:09:44.4500 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:09:44.4548 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:09:44.4640 Info Message Template Auto Format enabled
+2020-04-24 21:09:44.4724 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:09:44.5698 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:09:44.5749 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:09:44.5749 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:09:44.5775 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:09:44.6205 Info Found 65 configuration items
+2020-04-24 21:09:44.6892 Info Configuration initialized.
+2020-04-24 21:09:44.6948 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:09:44.9566 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:09:44.9578 Info Message Template Auto Format enabled
+2020-04-24 21:09:44.9578 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:09:44.9578 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:09:44.9620 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:09:44.9620 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:09:44.9620 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:09:44.9651 Info Closing old configuration.
+2020-04-24 21:09:45.0129 Info Found 65 configuration items
+2020-04-24 21:09:45.0643 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:09:45.0710 Info Message Template Auto Format enabled
+2020-04-24 21:09:45.0710 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:09:45.0773 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:09:45.0773 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:09:45.0773 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:09:45.0773 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:09:45.0773 Info Closing old configuration.
+2020-04-24 21:09:45.1045 Info Found 65 configuration items
+2020-04-24 21:09:45.1144 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:09:45.1192 Info Message Template Auto Format enabled
+2020-04-24 21:09:45.1192 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:09:45.1222 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:09:45.1222 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:09:45.1262 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:09:45.1262 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:09:45.1262 Info Closing old configuration.
+2020-04-24 21:09:45.1513 Info Found 65 configuration items
+2020-04-24 21:09:45.1551 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:09:45.1582 Info Message Template Auto Format enabled
+2020-04-24 21:09:45.1582 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:09:45.1582 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:09:45.1647 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:09:45.1650 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:09:45.1650 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:09:45.1650 Info Closing old configuration.
+2020-04-24 21:09:45.1894 Info Found 65 configuration items
+2020-04-24 21:12:20.4958 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:12:20.5325 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:12:20.5846 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:12:20.5963 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:12:20.5989 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:12:20.5989 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:12:20.6011 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:12:20.6011 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:12:20.6128 Info Message Template Auto Format enabled
+2020-04-24 21:12:20.6218 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:12:20.8128 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:12:20.8161 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:12:20.8181 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:12:20.8181 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:12:20.8849 Info Found 65 configuration items
+2020-04-24 21:12:20.9293 Info Configuration initialized.
+2020-04-24 21:12:20.9387 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:12:21.1676 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:12:21.1676 Info Message Template Auto Format enabled
+2020-04-24 21:12:21.1698 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:12:21.1698 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:12:21.1743 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:12:21.1743 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:12:21.1743 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:12:21.1743 Info Closing old configuration.
+2020-04-24 21:12:21.2252 Info Found 65 configuration items
+2020-04-24 21:12:21.2792 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:12:21.2821 Info Message Template Auto Format enabled
+2020-04-24 21:12:21.2821 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:12:21.2821 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:12:21.2858 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:12:21.2858 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:12:21.2892 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:12:21.2892 Info Closing old configuration.
+2020-04-24 21:12:21.3137 Info Found 65 configuration items
+2020-04-24 21:12:21.3266 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:12:21.3298 Info Message Template Auto Format enabled
+2020-04-24 21:12:21.3298 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:12:21.3298 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:12:21.3389 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:12:21.3389 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:12:21.3389 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:12:21.3412 Info Closing old configuration.
+2020-04-24 21:12:21.3651 Info Found 65 configuration items
+2020-04-24 21:12:21.3651 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:12:21.3651 Info Message Template Auto Format enabled
+2020-04-24 21:12:21.3753 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:12:21.3753 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:12:21.3814 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:12:21.3814 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:12:21.3860 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:12:21.3860 Info Closing old configuration.
+2020-04-24 21:12:21.4114 Info Found 65 configuration items
+2020-04-24 21:13:38.0769 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:13:38.1019 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:13:38.1568 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:13:38.1599 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:13:38.1641 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:13:38.1652 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:13:38.1652 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:13:38.1652 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:13:38.1793 Info Message Template Auto Format enabled
+2020-04-24 21:13:38.1880 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:13:38.2781 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:13:38.2781 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:13:38.2814 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:13:38.2814 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:13:38.3153 Info Found 65 configuration items
+2020-04-24 21:13:38.3483 Info Configuration initialized.
+2020-04-24 21:13:38.3619 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:13:38.6138 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:13:38.6183 Info Message Template Auto Format enabled
+2020-04-24 21:13:38.6183 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:13:38.6214 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:13:38.6214 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:13:38.6214 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:13:38.6214 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:13:38.6214 Info Closing old configuration.
+2020-04-24 21:13:38.7060 Info Found 65 configuration items
+2020-04-24 21:13:38.7613 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:13:38.7670 Info Message Template Auto Format enabled
+2020-04-24 21:13:38.7670 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:13:38.7699 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:13:38.7699 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:13:38.7699 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:13:38.7699 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:13:38.7728 Info Closing old configuration.
+2020-04-24 21:13:38.7974 Info Found 65 configuration items
+2020-04-24 21:13:38.8168 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:13:38.8189 Info Message Template Auto Format enabled
+2020-04-24 21:13:38.8189 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:13:38.8227 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:13:38.8227 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:13:38.8227 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:13:38.8265 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:13:38.8290 Info Closing old configuration.
+2020-04-24 21:13:38.8526 Info Found 65 configuration items
+2020-04-24 21:13:38.8614 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:13:38.8614 Info Message Template Auto Format enabled
+2020-04-24 21:13:38.8659 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:13:38.8659 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:13:38.8695 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:13:38.8695 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:13:38.8731 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:13:38.8731 Info Closing old configuration.
+2020-04-24 21:13:38.8977 Info Found 65 configuration items
+2020-04-24 21:21:49.7769 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:21:49.8030 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:21:49.8598 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:21:49.8627 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:21:49.8651 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:21:49.8651 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:21:49.8651 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:21:49.8750 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:21:49.8805 Info Message Template Auto Format enabled
+2020-04-24 21:21:49.8847 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:21:49.9888 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:21:49.9946 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:21:49.9946 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:21:49.9974 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:21:50.0578 Info Found 65 configuration items
+2020-04-24 21:21:50.0841 Info Configuration initialized.
+2020-04-24 21:21:50.0991 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:21:50.3377 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:21:50.3377 Info Message Template Auto Format enabled
+2020-04-24 21:21:50.3377 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:21:50.3419 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:21:50.3419 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:21:50.3419 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:21:50.3419 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:21:50.3449 Info Closing old configuration.
+2020-04-24 21:21:50.3969 Info Found 65 configuration items
+2020-04-24 21:21:50.4446 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:21:50.4503 Info Message Template Auto Format enabled
+2020-04-24 21:21:50.4503 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:21:50.4531 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:21:50.4531 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:21:50.4531 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:21:50.4531 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:21:50.4569 Info Closing old configuration.
+2020-04-24 21:21:50.4829 Info Found 65 configuration items
+2020-04-24 21:21:50.4943 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:21:50.5012 Info Message Template Auto Format enabled
+2020-04-24 21:21:50.5012 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:21:50.5052 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:21:50.5118 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:21:50.5118 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:21:50.5134 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:21:50.5134 Info Closing old configuration.
+2020-04-24 21:21:50.5413 Info Found 65 configuration items
+2020-04-24 21:21:50.5413 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:21:50.5413 Info Message Template Auto Format enabled
+2020-04-24 21:21:50.5413 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:21:50.5494 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:21:50.5494 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:21:50.5552 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:21:50.5577 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:21:50.5577 Info Closing old configuration.
+2020-04-24 21:21:50.5886 Info Found 65 configuration items
+2020-04-24 21:30:44.5184 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:30:44.5372 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:30:44.5728 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:30:44.5762 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:30:44.5780 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:30:44.5810 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:30:44.5810 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:30:44.5810 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:30:44.5873 Info Message Template Auto Format enabled
+2020-04-24 21:30:44.5940 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:30:44.6945 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:30:44.6945 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:30:44.7050 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:30:44.7050 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:30:44.7339 Info Found 65 configuration items
+2020-04-24 21:30:44.7593 Info Configuration initialized.
+2020-04-24 21:30:44.7612 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:30:44.9594 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:30:44.9618 Info Message Template Auto Format enabled
+2020-04-24 21:30:44.9618 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:30:44.9618 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:30:44.9655 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:30:44.9687 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:30:44.9736 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:30:44.9736 Info Closing old configuration.
+2020-04-24 21:30:45.0381 Info Found 65 configuration items
+2020-04-24 21:30:45.1046 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:30:45.1070 Info Message Template Auto Format enabled
+2020-04-24 21:30:45.1070 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:30:45.1112 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:30:45.1112 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:30:45.1112 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:30:45.1132 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:30:45.1132 Info Closing old configuration.
+2020-04-24 21:30:45.1370 Info Found 65 configuration items
+2020-04-24 21:30:45.1511 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:30:45.1532 Info Message Template Auto Format enabled
+2020-04-24 21:30:45.1532 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:30:45.1532 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:30:45.1571 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:30:45.1571 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:30:45.1571 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:30:45.1571 Info Closing old configuration.
+2020-04-24 21:30:45.1836 Info Found 65 configuration items
+2020-04-24 21:30:45.1875 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:30:45.1875 Info Message Template Auto Format enabled
+2020-04-24 21:30:45.1875 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:30:45.1899 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:30:45.1899 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:30:45.1934 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:30:45.1934 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:30:45.1934 Info Closing old configuration.
+2020-04-24 21:30:45.2207 Info Found 65 configuration items
+2020-04-24 21:32:01.8958 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:32:01.9194 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:32:01.9265 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:32:01.9546 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:32:01.9600 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:32:31.6008 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:33:11.5500 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:33:11.5768 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:33:11.6148 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:33:11.6196 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:33:11.6210 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:33:11.6210 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:33:11.6210 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:33:11.6674 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:33:11.6746 Info Message Template Auto Format enabled
+2020-04-24 21:33:11.6829 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:33:11.7576 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:33:11.7625 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:33:11.7625 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:33:11.7657 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:33:11.7899 Info Found 65 configuration items
+2020-04-24 21:33:11.8072 Info Configuration initialized.
+2020-04-24 21:33:11.8106 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:33:12.0117 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:33:12.0173 Info Message Template Auto Format enabled
+2020-04-24 21:33:12.0173 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:33:12.0173 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:33:12.0221 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:33:12.0221 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:33:12.0221 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:33:12.0221 Info Closing old configuration.
+2020-04-24 21:33:12.0765 Info Found 65 configuration items
+2020-04-24 21:33:12.1540 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:33:12.1581 Info Message Template Auto Format enabled
+2020-04-24 21:33:12.1581 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:33:12.1620 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:33:12.1620 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:33:12.1679 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:33:12.1691 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:33:12.1691 Info Closing old configuration.
+2020-04-24 21:33:12.1954 Info Found 65 configuration items
+2020-04-24 21:33:12.2153 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:33:12.2153 Info Message Template Auto Format enabled
+2020-04-24 21:33:12.2153 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:33:12.2179 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:33:12.2179 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:33:12.2179 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:33:12.2179 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:33:12.2179 Info Closing old configuration.
+2020-04-24 21:33:12.2455 Info Found 65 configuration items
+2020-04-24 21:33:12.2531 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:33:12.2531 Info Message Template Auto Format enabled
+2020-04-24 21:33:12.2531 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:33:12.2574 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:33:12.2574 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:33:12.2608 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:33:12.2608 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:33:12.2608 Info Closing old configuration.
+2020-04-24 21:33:12.2872 Info Found 65 configuration items
+2020-04-24 21:38:08.9306 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:38:08.9630 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-04-24 21:38:09.0110 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-04-24 21:38:09.0142 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-04-24 21:38:09.0142 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:38:09.0142 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-04-24 21:38:09.0182 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-04-24 21:38:09.0182 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-04-24 21:38:09.0239 Info Message Template Auto Format enabled
+2020-04-24 21:38:09.0290 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:38:09.1117 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:38:09.1207 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:38:09.1224 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:38:09.1224 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:38:09.1600 Info Found 65 configuration items
+2020-04-24 21:38:09.1803 Info Configuration initialized.
+2020-04-24 21:38:09.1821 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-04-24 21:38:09.4199 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:38:09.4229 Info Message Template Auto Format enabled
+2020-04-24 21:38:09.4259 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:38:09.4259 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:38:09.4259 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:38:09.4301 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:38:09.4301 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:38:09.4301 Info Closing old configuration.
+2020-04-24 21:38:09.4692 Info Found 65 configuration items
+2020-04-24 21:38:09.5088 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:38:09.5218 Info Message Template Auto Format enabled
+2020-04-24 21:38:09.5218 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:38:09.5218 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:38:09.5253 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:38:09.5253 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:38:09.5253 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:38:09.5253 Info Closing old configuration.
+2020-04-24 21:38:09.5554 Info Found 65 configuration items
+2020-04-24 21:38:09.5776 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:38:09.5776 Info Message Template Auto Format enabled
+2020-04-24 21:38:09.5815 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:38:09.5815 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:38:09.5854 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:38:09.5854 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:38:09.5854 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:38:09.5854 Info Closing old configuration.
+2020-04-24 21:38:09.6108 Info Found 65 configuration items
+2020-04-24 21:38:09.6150 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-24 21:38:09.6183 Info Message Template Auto Format enabled
+2020-04-24 21:38:09.6183 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-24 21:38:09.6183 Info Adding target FileTarget(Name=coreLogs)
+2020-04-24 21:38:09.6221 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-24 21:38:09.6221 Info Adding target FileTarget(Name=logServiceLogs)
+2020-04-24 21:38:09.6221 Info Adding target FileTarget(Name=logfile)
+2020-04-24 21:38:09.6221 Info Closing old configuration.
+2020-04-24 21:38:09.6459 Info Found 65 configuration items
+2020-04-24 21:38:34.1624 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:38:34.1823 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:38:34.2005 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:38:34.2042 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-24 21:38:34.2058 Error FileTarget(Name=logfile): Failed write to file '/home/ilya/logfiles/.'. Exception: System.UnauthorizedAccessException: Access to the path '/home/ilya/logfiles' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
