@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZC5hpPTCp0u9s6khoNd/b7R0b5YXhGawm0YUOEZzwnl8vHcPvnDP2SSa2fGja+mpg3JfHaIecFjTST/gB8mR3Q==",
+  "success": true,
+  "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Helpers/GS.Core.Helpers.csproj",
+  "expectedPackageFiles": [
+    "/home/ilya/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

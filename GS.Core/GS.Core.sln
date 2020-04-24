@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GS.Core.Tests", "GS.Core.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Tests.Logging", "GS.Core.Tests\GS.Core.Tests.Logging\GS.Core.Tests.Logging.csproj", "{E0351DED-0D64-4208-B868-98794D24C422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Helpers", "GS.Core.Helpers\GS.Core.Helpers.csproj", "{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +104,18 @@ Global
 		{E0351DED-0D64-4208-B868-98794D24C422}.Release|x64.Build.0 = Release|Any CPU
 		{E0351DED-0D64-4208-B868-98794D24C422}.Release|x86.ActiveCfg = Release|Any CPU
 		{E0351DED-0D64-4208-B868-98794D24C422}.Release|x86.Build.0 = Release|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Debug|x64.Build.0 = Debug|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Debug|x86.Build.0 = Debug|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Release|x64.ActiveCfg = Release|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Release|x64.Build.0 = Release|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E5A815F-C8D1-4C55-A50B-87BAC5EEB32A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E0351DED-0D64-4208-B868-98794D24C422} = {32EFF057-BFA7-470A-84ED-E499E73BA7BF}
