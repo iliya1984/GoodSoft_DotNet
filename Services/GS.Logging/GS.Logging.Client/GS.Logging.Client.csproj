@@ -35,5 +35,6 @@
     <Content Include="Clients\LoggingClientArgs.cs" />
     <Content Include="DI\LoggingClientDIModule.cs" />
     <Content Include="Clients\AsyncLoggingClient.cs" />
+    <Content Include="LoggingClientExtensions.cs" />
   </ItemGroup>
 </Project>

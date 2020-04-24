@@ -513,6 +513,9 @@
       "GS.Core.Helpers/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "6.0.0"
+        },
         "compile": {
           "bin/placeholder/GS.Core.Helpers.dll": {}
         },

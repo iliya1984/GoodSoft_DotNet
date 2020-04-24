@@ -5,5 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Interface\IHttpClient.cs" />
+    <Content Include="Helpers\DI\ModuleRegistry.cs" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
   </ItemGroup>
 </Project>

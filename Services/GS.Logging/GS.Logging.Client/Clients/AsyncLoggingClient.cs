@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using NLog;
 using GS.Core.Logging.Interfaces;
 using GS.Logging.Client.Entities;
+using GS.Logging.Entities;
+using GS.Logging.Entities.Interfaces.Records;
 
 namespace GS.Logging.Client.Clients
 {
@@ -25,7 +27,7 @@ namespace GS.Logging.Client.Clients
             _producerFactory = producerFactory;
         }
 
-        public override async Task ErrorAsync(string errorMessage, string stackTrace, object data = null)
+        public override async Task ErrorAsync(string errorMessage, string stackTrace = null, object data = null)
         {
             try
             {
@@ -53,9 +55,22 @@ namespace GS.Logging.Client.Clients
 
         public override async Task InfoAsync(string text, object data = null)
         {
-            try
+             try
             {
-                throw new NotImplementedException();
+                var key = Guid.NewGuid().ToString();
+                var record = new LogRecord(ELogs.Severity.Info)
+                {
+                    Message = text,
+                    Data = data
+                };
+
+                var cancellationToken = new CancellationToken();
+                var topic = Settings.Topics.InfoTopic;
+
+                using(var producer = createProducer())
+                {
+                   var result = await producer.ProduceAsync<LogRecord>(topic, key, record, cancellationToken);
+                }    
             }
             catch(Exception ex)
             {
@@ -67,7 +82,20 @@ namespace GS.Logging.Client.Clients
         {
             try
             {
-                throw new NotImplementedException();
+                var key = Guid.NewGuid().ToString();
+                var record = new LogRecord(ELogs.Severity.Warning)
+                {
+                    Message = text,
+                    Data = data
+                };
+
+                var cancellationToken = new CancellationToken();
+                var topic = Settings.Topics.WarningTopic;
+
+                using(var producer = createProducer())
+                {
+                   var result = await producer.ProduceAsync<LogRecord>(topic, key, record, cancellationToken);
+                }    
             }
             catch(Exception ex)
             {

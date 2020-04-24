@@ -13,4 +13,16 @@
     <Content Include="app\settings.json" />
     <Content Include="appSettings.json" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GS.Logging.Client\GS.Logging.Client.csproj" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <Content Include="nlog.config" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="appSettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="LoggingClientTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Producers\GS.Core.Messaging.Producers.csproj" />
+    <ProjectReference Include="..\..\..\..\GS.Core\GS.Core.Logging\GS.Core.Logging.csproj" />
+    <Content Include="AsyncLoggingClientTest.cs" />
+  </ItemGroup>
 </Project>

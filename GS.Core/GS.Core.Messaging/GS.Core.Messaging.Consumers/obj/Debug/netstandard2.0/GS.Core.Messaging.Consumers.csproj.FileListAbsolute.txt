@@ -13,8 +13,10 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Messaging.Consumers.deps.json
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Messaging.Consumers.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Messaging.Consumers.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Logging.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Logging.pdb
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.csprojAssemblyReference.cache
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.csproj.CoreCompileInputs.cache
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.AssemblyInfoInputs.cache
@@ -22,5 +24,3 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.csproj.CopyComplete
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/obj/Debug/netstandard2.0/GS.Core.Messaging.Consumers.pdb
-/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Logging.dll
-/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Consumers/bin/Debug/netstandard2.0/GS.Core.Logging.pdb

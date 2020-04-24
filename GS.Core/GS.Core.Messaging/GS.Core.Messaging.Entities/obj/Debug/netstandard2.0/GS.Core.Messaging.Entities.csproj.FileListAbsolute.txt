@@ -10,9 +10,9 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.deps.json
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.pdb
-/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/Debug/netstandard2.0/GS.Core.Messaging.Entities.csprojAssemblyReference.cache
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/Debug/netstandard2.0/GS.Core.Messaging.Entities.csproj.CoreCompileInputs.cache
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/Debug/netstandard2.0/GS.Core.Messaging.Entities.AssemblyInfoInputs.cache
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/Debug/netstandard2.0/GS.Core.Messaging.Entities.AssemblyInfo.cs
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/Debug/netstandard2.0/GS.Core.Messaging.Entities.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/Debug/netstandard2.0/GS.Core.Messaging.Entities.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/obj/Debug/netstandard2.0/GS.Core.Messaging.Entities.csprojAssemblyReference.cache

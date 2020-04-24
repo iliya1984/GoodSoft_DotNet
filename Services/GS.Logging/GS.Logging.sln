@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Logging", "..\..\GS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core.Helpers", "..\..\GS.Core\GS.Core.Helpers\GS.Core.Helpers.csproj", "{CDF69886-9C9E-47BE-8CFC-CC91DA9B45A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{574B8F0C-FFC3-4B3E-8F45-1CBD77FC26AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Logging.Tests.Client", "Tests\GS.Logging.Tests.Client\GS.Logging.Tests.Client.csproj", "{E310B424-423A-428F-90C3-F5C506D0DC16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,5 +146,20 @@ Global
 		{CDF69886-9C9E-47BE-8CFC-CC91DA9B45A1}.Release|x64.Build.0 = Release|Any CPU
 		{CDF69886-9C9E-47BE-8CFC-CC91DA9B45A1}.Release|x86.ActiveCfg = Release|Any CPU
 		{CDF69886-9C9E-47BE-8CFC-CC91DA9B45A1}.Release|x86.Build.0 = Release|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Debug|x64.Build.0 = Debug|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Debug|x86.Build.0 = Debug|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Release|x64.ActiveCfg = Release|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Release|x64.Build.0 = Release|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Release|x86.ActiveCfg = Release|Any CPU
+		{E310B424-423A-428F-90C3-F5C506D0DC16}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E310B424-423A-428F-90C3-F5C506D0DC16} = {574B8F0C-FFC3-4B3E-8F45-1CBD77FC26AD}
 	EndGlobalSection
 EndGlobal

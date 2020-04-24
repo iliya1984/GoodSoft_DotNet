@@ -1,6 +1,8 @@
 using System;
 using Autofac;
+using GS.Core.Logging;
 using GS.Core.Logging.Interfaces;
+using GS.Core.Messaging.Producers;
 using GS.Core.Messaging.Producers.Interfaces;
 using GS.Logging.Client.Clients;
 using GS.Logging.Client.Entities;
@@ -20,6 +22,9 @@ namespace GS.Logging.Client.DI
 
         protected override void Load(ContainerBuilder builder)
         {
+            builder.RegisterCoreLoggingModule(_configuration);
+            builder.RegisterProducersModule(_configuration);
+
             builder
                 .Register(c =>
                 {

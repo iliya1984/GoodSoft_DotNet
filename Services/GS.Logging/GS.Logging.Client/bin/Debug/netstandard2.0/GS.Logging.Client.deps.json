@@ -406,6 +406,9 @@
         }
       },
       "GS.Core.Helpers/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "6.0.0"
+        },
         "runtime": {
           "GS.Core.Helpers.dll": {}
         }

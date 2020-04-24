@@ -16,7 +16,7 @@ namespace GS.Logging.Client.Clients
              Settings = settings;
          }
 
-        public abstract Task ErrorAsync(string errorMessage, string stackTrace, object data = null);
+        public abstract Task ErrorAsync(string errorMessage, string stackTrace = null, object data = null);
         public abstract Task InfoAsync(string text, object data = null);
         public abstract Task WarningAsync(string text, object data = null);
     }

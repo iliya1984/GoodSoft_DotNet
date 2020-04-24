@@ -23,5 +23,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\GS.Core.Logging\GS.Core.Logging.csproj" />
     <Content Include="Interfaces\IProducerConfigurationManager.cs" />
+    <Content Include="ProducerExtensions.cs" />
   </ItemGroup>
 </Project>
