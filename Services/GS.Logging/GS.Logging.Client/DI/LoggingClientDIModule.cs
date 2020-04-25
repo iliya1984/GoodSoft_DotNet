@@ -5,7 +5,7 @@ using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Producers;
 using GS.Core.Messaging.Producers.Interfaces;
 using GS.Logging.Client.Clients;
-using GS.Logging.Client.Entities;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Client.Interfaces;
 using Microsoft.Extensions.Configuration;
 

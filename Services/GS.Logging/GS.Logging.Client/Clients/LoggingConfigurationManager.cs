@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using GS.Core.Logging.Interfaces;
 using GS.Core.Messaging.Entities.Common;
-using GS.Logging.Client.Entities;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Client.Interfaces;
 using Microsoft.Extensions.Configuration;
 
@@ -51,38 +51,38 @@ namespace GS.Logging.Client.Clients
         private void setTopics(LoggingClientSettings settings)
         {
             var topic = new Topic();
-            topic.Name = _configuration["Logging:Topics:ErrorTopic:Name"];
+            topic.Name = _configuration["LoggingClient:Topics:ErrorTopic:Name"];
 
             if (string.IsNullOrEmpty(topic.Name))
             {
                 _logger.Warning("Logging Configuration Build Error: Error topic name was not found");
             }
 
-            topic.Id = _configuration["Logging:Topics:ErrorTopic:Id"];
+            topic.Id = _configuration["LoggingClient:Topics:ErrorTopic:Id"];
 
             settings.Topics.ErrorTopic = topic;
 
             topic = new Topic();
-            topic.Name = _configuration["Logging:Topics:WarningTopic:Name"];
+            topic.Name = _configuration["LoggingClient:Topics:WarningTopic:Name"];
 
             if (string.IsNullOrEmpty(topic.Name))
             {
                 _logger.Warning("Logging Configuration Build Error: Warning topic name was not found");
             }
 
-            topic.Id = _configuration["Logging:Topics:WarningTopic:Id"];
+            topic.Id = _configuration["LoggingClient:Topics:WarningTopic:Id"];
 
             settings.Topics.WarningTopic = topic;
 
             topic = new Topic();
-            topic.Name = _configuration["Logging:Topics:InfoTopic:Name"];
+            topic.Name = _configuration["LoggingClient:Topics:InfoTopic:Name"];
 
             if (string.IsNullOrEmpty(topic.Name))
             {
                 _logger.Warning("Logging Configuration Build Error: Info topic name was not found");
             }
 
-            topic.Id = _configuration["Logging:Topics:InfoTopic:Id"];
+            topic.Id = _configuration["LoggingClient:Topics:InfoTopic:Id"];
 
             settings.Topics.InfoTopic = topic;
         }

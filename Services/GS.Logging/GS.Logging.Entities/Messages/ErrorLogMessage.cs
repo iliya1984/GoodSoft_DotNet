@@ -4,6 +4,12 @@ namespace GS.Logging.Entities.Messages
 {
     public class ErrorLogMessage : AbsLogMessage
     {
-        public ErrorRecord ErrorRecord { get; set;}
+        public string StackTrace { get;set; }
+        public string Message { get; set;}
+
+        public ErrorLogMessage() : base(ELogs.Severity.Error)
+        {
+            
+        }
     }
 }

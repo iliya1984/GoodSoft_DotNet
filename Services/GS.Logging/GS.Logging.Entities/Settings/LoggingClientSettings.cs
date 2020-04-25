@@ -1,12 +1,12 @@
 using GS.Logging.Entities.Modules;
 
-namespace GS.Logging.Client.Entities
+namespace GS.Logging.Entities.Settings
 {
     public class LoggingClientSettings
     {
         public bool IsAsync { get; set;}
         public string BaseUrl { get; set;}
-        public LoggingTopics Topics { get; set; }
+        public LoggingClientTopics Topics { get; set; }
         public LoggingModule Module { get; set;}
         public string LoggerName { get; set;}
         public string LoggerFullName { get; set; }
@@ -15,7 +15,7 @@ namespace GS.Logging.Client.Entities
 
         public LoggingClientSettings()
         {
-            Topics = new LoggingTopics();
+            Topics = new LoggingClientTopics();
         }
     }
 }

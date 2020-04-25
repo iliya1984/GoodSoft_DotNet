@@ -10,3 +10,5 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Repositories/obj/Debug/netstandard2.0/GS.Logging.Repositories.csproj.CopyComplete
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Repositories/obj/Debug/netstandard2.0/GS.Logging.Repositories.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Repositories/obj/Debug/netstandard2.0/GS.Logging.Repositories.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Repositories/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Repositories/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.pdb

@@ -37,5 +37,12 @@ namespace GS.Logging.Entities
             Xml,
             Json
         }
+
+        public enum LoggingJob
+        {
+            None,
+            GeneralLogging,
+            ErrorLogging
+        }
     }
 }

@@ -1,63 +1,46 @@
-using System;
 using System.Threading.Tasks;
-using GS.Core.Logging.Interfaces;
-using GS.Core.Messaging.Consumers.Hosting;
 using GS.Core.Messaging.Consumers.Interfaces;
-using GS.Core.Messaging.Entities.Common;
-using GS.Core.Messaging.Entities.Interfaces;
 using GS.Logging.Entities;
+using GS.Logging.Entities.Interfaces;
 using GS.Logging.Entities.Messages;
-using GS.Logging.Entities.Records;
 using GS.Logging.Entities.Settings;
-using GS.Logging.Services.Interfaces;
 
 namespace GS.Logging.Api.Hosting
 {
-    public class LoggingBackgroundService : ConsumerBackgroundService
+    public class LoggingBackgroundService : AbsLoggingBackgroundService
     {
-        private ILoggingServiceFactory _serviceFactory;
+        public LoggingBackgroundService(LoggingServiceToolkit toolkit) : base(toolkit, ELogs.LoggingJob.GeneralLogging) { }
 
-        public LoggingBackgroundService(ILoggingServiceFactory serviceFactory, IConsumerFactory factory, ICoreLoggerFactory logFactory) : base(factory, logFactory)
+        protected override async Task ExecuteJob(IConsumer consumer, LoggingJob job)
         {
-            _serviceFactory = serviceFactory;
-        }
-
-        protected override async Task ExecuteServiceAsync(IConsumptionRequest request)
-        {
-            try
+            var timeOut = job.ConsumeTimeout * 1000;
+            var result = consumer.Consume<LogMessage>(timeOut);
+            
+            if (result != null && result.Value != null && result.Value.Module != null)
             {
-                using(var consumer = ConsumerFactory.CreateConsumer())
+                var logMessage = result.Value;
+                var settings = new LoggingSettings();
+                settings.LoggerName = logMessage.LoggerName;
+
+                var servie = ServiceFactory.CreateService(settings, logMessage.Module);
+                
+                var severity = logMessage.Severity;
+                var text = logMessage.Text;
+                var data = logMessage.Data;
+
+                ILoggingResponse response = null;
+                switch(severity)
                 {
-                    consumer.Subscribe(new Topic{ Id = "1", Name="error-logs" });
-
-                    while(false == request.CancellationToken.IsCancellationRequested)
-                    {
-                        var result = consumer.Consume<ErrorLogMessage>(30000);
-
-                        if(result != null && result.Value != null && result.Value.ErrorRecord != null && result.Value.Module != null)
-                        {
-                            var settings = new LoggingSettings();
-                            settings.LoggerName = result.Value.LoggerName;
-
-                            var module = result.Value.Module;
-                            var severity = result.Value.Severity;
-                            var servie = _serviceFactory.CreateService(settings, module);
-
-                            switch(severity)
-                            {
-                                case ELogs.Severity.Error:
-
-                                    var errorRecord = (ErrorRecord)result.Value.ErrorRecord;
-                                    var response = await servie.WriteErrorAsync(errorRecord.Message, errorRecord.StackTrace, errorRecord.Data);
-                                    break;
-                            }
-                        }
-                    }
+                    case ELogs.Severity.Info:
+                        response = await servie.WriteInfoAsync(text, data);
+                        break;
+                    case ELogs.Severity.Warning:
+                        response = await servie.WriteWarningAsync(text, data);
+                        break;
+                    default:
+                        Logger.Error($"Error: Failued to write log record to log, invalid severity {severity}");
+                        break;
                 }
-            }
-            catch(Exception ex)
-            {
-                Logger.Error(ex);
             }
         }
     }

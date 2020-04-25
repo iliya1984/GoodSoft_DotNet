@@ -44,6 +44,7 @@ namespace GS.Logging.Api
             });
 
             services.AddHostedService<LoggingBackgroundService>();
+            services.AddHostedService<ErrorLoggingBackgroundService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

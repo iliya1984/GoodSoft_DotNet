@@ -9,7 +9,7 @@ using GS.Core.Messaging.Producers.Interfaces;
 using Microsoft.Extensions.Configuration;
 using NLog;
 using GS.Core.Logging.Interfaces;
-using GS.Logging.Client.Entities;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces.Records;
 using GS.Logging.Entities.Messages;
@@ -29,84 +29,60 @@ namespace GS.Logging.Client.Clients
             _producerFactory = producerFactory;
         }
 
-        public override async Task ErrorAsync(string errorMessage, string stackTrace = null, object data = null)
+        public override async Task ErrorAsync(string errorMessage, string stackTrace = null, object data = null, CancellationToken cancellationToken = default(CancellationToken))
         {
             try
             {
-                
-                var error = new ErrorRecord
-                {
-                    Message = errorMessage,
-                    StackTrace = stackTrace,
-                    Data = data
-                };
-               
-                var message = createErrorMessage(error);
-
-                var cancellationToken = new CancellationToken();
+                var message = createErrorMessage(errorMessage, stackTrace, data);
                 var topic = Settings.Topics.ErrorTopic;
+                var produceCancellationToken = createOrGetCancellationToken(cancellationToken);
 
-                using(var producer = createProducer())
+                using (var producer = createProducer())
                 {
-                   var result = await producer.ProduceAsync<ErrorLogMessage>(topic, message.Key, message, cancellationToken);
-                }    
+                    var result = await producer.ProduceAsync<ErrorLogMessage>(topic, message.Key, message, produceCancellationToken);
+                }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-               Logger.Error(ex); 
+                Logger.Error(ex);
             }
         }
 
-        public override async Task InfoAsync(string text, object data = null)
-        {
-             try
-            {
-                
-                var record = new LogRecord(ELogs.Severity.Info)
-                {
-                    Message = text,
-                    Data = data
-                };
-                var message = createMessage(record);
-
-                var cancellationToken = new CancellationToken();
-                var topic = Settings.Topics.InfoTopic;
-
-                using(var producer = createProducer())
-                {
-                   var result = await producer.ProduceAsync<LogMessage>(topic, message.Key, message, cancellationToken);
-                }    
-            }
-            catch(Exception ex)
-            {
-               Logger.Error(ex); 
-            }
-        }
-
-        public override async Task WarningAsync(string text, object data = null)
+        public override async Task InfoAsync(string text, object data = null, CancellationToken cancellationToken = default(CancellationToken))
         {
             try
             {
-                
-                var record = new LogRecord(ELogs.Severity.Warning)
+                var message = createMessage(ELogs.Severity.Info, text, data);
+                var topic = Settings.Topics.InfoTopic;
+                var produceCancellationToken = createOrGetCancellationToken(cancellationToken);
+
+                using (var producer = createProducer())
                 {
-                    Message = text,
-                    Data = data
-                };
-
-                var message = createMessage(record);
-
-                var cancellationToken = new CancellationToken();
-                var topic = Settings.Topics.WarningTopic;
-
-                using(var producer = createProducer())
-                {
-                   var result = await producer.ProduceAsync<LogMessage>(topic, message.Key, message, cancellationToken);
-                }    
+                    var result = await producer.ProduceAsync<LogMessage>(topic, message.Key, message, produceCancellationToken);
+                }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-               Logger.Error(ex); 
+                Logger.Error(ex);
+            }
+        }
+
+        public override async Task WarningAsync(string text, object data = null, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            try
+            {
+                var message = createMessage(ELogs.Severity.Warning, text, data);
+                var topic = Settings.Topics.WarningTopic;
+                var produceCancellationToken = createOrGetCancellationToken(cancellationToken);
+
+                using (var producer = createProducer())
+                {
+                    var result = await producer.ProduceAsync<LogMessage>(topic, message.Key, message, produceCancellationToken);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error(ex);
             }
         }
 
@@ -115,28 +91,41 @@ namespace GS.Logging.Client.Clients
             return _producerFactory.CreateProducer();
         }
 
-        private LogMessage createMessage(LogRecord record)
+        private LogMessage createMessage(ELogs.Severity severity, string text, object data = null)
         {
-            var message = new LogMessage();  
-            setMessageDetails(message, record);
-            message.Record = record;
+            var message = new LogMessage();
+            setMessageDetails(message, severity, data);
+            message.Text = text;
             return message;
         }
 
-         private ErrorLogMessage createErrorMessage(ErrorRecord record)
+        private ErrorLogMessage createErrorMessage(string error, string stackTrace = null, object data = null)
         {
             var message = new ErrorLogMessage();
-            setMessageDetails(message, record);
-            message.ErrorRecord = record;
+            setMessageDetails(message, ELogs.Severity.Error, data);
+            message.Message = error;
+            message.StackTrace = stackTrace;
             return message;
         }
 
-        private void setMessageDetails(AbsLogMessage message, ILogRecord record)
+        private void setMessageDetails(AbsLogMessage message, ELogs.Severity severity, object data = null)
         {
             message.Key = Guid.NewGuid().ToString();
             message.Module = Settings.Module;
             message.LoggerName = Settings.LoggerName;
-            message.Severity = record.Severity;
+            message.Severity = severity;
+            message.Data = data;
+        }
+
+        private CancellationToken createOrGetCancellationToken(CancellationToken cancellationToken)
+        {
+            var token = new CancellationToken();
+            if (cancellationToken != null)
+            {
+                token = cancellationToken;
+            }
+
+            return token;
         }
     }
 }

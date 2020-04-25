@@ -21,7 +21,7 @@ namespace GS.Core.Messaging.Consumers.Hosting
         public ConsumerBackgroundService(IConsumerFactory factory, ICoreLoggerFactory logFactory)
         {
             ConsumerFactory = factory;
-            Logger = logFactory.GetLoggerForType<ConsumerBackgroundService>();
+            Logger = logFactory.GetLoggerForType(GetType());
             
         }
 

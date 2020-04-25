@@ -1,6 +1,7 @@
+using System.Threading;
 using System.Threading.Tasks;
 using GS.Core.Logging.Interfaces;
-using GS.Logging.Client.Entities;
+using GS.Logging.Entities.Settings;
 
 namespace GS.Logging.Client.Clients
 {
@@ -11,17 +12,17 @@ namespace GS.Logging.Client.Clients
 
         }
 
-        public override Task ErrorAsync(string errorMessage, string stackTrace, object data = null)
+        public override Task ErrorAsync(string errorMessage, string stackTrace, object data = null, CancellationToken cancellationToken = default(CancellationToken))
         {
             throw new System.NotImplementedException();
         }
 
-        public override Task InfoAsync(string text, object data = null)
+        public override Task InfoAsync(string text, object data = null, CancellationToken cancellationToken = default(CancellationToken))
         {
             throw new System.NotImplementedException();
         }
 
-        public override Task WarningAsync(string text, object data = null)
+        public override Task WarningAsync(string text, object data = null, CancellationToken cancellationToken = default(CancellationToken))
         {
             throw new System.NotImplementedException();
         }

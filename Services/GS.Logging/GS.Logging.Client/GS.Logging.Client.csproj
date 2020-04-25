@@ -23,7 +23,6 @@
     <Content Include="Interfaces\ILoggingClientArgs.cs" />
     <Content Include="Clients\AsynchLoggingClientArgs.cs" />
     <Content Include="Entities\AsynchLoggingClientArgs.cs" />
-    <Content Include="Entities\LoggingTopics.cs" />
     <Content Include="Interfaces\Entities\IAsyncLoggingClientArgs.cs" />
     <Content Include="Entities\LoggingClientArgs.cs" />
     <Content Include="Interfaces\Entities\ILoggingClientArgs.cs" />
@@ -36,5 +35,6 @@
     <Content Include="DI\LoggingClientDIModule.cs" />
     <Content Include="Clients\AsyncLoggingClient.cs" />
     <Content Include="LoggingClientExtensions.cs" />
+    <Content Include="Interfaces\ILoggingConfigurationManager.cs" />
   </ItemGroup>
 </Project>

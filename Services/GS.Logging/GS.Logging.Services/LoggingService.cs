@@ -115,5 +115,15 @@ namespace GS.Logging.Services
             }
             return response;
         }
+
+        public Task<ILoggingResponse> WriteInfoAsync(string text, object data = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ILoggingResponse> WriteWarningAsync(string text, object data = null)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

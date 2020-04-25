@@ -1,6 +1,6 @@
 using System;
 using GS.Core.Logging.Interfaces;
-using GS.Logging.Client.Entities;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Client.Interfaces;
 
 namespace GS.Logging.Client.Clients

@@ -20,5 +20,9 @@
     <Content Include="Messages\AbsLogMessage.cs" />
     <Content Include="Messages\AbsLoggingMessage.cs" />
     <Content Include="Messages\ErrorLogMessage.cs" />
+    <Content Include="Messages\LogMessage.cs" />
+    <Content Include="Settings\LoggingSettings.cs" />
+    <ProjectReference Include="..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Entities\GS.Core.Messaging.Entities.csproj" />
+    <Content Include="Settings\LoggingClientTopics.cs" />
   </ItemGroup>
 </Project>

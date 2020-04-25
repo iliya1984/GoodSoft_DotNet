@@ -415,9 +415,22 @@
           "bin/placeholder/GS.Core.Logging.dll": {}
         }
       },
+      "GS.Core.Messaging.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GS.Core.Messaging.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GS.Core.Messaging.Entities.dll": {}
+        }
+      },
       "GS.Logging.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GS.Core.Messaging.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/GS.Logging.Entities.dll": {}
         },
@@ -1168,6 +1181,11 @@
       "type": "project",
       "path": "../../../GS.Core/GS.Core.Logging/GS.Core.Logging.csproj",
       "msbuildProject": "../../../GS.Core/GS.Core.Logging/GS.Core.Logging.csproj"
+    },
+    "GS.Core.Messaging.Entities/1.0.0": {
+      "type": "project",
+      "path": "../../../GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj",
+      "msbuildProject": "../../../GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj"
     },
     "GS.Logging.Entities/1.0.0": {
       "type": "project",

@@ -20,5 +20,8 @@
     <ProjectReference Include="..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Consumers\GS.Core.Messaging.Consumers.csproj" />
     <Content Include="Hosting\LoggingBackgroundService.cs" />
     <Content Include="DI\ApiDiModule.cs" />
+    <Content Include="Hosting\ErrorLoggingBackgroundService.cs" />
+    <Content Include="Hosting\LoggingJobProvider.cs" />
+    <Content Include="Hosting\AbsLoggingBackgroundService.cs" />
   </ItemGroup>
 </Project>

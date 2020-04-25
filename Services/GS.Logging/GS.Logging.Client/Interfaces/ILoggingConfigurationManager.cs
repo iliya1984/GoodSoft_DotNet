@@ -1,4 +1,4 @@
-using GS.Logging.Client.Entities;
+using GS.Logging.Entities.Settings;
 
 namespace GS.Logging.Client.Interfaces
 {

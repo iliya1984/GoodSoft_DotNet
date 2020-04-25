@@ -441,6 +441,9 @@
         }
       },
       "GS.Logging.Entities/1.0.0": {
+        "dependencies": {
+          "GS.Core.Messaging.Entities": "1.0.0"
+        },
         "runtime": {
           "GS.Logging.Entities.dll": {}
         }

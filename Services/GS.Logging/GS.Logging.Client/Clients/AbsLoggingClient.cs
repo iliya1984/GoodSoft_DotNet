@@ -1,6 +1,7 @@
+using System.Threading;
 using System.Threading.Tasks;
 using GS.Core.Logging.Interfaces;
-using GS.Logging.Client.Entities;
+using GS.Logging.Entities.Settings;
 using GS.Logging.Client.Interfaces;
 
 namespace GS.Logging.Client.Clients
@@ -16,8 +17,8 @@ namespace GS.Logging.Client.Clients
              Settings = settings;
          }
 
-        public abstract Task ErrorAsync(string errorMessage, string stackTrace = null, object data = null);
-        public abstract Task InfoAsync(string text, object data = null);
-        public abstract Task WarningAsync(string text, object data = null);
+        public abstract Task ErrorAsync(string errorMessage, string stackTrace = null, object data = null, CancellationToken cancellationToken = default(CancellationToken));
+        public abstract Task InfoAsync(string text, object data = null, CancellationToken cancellationToken = default(CancellationToken));
+        public abstract Task WarningAsync(string text, object data = null, CancellationToken cancellationToken = default(CancellationToken));
     }
 }

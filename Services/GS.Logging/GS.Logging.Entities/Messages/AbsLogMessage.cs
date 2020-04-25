@@ -9,5 +9,13 @@ namespace GS.Logging.Entities.Messages
         public ELogs.Severity Severity { get; set;}
         public string LoggerName { get; set;}
         public LoggingModule Module { get; set; }
+        public object Data { get; set;}
+
+        protected AbsLogMessage() {}
+
+        protected AbsLogMessage(ELogs.Severity severity)
+        {
+            Severity = severity;
+        }
     }
 }

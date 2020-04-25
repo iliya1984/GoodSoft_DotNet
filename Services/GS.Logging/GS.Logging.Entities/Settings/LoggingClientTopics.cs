@@ -1,8 +1,8 @@
 using GS.Core.Messaging.Entities.Common;
 
-namespace GS.Logging.Client.Entities
+namespace GS.Logging.Entities.Settings
 {
-    public class LoggingTopics
+    public class LoggingClientTopics
     {
         public Topic InfoTopic { get; set;}
         public Topic WarningTopic { get; set;}
