@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A4lGqzQwaphy8iy85qFc0AdNFutrDnfgYTcp8F1mHOpg+ei4fnowtfJfzWdJ4BjTVIW8aXXDUIWkvim440k2Qg==",
+  "dgSpecHash": "3sOEhFaMSnwZAXkbAfCtpNR+j+OpDv3+gF0y6aSEaQhaE5+Wr0cuIIANG8Unhc4swXYFzmXQHZPTquh2bVldmw==",
   "success": true,
   "projectFilePath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/GS.Logging.Api.csproj",
   "expectedPackageFiles": [

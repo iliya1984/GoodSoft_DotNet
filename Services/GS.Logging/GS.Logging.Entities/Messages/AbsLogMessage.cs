@@ -1,5 +1,6 @@
 using GS.Logging.Entities.Interfaces.Records;
 using GS.Logging.Entities.Modules;
+using GS.Logging.Entities.Settings;
 
 namespace GS.Logging.Entities.Messages
 {
@@ -7,7 +8,7 @@ namespace GS.Logging.Entities.Messages
     {
         public string Key { get; set; }
         public ELogs.Severity Severity { get; set;}
-        public string LoggerName { get; set;}
+        public LoggerMetadata LoggerMetadata { get; set;}
         public LoggingModule Module { get; set; }
         public object Data { get; set;}
 

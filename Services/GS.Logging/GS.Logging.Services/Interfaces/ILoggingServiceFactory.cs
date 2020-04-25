@@ -5,6 +5,6 @@ namespace GS.Logging.Services.Interfaces
 {
     public interface ILoggingServiceFactory
     {
-         ILoggingService CreateService(LoggingSettings settings, LoggingModule module);
+         ILoggingService CreateService(LoggerMetadata metadata, LoggingModule module);
     }
 }

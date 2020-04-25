@@ -89,8 +89,9 @@ namespace GS.Logging.Client.Clients
     
         private void setTypeSettings(Type type, LoggingClientSettings settings)
         {
-            settings.LoggerName = type.Name;
-            settings.LoggerFullName = type.FullName;
+            settings.LoggerMetadata = new LoggerMetadata();
+            settings.LoggerMetadata.LoggerName = type.Name;
+            settings.LoggerMetadata.LoggerFullName = type.FullName;
             settings.ClassName = type.Name;
             settings.ClassFullName = type.FullName;
 

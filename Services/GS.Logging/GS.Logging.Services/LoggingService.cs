@@ -16,50 +16,17 @@ namespace GS.Logging.Services
 {
     public class LoggingService : ILoggingService
     {
-        private LoggingSettings _settings;
+        private LoggerMetadata _metadata;
         private LoggingModule _module;
         private ILoggingRepository _repository;
-        private IConfiguration _configuration;
-        private ICoreLogger _logger;
+        private ICoreLogger _innerLogger;
 
-        public LoggingService(LoggingSettings settings, LoggingModule module, IConfiguration configuration, ILoggingRepository repository, ICoreLoggerFactory loggerFactory)
+        public LoggingService(LoggerMetadata metadata, LoggingModule module, ILoggingRepository repository, ICoreLoggerFactory loggerFactory)
         {
             _repository = repository;
-            _settings = settings;
+            _metadata = metadata;
             _module = module;
-            _configuration = configuration;
-
-            _logger = loggerFactory.GetLoggerForType<LoggingService>();
-
-            Intialize();
-        }
-
-        public void Intialize()
-        {
-            try
-            {
-                var target = _configuration.GetTarget();
-
-                if (target != null)
-                {
-                    target.Format = ELogs.TargetFormat.Text;
-                    target.Group = ELogs.TargetGroup.File;
-
-                    if (_module != null)
-                    {
-                        var moduleName = _module.Name;
-                        var moduleLayer = _module.Layer.Group.ToString();
-                        var directory = $"{moduleName}{moduleLayer}";
-                        target.Directory = directory;
-                    }
-                    _repository.Targets.Add(target);
-                }
-                _repository.Initialize(_settings);
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex);
-            }
+            _innerLogger = loggerFactory.GetLoggerForType<LoggingService>();
         }
 
         public async Task<ILoggingResponse> WriteExceptionAsync(Exception exception, object data = null)
@@ -74,7 +41,7 @@ namespace GS.Logging.Services
             }
             catch (Exception ex)
             {
-                await _repository.LogExceptionAsync(ex);
+                _innerLogger.Error(ex);
                 response.IsError = true;
             }
             return response;
@@ -92,7 +59,7 @@ namespace GS.Logging.Services
             }
             catch (Exception ex)
             {
-                await _repository.LogExceptionAsync(ex);
+                _innerLogger.Error(ex);
                 response.IsError = true;
             }
             return response;
@@ -110,20 +77,81 @@ namespace GS.Logging.Services
             }
             catch (Exception ex)
             {
-                await _repository.LogExceptionAsync(ex);
+                _innerLogger.Error(ex);
                 response.IsError = true;
             }
             return response;
         }
 
-        public Task<ILoggingResponse> WriteInfoAsync(string text, object data = null)
+        public async Task<ILoggingResponse> WriteInfoAsync(string text, object data = null)
         {
-            throw new NotImplementedException();
+             var response = new LoggingResponse();
+
+            try
+            {
+                await _repository.LogInfoAsync(text, data);
+                response.RecordsLogged = 1;
+
+            }
+            catch (Exception ex)
+            {
+                _innerLogger.Error(ex);
+                response.IsError = true;
+            }
+            return response;
         }
 
-        public Task<ILoggingResponse> WriteWarningAsync(string text, object data = null)
+        public async Task<ILoggingResponse> WriteWarningAsync(string text, object data = null)
         {
-            throw new NotImplementedException();
+             var response = new LoggingResponse();
+
+            try
+            {
+                await _repository.LogWarningAsync(text, data);
+                response.RecordsLogged = 1;
+
+            }
+            catch (Exception ex)
+            {
+                _innerLogger.Error(ex);
+                response.IsError = true;
+            }
+            return response;
+        }
+
+        private void initializeRepository()
+        {
+            try
+            {
+                var settings = new RepositorySettings
+                {
+                    LoggerName = _metadata.LoggerName
+                };
+                setDefaultTarget(settings);
+
+                _repository.Initialize(settings);
+            }
+            catch (Exception ex)
+            {
+                _innerLogger.Error(ex);
+            }
+        }
+
+        private void setDefaultTarget(RepositorySettings settings)
+        {
+            var defaultTarget = new LoggingTarget();
+            defaultTarget.Name = "default";
+            defaultTarget.Format = ELogs.TargetFormat.Text;
+            defaultTarget.Group = ELogs.TargetGroup.File;
+
+            if (_module != null)
+            {
+                var moduleName = _module.Name;
+                var moduleLayer = _module.Layer.Group.ToString();
+                var directory = $"{moduleName}{moduleLayer}";
+                defaultTarget.Directory = directory;
+            }
+            settings.Targets.Add(defaultTarget);
         }
     }
 }

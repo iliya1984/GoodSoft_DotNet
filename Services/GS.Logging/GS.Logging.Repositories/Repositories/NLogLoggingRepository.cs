@@ -1,8 +1,10 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using GS.Core.Logging.Interfaces;
 using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces;
+using GS.Logging.Entities.Interfaces.Records;
 using GS.Logging.Entities.Settings;
 using GS.Logging.Repositories.Interfaces;
 using NLog;
@@ -13,98 +15,137 @@ namespace GS.Logging.Repositories.Repositories
 {
     public class NLogLoggingRepository : LoggingRepository
     {
+
         private LogFactory _factory;
         private Logger _logger;
 
-        public NLogLoggingRepository(LogFactory factory)
+        public NLogLoggingRepository(LogFactory factory, ICoreLoggerFactory loggerFactory) : base(loggerFactory)
         {
             _factory = factory;
         }
 
-        public override void Initialize(LoggingSettings settings)
+        public override void Initialize(RepositorySettings settings)
         {
             base.Initialize(settings);
 
-            _logger = _factory.GetLogger(LoggerName);
+            string loggerName = settings.LoggerName;
+            if (string.IsNullOrEmpty(loggerName))
+            {
+                loggerName = "DefaultLogger";
+            }
+
+            _logger = _factory.GetLogger(loggerName);
         }
 
         protected override async Task WriteErrorLogAsync(IErrorRecord record)
         {
-            try
+            await Task.Run(() =>
             {
-                await Task.Run(() =>
+                try
                 {
-                    foreach (var target in Targets)
+                    foreach (var target in Settings.Targets)
                     {
                         var logEvent = new LogEventInfo();
                         logEvent.LoggerName = Settings.LoggerName + "_Error";
                         logEvent.Level = LogLevel.Error;
                         logEvent.Message = record.Message;
-                        logEvent.Properties["CustomFolderName"] = target.Directory ;
+                        logEvent.Properties["CustomFolderName"] = target.Directory;
                         logEvent.Properties["Extension"] = getFileExtensionForTarget(target);
                         _logger.Log(logEvent);
+
+
                     }
-                });
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "GT Logger failure. Failed to write error log");
-            }
+                }
+                catch (Exception ex)
+                {
+                    InnerLogger.Error(ex);
+                }
+            });
         }
 
         protected override async Task WriteExeptionLogAsync(IExceptionRecord record)
         {
-            try
+            await Task.Run(() =>
             {
-                await Task.Run(() =>
-               {
-                   _logger.Error(record.Exception);
-               });
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "GT Logger failure. Failed to write exception log");
-            }
+                try
+                {
+                    foreach (var target in Settings.Targets)
+                    {
+                        var logEvent = new LogEventInfo();
+                        logEvent.LoggerName = Settings.LoggerName + "_Error";
+                        logEvent.Level = LogLevel.Error;
+                        logEvent.Exception = record.Exception;
+                        logEvent.Properties["CustomFolderName"] = target.Directory;
+                        logEvent.Properties["Extension"] = getFileExtensionForTarget(target);
+                        _logger.Log(logEvent);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    InnerLogger.Error(ex);
+                }
+            });
         }
 
         protected override async Task WriteInfoLogAsync(ILogRecord record)
         {
-            try
+            await Task.Run(() =>
             {
-                await Task.Run(() =>
+                try
                 {
-                    _logger.Info(record.Message);
-                });
+                    var logRecord  = (LogRecord)record;
 
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "GT Logger failure. Failed to write info log");
-            }
+                    foreach (var target in Settings.Targets)
+                    {
+                        var logEvent = new LogEventInfo();
+                        logEvent.LoggerName = Settings.LoggerName + "_Info";
+                        logEvent.Level = LogLevel.Info;
+                        logEvent.Message = logRecord.Message;
+                        logEvent.Properties["CustomFolderName"] = target.Directory;
+                        logEvent.Properties["Extension"] = getFileExtensionForTarget(target);
+                        _logger.Log(logEvent);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    InnerLogger.Error(ex);
+                }
+            });
         }
 
         protected override async Task WriteWarningLogAsync(ILogRecord record)
         {
-            try
+           await Task.Run(() =>
             {
-                await Task.Run(() =>
+                try
                 {
-                    _logger.Warn(record.Message);
-                });
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "GT Logger failure. Failed to write warning log");
-            }
+                    var logRecord  = (LogRecord)record;
+
+                    foreach (var target in Settings.Targets)
+                    {
+                        var logEvent = new LogEventInfo();
+                        logEvent.LoggerName = Settings.LoggerName + "_Warning";
+                        logEvent.Level = LogLevel.Warn;
+                        logEvent.Message = logRecord.Message;
+                        logEvent.Properties["CustomFolderName"] = target.Directory;
+                        logEvent.Properties["Extension"] = getFileExtensionForTarget(target);
+                        _logger.Log(logEvent);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    InnerLogger.Error(ex);
+                }
+            });
         }
 
         private string getFileExtensionForTarget(LoggingTarget target)
         {
             string extension = "txt";
-            switch(target.Format)
+            switch (target.Format)
             {
                 case ELogs.TargetFormat.Text:
-                    extension =  "log";
+                    extension = "log";
                     break;
             }
 

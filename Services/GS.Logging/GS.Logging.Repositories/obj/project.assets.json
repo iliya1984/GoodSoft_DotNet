@@ -400,6 +400,21 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "GS.Core.Logging/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "nlog": "4.7.0",
+          "nlog.web.aspnetcore": "4.9.2"
+        },
+        "compile": {
+          "bin/placeholder/GS.Core.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GS.Core.Logging.dll": {}
+        }
+      },
       "GS.Core.Messaging.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1146,6 +1161,11 @@
         "version.txt"
       ]
     },
+    "GS.Core.Logging/1.0.0": {
+      "type": "project",
+      "path": "../../../GS.Core/GS.Core.Logging/GS.Core.Logging.csproj",
+      "msbuildProject": "../../../GS.Core/GS.Core.Logging/GS.Core.Logging.csproj"
+    },
     "GS.Core.Messaging.Entities/1.0.0": {
       "type": "project",
       "path": "../../../GS.Core/GS.Core.Messaging/GS.Core.Messaging.Entities/GS.Core.Messaging.Entities.csproj",
@@ -1160,6 +1180,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
+      "GS.Core.Logging >= 1.0.0",
       "GS.Logging.Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "NLog >= 4.7.0",
@@ -1190,6 +1211,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Logging/GS.Core.Logging.csproj": {
+              "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Logging/GS.Core.Logging.csproj"
+            },
             "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/GS.Logging.Entities.csproj": {
               "projectPath": "/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/GS.Logging.Entities.csproj"
             }

@@ -26,11 +26,11 @@ namespace GS.Logging.Api.Controllers
         {
             try
             {
-                var settings = new LoggingSettings();
-                settings.LoggerName = "Default";
+                var metadata = new LoggerMetadata();
+                metadata.LoggerName = "Default";
                 
                 
-                _service = _serviceFactory.CreateService(settings, request.Module);
+                _service = _serviceFactory.CreateService(metadata, request.Module);
 
                 var response = await _service.WriteErrorAsync(request);
                 return new JsonResult(response);

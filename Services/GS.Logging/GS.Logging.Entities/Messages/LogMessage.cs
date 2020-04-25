@@ -5,7 +5,6 @@ namespace GS.Logging.Entities.Messages
     public class LogMessage : AbsLogMessage
     {
         public string Text { get; set;}
-        public object Data { get; set;}
 
         public LogMessage() {}
 

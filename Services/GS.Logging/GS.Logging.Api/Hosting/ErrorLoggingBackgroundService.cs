@@ -25,10 +25,9 @@ namespace GS.Logging.Api.Hosting
             if (result != null && result.Value != null && result.Value.Module != null)
             {
                 var errorMessage = result.Value;
-                var settings = new LoggingSettings();
-                settings.LoggerName = errorMessage.LoggerName;
+                var metadata = errorMessage.LoggerMetadata;
 
-                var servie = ServiceFactory.CreateService(settings, errorMessage.Module);
+                var servie = ServiceFactory.CreateService(metadata, errorMessage.Module);
                 
                 var severity = errorMessage.Severity;
                 var message = errorMessage.Message;

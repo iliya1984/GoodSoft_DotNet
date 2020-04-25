@@ -23,7 +23,7 @@ namespace GS.Logging.Services.DI
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterModule(new CoreLoggingDIModule(_configuration));
-            builder.RegisterModule<RepositoriesDiModule>();
+            builder.RegisterModule(new RepositoriesDiModule(_configuration));
             
             builder
                 .Register(c =>
@@ -33,9 +33,9 @@ namespace GS.Logging.Services.DI
                     {
                         var repository = c.Resolve<ILoggingRepository>();
 
-                        Func<LoggingSettings, LoggingModule, ILoggingService> factory = (s, m) =>
+                        Func<LoggerMetadata, LoggingModule, ILoggingService> factory = (s, m) =>
                             {
-                                return new LoggingService(s, m, _configuration, repository, loggingFactory);
+                                return new LoggingService(s, m, repository, loggingFactory);
                             }; 
 
                         return new LoggingServiceFactory(factory, loggingFactory);

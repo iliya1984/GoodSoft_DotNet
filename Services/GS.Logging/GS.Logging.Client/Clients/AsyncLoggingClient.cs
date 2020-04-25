@@ -112,7 +112,7 @@ namespace GS.Logging.Client.Clients
         {
             message.Key = Guid.NewGuid().ToString();
             message.Module = Settings.Module;
-            message.LoggerName = Settings.LoggerName;
+            message.LoggerMetadata = Settings.LoggerMetadata;
             message.Severity = severity;
             message.Data = data;
         }

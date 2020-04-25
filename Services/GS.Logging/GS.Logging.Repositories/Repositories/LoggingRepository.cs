@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using GS.Core.Logging.Interfaces;
 using GS.Logging.Entities;
 using GS.Logging.Entities.Interfaces;
 using GS.Logging.Entities.Interfaces.Records;
@@ -12,68 +13,88 @@ namespace GS.Logging.Repositories.Repositories
 {
     public abstract class LoggingRepository : ILoggingRepository
     {
-        protected LoggingSettings Settings;
+        protected ICoreLogger InnerLogger { get; private set; }
+        protected RepositorySettings Settings { get; private set; }
 
-        public string LoggerName { get; private set;}
-        public List<LoggingTarget> Targets { get; private set;}
-
-        public LoggingRepository()
+        protected LoggingRepository(ICoreLoggerFactory loggerFactory)
         {
-            Targets = new List<LoggingTarget>();
-            LoggerName = "LoggingRepository";
+            InnerLogger = loggerFactory.GetLoggerForType(GetType());
         }
 
         public async Task LogErrorAsync(string errorMessage, string errorStackTrace = null, object data = null)
         {
-            var record = new ErrorRecord();
-            record.Message = errorMessage;
-            record.StackTrace = errorStackTrace;
-            record.Data = data;
+            try
+            {
+                var record = new ErrorRecord();
+                record.Message = errorMessage;
+                record.StackTrace = errorStackTrace;
+                record.Data = data;
 
-            await WriteErrorLogAsync(record);
+                await WriteErrorLogAsync(record);
+            }
+            catch (Exception ex)
+            {
+                InnerLogger.Error(ex);
+            }
         }
 
         public async Task LogInfoAsync(string textMessage, object data = null)
         {
-            var record = new LogRecord(ELogs.Severity.Info);
-            record.Message = textMessage;
-            record.Data = data;
-
-            await WriteInfoLogAsync(record);
+            try
+            {
+                var record = new LogRecord(ELogs.Severity.Info);
+                record.Message = textMessage;
+                record.Data = data;
+                await WriteInfoLogAsync(record);
+            }
+            catch (Exception ex)
+            {
+                InnerLogger.Error(ex);
+            }
         }
 
         public async Task LogWarningAsync(string textMessage, object data = null)
         {
-            var record = new LogRecord(ELogs.Severity.Warning);
-            record.Message = textMessage;
-            record.Data = data;
+            try
+            {
+                var record = new LogRecord(ELogs.Severity.Warning);
+                record.Message = textMessage;
+                record.Data = data;
 
-             await WriteWarningLogAsync(record);
+                await WriteWarningLogAsync(record);
+            }
+            catch (Exception ex)
+            {
+                InnerLogger.Error(ex);
+            }
+
+
         }
 
         public async Task LogExceptionAsync(Exception exception, object data = null)
         {
-            var record = new ExceptionRecord();
-            record.Exception = exception;
-            record.Data = data;
+            try
+            {
+                var record = new ExceptionRecord();
+                record.Exception = exception;
+                record.Data = data;
 
-            await WriteExeptionLogAsync(record);
+                await WriteExeptionLogAsync(record);
+            }
+            catch (Exception ex)
+            {
+                InnerLogger.Error(ex);
+            }
+
         }
 
         protected abstract Task WriteInfoLogAsync(ILogRecord record);
-
         protected abstract Task WriteWarningLogAsync(ILogRecord record);
-
         protected abstract Task WriteErrorLogAsync(IErrorRecord record);
         protected abstract Task WriteExeptionLogAsync(IExceptionRecord record);
-
-        public virtual void Initialize(LoggingSettings settings)
+        public virtual void Initialize(RepositorySettings settings)
         {
-            Settings = settings;
-            if(settings != null && false == string.IsNullOrEmpty(settings.LoggerName))
-            {
-                LoggerName = settings.LoggerName;
-            }
+            this.Settings = settings;
         }
     }
 }

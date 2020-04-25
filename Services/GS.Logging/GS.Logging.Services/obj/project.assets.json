@@ -443,6 +443,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "6.0.0",
+          "GS.Core.Logging": "1.0.0",
           "GS.Logging.Entities": "1.0.0",
           "NLog": "4.7.0",
           "NLog.Web.AspNetCore": "4.9.2"

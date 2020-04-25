@@ -9,12 +9,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
-    <Content Include="LoggingExtensions.cs" />
     <Content Include="Interfaces\ILoggingServiceFactory.cs" />
     <Content Include="LoggingServiceFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\GS.Core\GS.Core.Logging\GS.Core.Logging.csproj" />
     <Content Include="Interfaces\ILoggingService.cs" />
+    <Content Include="DI\ServicesDiModule.cs" />
   </ItemGroup>
 </Project>

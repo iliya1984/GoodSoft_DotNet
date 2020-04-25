@@ -13,5 +13,6 @@
     <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.2" />
     <Content Include="Interfaces\RepositoriesDiModule.cs" />
     <Content Include="DI\RepositoriesDiModule.cs" />
+    <ProjectReference Include="..\..\..\GS.Core\GS.Core.Logging\GS.Core.Logging.csproj" />
   </ItemGroup>
 </Project>
