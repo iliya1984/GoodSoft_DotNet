@@ -11,7 +11,7 @@ namespace GS.Logging.Api.Hosting
     {
         public LoggingBackgroundService(LoggingServiceToolkit toolkit) : base(toolkit, ELogs.LoggingJob.GeneralLogging) { }
 
-        protected override async Task ExecuteJob(IConsumer consumer, LoggingJob job)
+        protected override void ExecuteJob(IConsumer consumer, LoggingJob job)
         {
             var timeOut = job.ConsumeTimeout * 1000;
             var result = consumer.Consume<LogMessage>(timeOut);
@@ -31,10 +31,10 @@ namespace GS.Logging.Api.Hosting
                 switch(severity)
                 {
                     case ELogs.Severity.Info:
-                        response = await servie.WriteInfoAsync(text, data);
+                        response = servie.WriteInfo(text, data);
                         break;
                     case ELogs.Severity.Warning:
-                        response = await servie.WriteWarningAsync(text, data);
+                        response = servie.WriteWarning(text, data);
                         break;
                     default:
                         Logger.Error($"Error: Failued to write log record to log, invalid severity {severity}");

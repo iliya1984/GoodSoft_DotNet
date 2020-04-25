@@ -174,3 +174,15 @@
 2020-04-25 00:15:36.9563 Info Adding target FileTarget(Name=messagingLogs)
 2020-04-25 00:15:36.9563 Info Closing old configuration.
 2020-04-25 00:15:36.9940 Info Found 32 configuration items
+2020-04-25 22:15:19.5091 Info Message Template Auto Format enabled
+2020-04-25 22:15:19.5318 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-25 22:15:19.6667 Info Adding target FileTarget(Name=coreLogs)
+2020-04-25 22:15:19.6803 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-25 22:15:19.8159 Info Found 32 configuration items
+2020-04-25 22:15:19.9351 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/Tests/GS.Logging.Tests.Client/bin/Debug/netcoreapp3.1/nlog.config...
+2020-04-25 22:15:19.9423 Info Message Template Auto Format enabled
+2020-04-25 22:15:19.9423 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-25 22:15:19.9474 Info Adding target FileTarget(Name=coreLogs)
+2020-04-25 22:15:19.9474 Info Adding target FileTarget(Name=messagingLogs)
+2020-04-25 22:15:19.9474 Info Closing old configuration.
+2020-04-25 22:15:20.0306 Info Found 32 configuration items

@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using GS.Core.Logging.Interfaces;
 using GS.Logging.Entities.Requests;
 using GS.Logging.Entities.Responses;
 using GS.Logging.Entities.Settings;
@@ -16,13 +17,16 @@ namespace GS.Logging.Api.Controllers
         private ILoggingServiceFactory _serviceFactory;
         private ILoggingService _service;
         private IConfiguration _configuration;
+        private ICoreLogger _logger;
 
-        public ErrorLogsController(ILoggingServiceFactory serviceFactory, IConfiguration configuration)
+        public ErrorLogsController(ILoggingServiceFactory serviceFactory, IConfiguration configuration, ICoreLoggerFactory loggerFactory)
         {
             _configuration = configuration;
+            _logger = loggerFactory.GetLoggerForType<ErrorLogsController>();
         }
 
-        public async Task<IActionResult> Post(ErrorLoggingRequest request)
+        [HttpPost]
+        public IActionResult Post(ErrorLoggingRequest request)
         {
             try
             {
@@ -32,12 +36,12 @@ namespace GS.Logging.Api.Controllers
                 
                 _service = _serviceFactory.CreateService(metadata, request.Module);
 
-                var response = await _service.WriteErrorAsync(request);
+                var response = _service.WriteError(request);
                 return new JsonResult(response);
             } 
             catch(Exception ex)
             {
-                await _service.WriteExceptionAsync(ex);
+                _logger.Error(ex);
                 return new StatusCodeResult(500);
             }
         }

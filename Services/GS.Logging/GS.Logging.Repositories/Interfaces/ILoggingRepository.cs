@@ -9,9 +9,8 @@ namespace GS.Logging.Repositories.Interfaces
     {
         void Initialize(RepositorySettings settings);
 
-        Task LogInfoAsync(string textMessage, object data = null);
-        Task LogWarningAsync(string textMessage, object data = null);
-        Task LogErrorAsync(string errorMessage, string errorStackTrace = null, object data = null);
-        Task LogExceptionAsync(Exception exception, object data = null);
+        void LogInfo(string textMessage, object data = null);
+        void LogWarning(string textMessage, object data = null);
+        void  LogError(string errorMessage, string errorStackTrace = null, object data = null);
     }
 }

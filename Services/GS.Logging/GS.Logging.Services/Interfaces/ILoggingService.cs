@@ -9,10 +9,9 @@ namespace GS.Logging.Services.Interfaces
 {
     public interface ILoggingService
     {
-        Task<ILoggingResponse> WriteInfoAsync(string text, object data = null);
-        Task<ILoggingResponse> WriteWarningAsync(string text, object data = null);
-        Task<ILoggingResponse> WriteErrorAsync(string errorMessage, string errorStackTrace = null, object data = null);
-        Task<ILoggingResponse> WriteErrorAsync(ErrorLoggingRequest request);
-        Task<ILoggingResponse> WriteExceptionAsync(Exception exception, object data = null);
+        ILoggingResponse WriteInfo(string text, object data = null);
+        ILoggingResponse WriteWarning(string text, object data = null);
+        ILoggingResponse WriteError(string errorMessage, string errorStackTrace = null, object data = null);
+        ILoggingResponse WriteError(ErrorLoggingRequest request);
     }
 }

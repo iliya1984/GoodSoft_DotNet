@@ -17,7 +17,7 @@ namespace GS.Logging.Api.Hosting
         protected ELogs.LoggingJob JobType { get; private set; }
         protected ILoggingJobProvider JobProvider { get; private set; }
         protected ILoggingServiceFactory ServiceFactory { get; private set; }
-        private readonly Timer _jobLookupFailureTimer;
+
 
         protected AbsLoggingBackgroundService(LoggingServiceToolkit toolkit, ELogs.LoggingJob jobType) : base(toolkit.ConsumerFactory, toolkit.LoggerFactory)
         {
@@ -28,36 +28,39 @@ namespace GS.Logging.Api.Hosting
 
         }
 
-        protected override async Task ExecuteServiceAsync(IConsumptionRequest request)
+        protected override Task ExecuteServiceAsync(IConsumptionRequest request)
         {
-            try
+            return Task.Run(() =>
             {
-                LoggingJob job = GetLoggingJob();
-                if (job == null)
+                try
                 {
-                    //TODO: Handle critical error      
-                }
-                else
-                {
-                    using (var consumer = ConsumerFactory.CreateConsumer())
+                    LoggingJob job = GetLoggingJob();
+                    if (job == null)
                     {
-                        subscribeToJob(consumer, job);
-
-                        while (false == request.CancellationToken.IsCancellationRequested)
+                        //TODO: Handle critical error      
+                    }
+                    else
+                    {
+                        using (var consumer = ConsumerFactory.CreateConsumer())
                         {
-                            await ExecuteJob(consumer, job);
+                            subscribeToJob(consumer, job);
+
+                            while (false == request.CancellationToken.IsCancellationRequested)
+                            {
+                                ExecuteJob(consumer, job);
+                            }
                         }
                     }
-                }
 
-            }
-            catch (Exception ex)
-            {
-                Logger.Error(ex);
-            }
+                }
+                catch (Exception ex)
+                {
+                    Logger.Error(ex);
+                }
+            });
         }
 
-        protected abstract Task ExecuteJob(IConsumer consumer, LoggingJob job);
+        protected abstract void ExecuteJob(IConsumer consumer, LoggingJob job);
 
         private LoggingJob GetLoggingJob()
         {
@@ -79,7 +82,7 @@ namespace GS.Logging.Api.Hosting
 
         private static void subscribeToJob(IConsumer consumer, LoggingJob job)
         {
-            foreach(var jobItem in job.Items)
+            foreach (var jobItem in job.Items)
             {
                 var topic = jobItem.Topic;
                 consumer.Subscribe(topic);

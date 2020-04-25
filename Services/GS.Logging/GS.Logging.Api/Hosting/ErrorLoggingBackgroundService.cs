@@ -17,7 +17,7 @@ namespace GS.Logging.Api.Hosting
     {
         public ErrorLoggingBackgroundService(LoggingServiceToolkit toolkit) : base(toolkit, ELogs.LoggingJob.ErrorLogging) { }
 
-        protected override async Task ExecuteJob(IConsumer consumer, LoggingJob job)
+        protected override void ExecuteJob(IConsumer consumer, LoggingJob job)
         {
             var timeOut = job.ConsumeTimeout * 1000;
             var result = consumer.Consume<ErrorLogMessage>(timeOut);
@@ -40,7 +40,7 @@ namespace GS.Logging.Api.Hosting
                 }
                 else
                 {
-                    var response = await servie.WriteErrorAsync(message, stackTrace, data);
+                    var response =  servie.WriteError(message, stackTrace, data);
                 }     
             }
         }

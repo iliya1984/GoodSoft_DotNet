@@ -21,7 +21,7 @@ namespace GS.Logging.Repositories.Repositories
             InnerLogger = loggerFactory.GetLoggerForType(GetType());
         }
 
-        public async Task LogErrorAsync(string errorMessage, string errorStackTrace = null, object data = null)
+        public void LogError(string errorMessage, string errorStackTrace = null, object data = null)
         {
             try
             {
@@ -30,7 +30,7 @@ namespace GS.Logging.Repositories.Repositories
                 record.StackTrace = errorStackTrace;
                 record.Data = data;
 
-                await WriteErrorLogAsync(record);
+                WriteErrorLog(record);
             }
             catch (Exception ex)
             {
@@ -38,14 +38,14 @@ namespace GS.Logging.Repositories.Repositories
             }
         }
 
-        public async Task LogInfoAsync(string textMessage, object data = null)
+        public void  LogInfo(string textMessage, object data = null)
         {
             try
             {
                 var record = new LogRecord(ELogs.Severity.Info);
                 record.Message = textMessage;
                 record.Data = data;
-                await WriteInfoLogAsync(record);
+                WriteInfoLog(record);
             }
             catch (Exception ex)
             {
@@ -53,7 +53,7 @@ namespace GS.Logging.Repositories.Repositories
             }
         }
 
-        public async Task LogWarningAsync(string textMessage, object data = null)
+        public void  LogWarning(string textMessage, object data = null)
         {
             try
             {
@@ -61,37 +61,17 @@ namespace GS.Logging.Repositories.Repositories
                 record.Message = textMessage;
                 record.Data = data;
 
-                await WriteWarningLogAsync(record);
+                WriteWarningLog(record);
             }
             catch (Exception ex)
             {
                 InnerLogger.Error(ex);
             }
-
-
         }
 
-        public async Task LogExceptionAsync(Exception exception, object data = null)
-        {
-            try
-            {
-                var record = new ExceptionRecord();
-                record.Exception = exception;
-                record.Data = data;
-
-                await WriteExeptionLogAsync(record);
-            }
-            catch (Exception ex)
-            {
-                InnerLogger.Error(ex);
-            }
-
-        }
-
-        protected abstract Task WriteInfoLogAsync(ILogRecord record);
-        protected abstract Task WriteWarningLogAsync(ILogRecord record);
-        protected abstract Task WriteErrorLogAsync(IErrorRecord record);
-        protected abstract Task WriteExeptionLogAsync(IExceptionRecord record);
+        protected abstract void WriteInfoLog(ILogRecord record);
+        protected abstract void WriteWarningLog(ILogRecord record);
+        protected abstract void WriteErrorLog(IErrorRecord record);
         public virtual void Initialize(RepositorySettings settings)
         {
             this.Settings = settings;

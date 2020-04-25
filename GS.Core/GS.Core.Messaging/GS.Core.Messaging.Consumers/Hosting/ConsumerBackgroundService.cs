@@ -25,11 +25,11 @@ namespace GS.Core.Messaging.Consumers.Hosting
             
         }
 
-        protected async override Task ExecuteAsync(CancellationToken cancellationToken)
+        protected override Task ExecuteAsync(CancellationToken cancellationToken)
         {
             try
             {
-                await ExecuteServiceAsync(new ConsumptionRequest
+                return ExecuteServiceAsync(new ConsumptionRequest
                 {
                     CancellationToken = cancellationToken
                 });
@@ -37,6 +37,7 @@ namespace GS.Core.Messaging.Consumers.Hosting
             catch (Exception ex)
             {
                 Logger.Error(ex);
+                return Task.FromException(ex);
             }
         }
 

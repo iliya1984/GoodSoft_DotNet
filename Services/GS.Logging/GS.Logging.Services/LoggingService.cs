@@ -27,15 +27,17 @@ namespace GS.Logging.Services
             _metadata = metadata;
             _module = module;
             _innerLogger = loggerFactory.GetLoggerForType<LoggingService>();
+
+            initializeRepository();
         }
 
-        public async Task<ILoggingResponse> WriteExceptionAsync(Exception exception, object data = null)
+        public ILoggingResponse WriteError(ErrorLoggingRequest request)
         {
             var response = new LoggingResponse();
 
             try
             {
-                await _repository.LogExceptionAsync(exception, data);
+                _repository.LogError(request.ErrorMessage, request.ErrorStackTrace, request.Data);
                 response.RecordsLogged = 1;
 
             }
@@ -47,13 +49,13 @@ namespace GS.Logging.Services
             return response;
         }
 
-        public async Task<ILoggingResponse> WriteErrorAsync(ErrorLoggingRequest request)
+        public ILoggingResponse WriteError(string errorMessage, string errorStackTrace = null, object data = null)
         {
             var response = new LoggingResponse();
 
             try
             {
-                await _repository.LogErrorAsync(request.ErrorMessage, request.ErrorStackTrace, request.Data);
+                _repository.LogError(errorMessage, errorStackTrace, data);
                 response.RecordsLogged = 1;
 
             }
@@ -65,31 +67,13 @@ namespace GS.Logging.Services
             return response;
         }
 
-        public async Task<ILoggingResponse> WriteErrorAsync(string errorMessage, string errorStackTrace = null, object data = null)
-        {
-            var response = new LoggingResponse();
-
-            try
-            {
-                await _repository.LogErrorAsync(errorMessage, errorStackTrace, data);
-                response.RecordsLogged = 1;
-
-            }
-            catch (Exception ex)
-            {
-                _innerLogger.Error(ex);
-                response.IsError = true;
-            }
-            return response;
-        }
-
-        public async Task<ILoggingResponse> WriteInfoAsync(string text, object data = null)
+        public ILoggingResponse WriteInfo(string text, object data = null)
         {
              var response = new LoggingResponse();
 
             try
             {
-                await _repository.LogInfoAsync(text, data);
+                _repository.LogInfo(text, data);
                 response.RecordsLogged = 1;
 
             }
@@ -101,13 +85,13 @@ namespace GS.Logging.Services
             return response;
         }
 
-        public async Task<ILoggingResponse> WriteWarningAsync(string text, object data = null)
+        public ILoggingResponse WriteWarning(string text, object data = null)
         {
              var response = new LoggingResponse();
 
             try
             {
-                await _repository.LogWarningAsync(text, data);
+                _repository.LogWarning(text, data);
                 response.RecordsLogged = 1;
 
             }
