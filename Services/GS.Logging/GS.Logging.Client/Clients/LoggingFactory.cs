@@ -21,7 +21,7 @@ namespace GS.Logging.Client.Clients
             _logger = loggerFactory.GetLoggerForType<LoggingFactory>();
         }
 
-        public ILoggingClient GetAsyncClientByType<T>()
+        public ILoggingClient GetAsyncLoggerByType<T>()
         {
             try
             {
@@ -35,7 +35,21 @@ namespace GS.Logging.Client.Clients
             }
         }
 
-         public ILoggingClient GetClientByType<T>()
+        public ILoggingClient GetAsyncLoggerByType(Type type)
+        {
+            try
+            {
+                var settings = _configurationManager.GetSettingsForType(type, true);
+                return _factory.Invoke(settings);
+            }
+            catch(Exception ex)
+            {
+                _logger.Error(ex);
+                return null;
+            }
+        }
+
+         public ILoggingClient GetLoggerByType<T>()
         {
             try
             {

@@ -17,7 +17,7 @@ namespace GS.Logging.Tests.Client
             //Arrange
             var contianer = createContainer();
             var loggingFactory = contianer.Resolve<ILoggingFactory>();
-            var logger = loggingFactory.GetAsyncClientByType<AsyncLoggingClientTest>();
+            var logger = loggingFactory.GetAsyncLoggerByType<AsyncLoggingClientTest>();
 
             //Act
             await logger.ErrorAsync("test error");

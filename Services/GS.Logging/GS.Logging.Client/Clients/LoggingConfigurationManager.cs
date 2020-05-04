@@ -48,6 +48,26 @@ namespace GS.Logging.Client.Clients
             }
         }
 
+        public LoggingClientSettings GetSettingsForType(Type type, bool isAsync = false)
+        {
+            try
+            {
+                var settings = new LoggingClientSettings();
+                
+                setTopics(settings);
+                setTypeSettings(type, settings);
+
+                settings.IsAsync = isAsync;
+
+                return settings;
+            }
+            catch (Exception ex)
+            {
+                _logger.Error(ex);
+                return null;
+            }
+        }
+
         private void setTopics(LoggingClientSettings settings)
         {
             var topic = new Topic();

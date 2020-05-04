@@ -29,6 +29,66 @@ namespace GS.Logging.Client.Clients
             _producerFactory = producerFactory;
         }
 
+        public override void Error(Exception exception, object data = null)
+        {
+            try
+            {
+                var cancellationToken = new CancellationToken();
+                var message = createErrorMessage(exception.Message, exception.StackTrace, data);
+                var topic = Settings.Topics.ErrorTopic;
+                var produceCancellationToken = createOrGetCancellationToken(cancellationToken);
+
+                using (var producer = createProducer())
+                {
+                    producer.ProduceAsync<ErrorLogMessage>(topic, message.Key, message, produceCancellationToken);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error(ex);
+            }
+        }
+
+        public override void Error(string errorMessage, string stackTrace = null, object data = null)
+        {
+            try
+            {
+                 var cancellationToken = new CancellationToken();
+                var message = createErrorMessage(errorMessage, stackTrace, data);
+                var topic = Settings.Topics.ErrorTopic;
+                var produceCancellationToken = createOrGetCancellationToken(cancellationToken);
+
+                using (var producer = createProducer())
+                {
+                    producer.ProduceAsync<ErrorLogMessage>(topic, message.Key, message, produceCancellationToken);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error(ex);
+            }
+        }
+
+        public override async Task ErrorAsync(Exception exception, object data = null, CancellationToken cancellationToken = default(CancellationToken))
+        {
+            try
+            {
+                var message = createErrorMessage(exception.Message, exception.StackTrace, data);
+                var topic = Settings.Topics.ErrorTopic;
+                var produceCancellationToken = createOrGetCancellationToken(cancellationToken);
+
+                using (var producer = createProducer())
+                {
+                    var result = await producer.ProduceAsync<ErrorLogMessage>(topic, message.Key, message, produceCancellationToken);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error(ex);
+            }
+        }
+
+
         public override async Task ErrorAsync(string errorMessage, string stackTrace = null, object data = null, CancellationToken cancellationToken = default(CancellationToken))
         {
             try
@@ -127,5 +187,7 @@ namespace GS.Logging.Client.Clients
 
             return token;
         }
+
+      
     }
 }

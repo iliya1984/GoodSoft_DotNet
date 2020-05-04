@@ -6,3 +6,4 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Helpers/obj/Debug/netstandard2.0/GS.Core.Helpers.AssemblyInfo.cs
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Helpers/obj/Debug/netstandard2.0/GS.Core.Helpers.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Helpers/obj/Debug/netstandard2.0/GS.Core.Helpers.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Helpers/obj/Debug/netstandard2.0/GS.Core.Helpers.csprojAssemblyReference.cache
