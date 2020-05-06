@@ -1,12 +1,12 @@
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/bin/Debug/netstandard2.0/GS.Logging.Entities.deps.json
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/bin/Debug/netstandard2.0/GS.Logging.Entities.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/bin/Debug/netstandard2.0/GS.Logging.Entities.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.pdb
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/obj/Debug/netstandard2.0/GS.Logging.Entities.csprojAssemblyReference.cache
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/obj/Debug/netstandard2.0/GS.Logging.Entities.csproj.CoreCompileInputs.cache
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/obj/Debug/netstandard2.0/GS.Logging.Entities.AssemblyInfoInputs.cache
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/obj/Debug/netstandard2.0/GS.Logging.Entities.AssemblyInfo.cs
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/obj/Debug/netstandard2.0/GS.Logging.Entities.csproj.CopyComplete
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/obj/Debug/netstandard2.0/GS.Logging.Entities.dll
 /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/obj/Debug/netstandard2.0/GS.Logging.Entities.pdb
-/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.dll
-/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/bin/Debug/netstandard2.0/GS.Core.Messaging.Entities.pdb
-/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Entities/obj/Debug/netstandard2.0/GS.Logging.Entities.csproj.CopyComplete

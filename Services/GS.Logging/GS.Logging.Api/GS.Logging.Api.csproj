@@ -23,5 +23,6 @@
     <Content Include="Hosting\ErrorLoggingBackgroundService.cs" />
     <Content Include="Hosting\LoggingJobProvider.cs" />
     <Content Include="Hosting\AbsLoggingBackgroundService.cs" />
+    <Content Include="Dockerfile" />
   </ItemGroup>
 </Project>

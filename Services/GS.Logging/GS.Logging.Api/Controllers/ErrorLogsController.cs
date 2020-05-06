@@ -25,6 +25,11 @@ namespace GS.Logging.Api.Controllers
             _logger = loggerFactory.GetLoggerForType<ErrorLogsController>();
         }
 
+        public string Test()
+        {
+            return "Test Success";
+        }
+
         [HttpPost]
         public IActionResult Post(ErrorLoggingRequest request)
         {
