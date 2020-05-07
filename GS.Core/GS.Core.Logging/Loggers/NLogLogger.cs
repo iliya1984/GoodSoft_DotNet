@@ -67,5 +67,17 @@ namespace GS.Core.Logging.Loggers
                 _innerLogger.Error(ex);
             }
         }
+
+         public void Trace(string traceText)
+        {
+            try
+            {
+                _logger.Trace(traceText);
+            }
+            catch(Exception ex)
+            {
+                _innerLogger.Error(ex);
+            }
+        }
     }
 }

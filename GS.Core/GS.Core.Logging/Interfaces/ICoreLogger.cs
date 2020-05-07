@@ -8,5 +8,6 @@ namespace GS.Core.Logging.Interfaces
          void Error(Exception exception);
          void Info(string text);
          void Warning(string warningMessage);
+         void Trace(string traceText);
     }
 }

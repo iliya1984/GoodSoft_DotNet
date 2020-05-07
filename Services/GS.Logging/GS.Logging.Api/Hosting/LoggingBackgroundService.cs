@@ -13,6 +13,7 @@ namespace GS.Logging.Api.Hosting
 
         protected override void ExecuteJob(IConsumer consumer, LoggingJob job)
         {
+             Logger.Trace("Consuming log record message from message queue");
             var timeOut = job.ConsumeTimeout * 1000;
             var result = consumer.Consume<LogMessage>(timeOut);
             
@@ -27,6 +28,7 @@ namespace GS.Logging.Api.Hosting
                 var text = logMessage.Text;
                 var data = logMessage.Data;
 
+                 Logger.Trace("Handling log record message that was read from queue");
                 ILoggingResponse response = null;
                 switch(severity)
                 {

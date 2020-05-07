@@ -19,11 +19,14 @@ namespace GS.Logging.Api.Hosting
 
         protected override void ExecuteJob(IConsumer consumer, LoggingJob job)
         {
+            Logger.Trace("Consuming error log message from message queue");
+         
             var timeOut = job.ConsumeTimeout * 1000;
             var result = consumer.Consume<ErrorLogMessage>(timeOut);
             
             if (result != null && result.Value != null && result.Value.Module != null)
             {
+                Logger.Trace("Handling error message that was read from queue");
                 var errorMessage = result.Value;
                 var metadata = errorMessage.LoggerMetadata;
 

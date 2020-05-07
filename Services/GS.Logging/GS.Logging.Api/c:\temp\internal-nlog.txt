@@ -3382,3 +3382,561 @@
 2020-05-05 23:41:36.5798 Info Adding target FileTarget(Name=default)
 2020-05-05 23:41:36.5798 Info Closing old configuration.
 2020-05-05 23:41:36.5956 Info Found 66 configuration items
+2020-05-06 07:10:38.3831 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:10:38.4448 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:10:38.5748 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-06 07:10:38.5793 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-06 07:10:38.5861 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:10:38.5884 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:10:38.5884 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-06 07:10:38.5978 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-06 07:10:38.6173 Info Message Template Auto Format enabled
+2020-05-06 07:10:38.6425 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:10:38.9819 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:10:38.9950 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:10:39.0026 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:10:39.0079 Info Adding target FileTarget(Name=default)
+2020-05-06 07:10:39.1303 Info Found 66 configuration items
+2020-05-06 07:10:39.2400 Info Configuration initialized.
+2020-05-06 07:10:39.2530 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-06 07:10:40.2571 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:10:40.2617 Info Message Template Auto Format enabled
+2020-05-06 07:10:40.2617 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:10:40.2653 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:10:40.2690 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:10:40.2690 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:10:40.2727 Info Adding target FileTarget(Name=default)
+2020-05-06 07:10:40.2727 Info Closing old configuration.
+2020-05-06 07:10:40.3810 Info Found 66 configuration items
+2020-05-06 07:10:40.4800 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:10:40.4860 Info Message Template Auto Format enabled
+2020-05-06 07:10:40.4896 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:10:40.4896 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:10:40.4991 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:10:40.4991 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:10:40.4991 Info Adding target FileTarget(Name=default)
+2020-05-06 07:10:40.4991 Info Closing old configuration.
+2020-05-06 07:10:40.5246 Info Found 66 configuration items
+2020-05-06 07:10:40.5788 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:10:40.5788 Info Message Template Auto Format enabled
+2020-05-06 07:10:40.5788 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:10:40.5788 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:10:40.5827 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:10:40.5827 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:10:40.5827 Info Adding target FileTarget(Name=default)
+2020-05-06 07:10:40.5827 Info Closing old configuration.
+2020-05-06 07:10:40.6130 Info Found 66 configuration items
+2020-05-06 07:10:40.6243 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:10:40.6404 Info Message Template Auto Format enabled
+2020-05-06 07:10:40.6404 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:10:40.6404 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:10:40.6404 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:10:40.6404 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:10:40.6404 Info Adding target FileTarget(Name=default)
+2020-05-06 07:10:40.6404 Info Closing old configuration.
+2020-05-06 07:10:40.7777 Info Found 66 configuration items
+2020-05-06 07:10:40.7818 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:10:40.7818 Info Message Template Auto Format enabled
+2020-05-06 07:10:40.7818 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:10:40.7818 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:10:40.8186 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:10:40.8186 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:10:40.8186 Info Adding target FileTarget(Name=default)
+2020-05-06 07:10:40.8186 Info Closing old configuration.
+2020-05-06 07:10:40.8429 Info Found 66 configuration items
+2020-05-06 07:14:18.3149 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:14:18.3425 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:14:18.4214 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-06 07:14:18.4285 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-06 07:14:18.4285 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:14:18.4285 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:14:18.4327 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-06 07:14:18.4384 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-06 07:14:18.4455 Info Message Template Auto Format enabled
+2020-05-06 07:14:18.4525 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:14:18.5405 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:14:18.5471 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:14:18.5493 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:14:18.5493 Info Adding target FileTarget(Name=default)
+2020-05-06 07:14:18.6127 Info Found 66 configuration items
+2020-05-06 07:14:18.6491 Info Configuration initialized.
+2020-05-06 07:14:18.6491 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-06 07:14:18.8962 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:14:18.9029 Info Message Template Auto Format enabled
+2020-05-06 07:14:18.9044 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:14:18.9087 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:14:18.9087 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:14:18.9087 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:14:18.9087 Info Adding target FileTarget(Name=default)
+2020-05-06 07:14:18.9129 Info Closing old configuration.
+2020-05-06 07:14:18.9746 Info Found 66 configuration items
+2020-05-06 07:14:19.0064 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:14:19.0136 Info Message Template Auto Format enabled
+2020-05-06 07:14:19.0136 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:14:19.0171 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:14:19.0171 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:14:19.0171 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:14:19.0171 Info Adding target FileTarget(Name=default)
+2020-05-06 07:14:19.0204 Info Closing old configuration.
+2020-05-06 07:14:19.0536 Info Found 66 configuration items
+2020-05-06 07:14:19.0860 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:14:19.0860 Info Message Template Auto Format enabled
+2020-05-06 07:14:19.0890 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:14:19.0890 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:14:19.0929 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:14:19.0929 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:14:19.0967 Info Adding target FileTarget(Name=default)
+2020-05-06 07:14:19.0967 Info Closing old configuration.
+2020-05-06 07:14:19.1205 Info Found 66 configuration items
+2020-05-06 07:14:19.1248 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:14:19.1295 Info Message Template Auto Format enabled
+2020-05-06 07:14:19.1295 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:14:19.1295 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:14:19.1323 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:14:19.1323 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:14:19.1323 Info Adding target FileTarget(Name=default)
+2020-05-06 07:14:19.1323 Info Closing old configuration.
+2020-05-06 07:14:19.1637 Info Found 66 configuration items
+2020-05-06 07:14:19.1720 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:14:19.1736 Info Message Template Auto Format enabled
+2020-05-06 07:14:19.1769 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:14:19.1769 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:14:19.1946 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:14:19.1946 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:14:19.1946 Info Adding target FileTarget(Name=default)
+2020-05-06 07:14:19.1946 Info Closing old configuration.
+2020-05-06 07:14:19.2202 Info Found 66 configuration items
+2020-05-06 07:19:40.9147 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:19:40.9434 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:19:41.0038 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-06 07:19:41.0158 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-06 07:19:41.0202 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:19:41.0244 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:19:41.0244 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-06 07:19:41.0293 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-06 07:19:41.0372 Info Message Template Auto Format enabled
+2020-05-06 07:19:41.0432 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:19:41.1143 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:19:41.1179 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:19:41.1231 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:19:41.1250 Info Adding target FileTarget(Name=default)
+2020-05-06 07:19:41.1763 Info Found 66 configuration items
+2020-05-06 07:19:41.2429 Info Configuration initialized.
+2020-05-06 07:19:41.2508 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-06 07:19:41.5458 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:19:41.5458 Info Message Template Auto Format enabled
+2020-05-06 07:19:41.5492 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:19:41.5534 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:19:41.5534 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:19:41.5534 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:19:41.5562 Info Adding target FileTarget(Name=default)
+2020-05-06 07:19:41.5562 Info Closing old configuration.
+2020-05-06 07:19:41.6067 Info Found 66 configuration items
+2020-05-06 07:19:41.6483 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:19:41.6642 Info Message Template Auto Format enabled
+2020-05-06 07:19:41.6665 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:19:41.6690 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:19:41.6690 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:19:41.6690 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:19:41.6690 Info Adding target FileTarget(Name=default)
+2020-05-06 07:19:41.6690 Info Closing old configuration.
+2020-05-06 07:19:41.6988 Info Found 66 configuration items
+2020-05-06 07:19:41.7862 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:19:41.7862 Info Message Template Auto Format enabled
+2020-05-06 07:19:41.7898 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:19:41.7898 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:19:41.7898 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:19:41.7898 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:19:41.7898 Info Adding target FileTarget(Name=default)
+2020-05-06 07:19:41.7898 Info Closing old configuration.
+2020-05-06 07:19:41.8162 Info Found 66 configuration items
+2020-05-06 07:19:41.8210 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:19:41.8210 Info Message Template Auto Format enabled
+2020-05-06 07:19:41.8286 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:19:41.8286 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:19:41.8345 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:19:41.8373 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:19:41.8373 Info Adding target FileTarget(Name=default)
+2020-05-06 07:19:41.8373 Info Closing old configuration.
+2020-05-06 07:19:41.8638 Info Found 66 configuration items
+2020-05-06 07:19:41.8670 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:19:41.8670 Info Message Template Auto Format enabled
+2020-05-06 07:19:41.8670 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:19:41.8710 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:19:41.8731 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:19:41.8795 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:19:41.9017 Info Adding target FileTarget(Name=default)
+2020-05-06 07:19:41.9055 Info Closing old configuration.
+2020-05-06 07:19:41.9368 Info Found 66 configuration items
+2020-05-06 07:21:24.7677 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:21:24.7944 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:21:24.8459 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-06 07:21:24.8502 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-06 07:21:24.8537 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:21:24.8537 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:21:24.8611 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-06 07:21:24.8681 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-06 07:21:24.8710 Info Message Template Auto Format enabled
+2020-05-06 07:21:24.8909 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:21:24.9863 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:21:24.9887 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:21:24.9887 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:21:24.9887 Info Adding target FileTarget(Name=default)
+2020-05-06 07:21:25.0705 Info Found 66 configuration items
+2020-05-06 07:21:25.1124 Info Configuration initialized.
+2020-05-06 07:21:25.1199 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-06 07:21:25.3632 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:21:25.3658 Info Message Template Auto Format enabled
+2020-05-06 07:21:25.3658 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:21:25.3692 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:21:25.3692 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:21:25.3692 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:21:25.3692 Info Adding target FileTarget(Name=default)
+2020-05-06 07:21:25.3692 Info Closing old configuration.
+2020-05-06 07:21:25.4070 Info Found 66 configuration items
+2020-05-06 07:21:25.4636 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:21:25.4654 Info Message Template Auto Format enabled
+2020-05-06 07:21:25.4654 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:21:25.4654 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:21:25.4697 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:21:25.4697 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:21:25.4697 Info Adding target FileTarget(Name=default)
+2020-05-06 07:21:25.4725 Info Closing old configuration.
+2020-05-06 07:21:25.4993 Info Found 66 configuration items
+2020-05-06 07:21:25.6431 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:21:25.6443 Info Message Template Auto Format enabled
+2020-05-06 07:21:25.6443 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:21:25.6443 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:21:25.6485 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:21:25.6485 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:21:25.6485 Info Adding target FileTarget(Name=default)
+2020-05-06 07:21:25.6485 Info Closing old configuration.
+2020-05-06 07:21:25.6817 Info Found 66 configuration items
+2020-05-06 07:21:25.6864 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:21:25.6887 Info Message Template Auto Format enabled
+2020-05-06 07:21:25.6887 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:21:25.6887 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:21:25.6887 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:21:25.6887 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:21:25.6887 Info Adding target FileTarget(Name=default)
+2020-05-06 07:21:25.6887 Info Closing old configuration.
+2020-05-06 07:21:25.7237 Info Found 66 configuration items
+2020-05-06 07:21:25.7262 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:21:25.7262 Info Message Template Auto Format enabled
+2020-05-06 07:21:25.7285 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:21:25.7285 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:21:25.7285 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:21:25.7285 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:21:25.7609 Info Adding target FileTarget(Name=default)
+2020-05-06 07:21:25.7717 Info Closing old configuration.
+2020-05-06 07:21:25.7954 Info Found 66 configuration items
+2020-05-06 07:24:26.4001 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:24:26.4328 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:24:26.4792 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-06 07:24:26.4886 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-06 07:24:26.4886 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:24:26.4966 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:24:26.4966 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-06 07:24:26.5015 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-06 07:24:26.5063 Info Message Template Auto Format enabled
+2020-05-06 07:24:26.5221 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:24:26.7161 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:24:26.7219 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:24:26.7219 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:24:26.7283 Info Adding target FileTarget(Name=default)
+2020-05-06 07:24:26.7910 Info Found 64 configuration items
+2020-05-06 07:24:26.8844 Info Configuration initialized.
+2020-05-06 07:24:26.8907 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-06 07:24:27.2399 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:24:27.2457 Info Message Template Auto Format enabled
+2020-05-06 07:24:27.2488 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:24:27.2488 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:24:27.2525 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:24:27.2525 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:24:27.2525 Info Adding target FileTarget(Name=default)
+2020-05-06 07:24:27.2566 Info Closing old configuration.
+2020-05-06 07:24:27.3079 Info Found 64 configuration items
+2020-05-06 07:24:27.3686 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:24:27.3704 Info Message Template Auto Format enabled
+2020-05-06 07:24:27.3704 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:24:27.3740 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:24:27.3740 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:24:27.3771 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:24:27.3771 Info Adding target FileTarget(Name=default)
+2020-05-06 07:24:27.3771 Info Closing old configuration.
+2020-05-06 07:24:27.4022 Info Found 64 configuration items
+2020-05-06 07:24:27.5199 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:24:27.5219 Info Message Template Auto Format enabled
+2020-05-06 07:24:27.5219 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:24:27.5219 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:24:27.5250 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:24:27.5250 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:24:27.5250 Info Adding target FileTarget(Name=default)
+2020-05-06 07:24:27.5250 Info Closing old configuration.
+2020-05-06 07:24:27.5496 Info Found 64 configuration items
+2020-05-06 07:24:27.5496 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:24:27.5496 Info Message Template Auto Format enabled
+2020-05-06 07:24:27.5496 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:24:27.5586 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:24:27.5586 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:24:27.5607 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:24:27.5607 Info Adding target FileTarget(Name=default)
+2020-05-06 07:24:27.5607 Info Closing old configuration.
+2020-05-06 07:24:27.5889 Info Found 64 configuration items
+2020-05-06 07:24:27.5889 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:24:27.5889 Info Message Template Auto Format enabled
+2020-05-06 07:24:27.5889 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:24:27.5889 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:24:27.5889 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:24:27.5889 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:24:27.6003 Info Adding target FileTarget(Name=default)
+2020-05-06 07:24:27.6003 Info Closing old configuration.
+2020-05-06 07:24:27.6371 Info Found 64 configuration items
+2020-05-06 07:30:10.0236 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:30:10.0745 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:30:10.1341 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-06 07:30:10.1644 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-06 07:30:10.1704 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:30:10.1704 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:30:10.1728 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-06 07:30:10.1728 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-06 07:30:10.1881 Info Message Template Auto Format enabled
+2020-05-06 07:30:10.2056 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:30:10.3328 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:30:10.3390 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:30:10.3408 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:30:10.3408 Info Adding target FileTarget(Name=default)
+2020-05-06 07:30:10.4081 Info Found 64 configuration items
+2020-05-06 07:30:10.4629 Info Configuration initialized.
+2020-05-06 07:30:10.4751 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-06 07:30:10.7444 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:30:10.7444 Info Message Template Auto Format enabled
+2020-05-06 07:30:10.7444 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:30:10.7500 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:30:10.7530 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:30:10.7530 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:30:10.7530 Info Adding target FileTarget(Name=default)
+2020-05-06 07:30:10.7530 Info Closing old configuration.
+2020-05-06 07:30:10.8409 Info Found 64 configuration items
+2020-05-06 07:30:10.9967 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:30:10.9967 Info Message Template Auto Format enabled
+2020-05-06 07:30:11.0016 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:30:11.0016 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:30:11.0016 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:30:11.0045 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:30:11.0045 Info Adding target FileTarget(Name=default)
+2020-05-06 07:30:11.0128 Info Closing old configuration.
+2020-05-06 07:30:11.0399 Info Found 64 configuration items
+2020-05-06 07:30:11.1780 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:30:11.1780 Info Message Template Auto Format enabled
+2020-05-06 07:30:11.1805 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:30:11.1805 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:30:11.1805 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:30:11.1805 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:30:11.1805 Info Adding target FileTarget(Name=default)
+2020-05-06 07:30:11.1805 Info Closing old configuration.
+2020-05-06 07:30:11.2070 Info Found 64 configuration items
+2020-05-06 07:30:11.2118 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:30:11.2129 Info Message Template Auto Format enabled
+2020-05-06 07:30:11.2129 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:30:11.2129 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:30:11.2196 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:30:11.2203 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:30:11.2203 Info Adding target FileTarget(Name=default)
+2020-05-06 07:30:11.2203 Info Closing old configuration.
+2020-05-06 07:30:11.2460 Info Found 64 configuration items
+2020-05-06 07:30:11.2506 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:30:11.2506 Info Message Template Auto Format enabled
+2020-05-06 07:30:11.2523 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:30:11.2523 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:30:11.2523 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:30:11.2567 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:30:11.2567 Info Adding target FileTarget(Name=default)
+2020-05-06 07:30:11.2766 Info Closing old configuration.
+2020-05-06 07:30:11.3267 Info Found 64 configuration items
+2020-05-06 07:33:00.3516 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:33:00.3864 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-06 07:33:00.4563 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-06 07:33:00.4614 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-06 07:33:00.4661 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:33:00.4682 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-06 07:33:00.4682 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-06 07:33:00.4682 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-06 07:33:00.4764 Info Message Template Auto Format enabled
+2020-05-06 07:33:00.4909 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:33:00.5714 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:33:00.5754 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:33:00.5777 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:33:00.5777 Info Adding target FileTarget(Name=default)
+2020-05-06 07:33:00.6344 Info Found 62 configuration items
+2020-05-06 07:33:00.6665 Info Configuration initialized.
+2020-05-06 07:33:00.6689 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-06 07:33:00.9169 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:33:00.9169 Info Message Template Auto Format enabled
+2020-05-06 07:33:00.9212 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:33:00.9248 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:33:00.9248 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:33:00.9248 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:33:00.9248 Info Adding target FileTarget(Name=default)
+2020-05-06 07:33:00.9248 Info Closing old configuration.
+2020-05-06 07:33:00.9871 Info Found 62 configuration items
+2020-05-06 07:33:01.0273 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:33:01.0374 Info Message Template Auto Format enabled
+2020-05-06 07:33:01.0374 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:33:01.0410 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:33:01.0487 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:33:01.0487 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:33:01.0487 Info Adding target FileTarget(Name=default)
+2020-05-06 07:33:01.0487 Info Closing old configuration.
+2020-05-06 07:33:01.0760 Info Found 62 configuration items
+2020-05-06 07:33:01.1780 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:33:01.1818 Info Message Template Auto Format enabled
+2020-05-06 07:33:01.1818 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:33:01.1818 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:33:01.1843 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:33:01.1843 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:33:01.1843 Info Adding target FileTarget(Name=default)
+2020-05-06 07:33:01.1843 Info Closing old configuration.
+2020-05-06 07:33:01.2093 Info Found 62 configuration items
+2020-05-06 07:33:01.2140 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:33:01.2220 Info Message Template Auto Format enabled
+2020-05-06 07:33:01.2220 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:33:01.2220 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:33:01.2261 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:33:01.2261 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:33:01.2261 Info Adding target FileTarget(Name=default)
+2020-05-06 07:33:01.2261 Info Closing old configuration.
+2020-05-06 07:33:01.2512 Info Found 62 configuration items
+2020-05-06 07:33:01.2542 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-06 07:33:01.2570 Info Message Template Auto Format enabled
+2020-05-06 07:33:01.2570 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-06 07:33:01.2570 Info Adding target FileTarget(Name=coreLogs)
+2020-05-06 07:33:01.2603 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-06 07:33:01.2603 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-06 07:33:01.2603 Info Adding target FileTarget(Name=default)
+2020-05-06 07:33:01.2603 Info Closing old configuration.
+2020-05-06 07:33:01.3030 Info Found 62 configuration items
+2020-05-07 04:40:45.5595 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-07 04:40:45.6076 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-07 04:40:45.6520 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-07 04:40:45.6566 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-07 04:40:45.6616 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-07 04:40:45.6616 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-07 04:40:45.6656 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-07 04:40:45.6656 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-07 04:40:45.6722 Info Message Template Auto Format enabled
+2020-05-07 04:40:45.6836 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:40:45.8067 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:40:45.8134 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:40:45.8134 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:40:45.8257 Info Adding target FileTarget(Name=default)
+2020-05-07 04:40:45.8887 Info Found 66 configuration items
+2020-05-07 04:40:45.9379 Info Configuration initialized.
+2020-05-07 04:40:45.9414 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-07 04:40:46.1977 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:40:46.2008 Info Message Template Auto Format enabled
+2020-05-07 04:40:46.2008 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:40:46.2008 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:40:46.2096 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:40:46.2096 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:40:46.2178 Info Adding target FileTarget(Name=default)
+2020-05-07 04:40:46.2178 Info Closing old configuration.
+2020-05-07 04:40:46.2801 Info Found 66 configuration items
+2020-05-07 04:40:46.3428 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:40:46.3469 Info Message Template Auto Format enabled
+2020-05-07 04:40:46.3469 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:40:46.3513 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:40:46.3582 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:40:46.3582 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:40:46.3582 Info Adding target FileTarget(Name=default)
+2020-05-07 04:40:46.3608 Info Closing old configuration.
+2020-05-07 04:40:46.3840 Info Found 66 configuration items
+2020-05-07 04:40:46.4025 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:40:46.4067 Info Message Template Auto Format enabled
+2020-05-07 04:40:46.4067 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:40:46.4110 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:40:46.4166 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:40:46.4177 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:40:46.4217 Info Adding target FileTarget(Name=default)
+2020-05-07 04:40:46.4217 Info Closing old configuration.
+2020-05-07 04:40:46.4459 Info Found 66 configuration items
+2020-05-07 04:40:46.4565 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:40:46.4629 Info Message Template Auto Format enabled
+2020-05-07 04:40:46.4653 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:40:46.4653 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:40:46.4716 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:40:46.4716 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:40:46.4731 Info Adding target FileTarget(Name=default)
+2020-05-07 04:40:46.4782 Info Closing old configuration.
+2020-05-07 04:40:46.5031 Info Found 66 configuration items
+2020-05-07 04:40:46.5071 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:40:46.5131 Info Message Template Auto Format enabled
+2020-05-07 04:40:46.5131 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:40:46.5131 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:40:46.5192 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:40:46.5192 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:40:46.5211 Info Adding target FileTarget(Name=default)
+2020-05-07 04:40:46.5351 Info Closing old configuration.
+2020-05-07 04:40:46.5611 Info Found 66 configuration items
+2020-05-07 04:51:07.8263 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-07 04:51:07.8641 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+2020-05-07 04:51:07.9544 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-07 04:51:07.9712 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll succeeded!
+2020-05-07 04:51:07.9747 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-07 04:51:07.9747 Info Loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2020-05-07 04:51:07.9790 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-07 04:51:07.9862 Info Auto loading assembly file: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2020-05-07 04:51:08.0021 Info Message Template Auto Format enabled
+2020-05-07 04:51:08.0192 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:51:08.1132 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:51:08.1223 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:51:08.1270 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:51:08.1298 Info Adding target FileTarget(Name=default)
+2020-05-07 04:51:08.1915 Info Found 66 configuration items
+2020-05-07 04:51:08.2243 Info Configuration initialized.
+2020-05-07 04:51:08.2378 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-07 04:51:08.4956 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:51:08.4994 Info Message Template Auto Format enabled
+2020-05-07 04:51:08.5021 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:51:08.5021 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:51:08.5055 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:51:08.5100 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:51:08.5100 Info Adding target FileTarget(Name=default)
+2020-05-07 04:51:08.5100 Info Closing old configuration.
+2020-05-07 04:51:08.5740 Info Found 66 configuration items
+2020-05-07 04:51:08.6751 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:51:08.6816 Info Message Template Auto Format enabled
+2020-05-07 04:51:08.6882 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:51:08.6904 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:51:08.6904 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:51:08.6904 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:51:08.6975 Info Adding target FileTarget(Name=default)
+2020-05-07 04:51:08.6975 Info Closing old configuration.
+2020-05-07 04:51:08.7227 Info Found 66 configuration items
+2020-05-07 04:51:08.7400 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:51:08.7422 Info Message Template Auto Format enabled
+2020-05-07 04:51:08.7422 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:51:08.7422 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:51:08.7457 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:51:08.7457 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:51:08.7457 Info Adding target FileTarget(Name=default)
+2020-05-07 04:51:08.7457 Info Closing old configuration.
+2020-05-07 04:51:08.7739 Info Found 66 configuration items
+2020-05-07 04:51:08.7739 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:51:08.7739 Info Message Template Auto Format enabled
+2020-05-07 04:51:08.7739 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:51:08.7817 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:51:08.7899 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:51:08.7899 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:51:08.7899 Info Adding target FileTarget(Name=default)
+2020-05-07 04:51:08.7936 Info Closing old configuration.
+2020-05-07 04:51:08.8252 Info Found 66 configuration items
+2020-05-07 04:51:08.8252 Info Configuring from an XML element in /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api/bin/Debug/netcoreapp3.1/nlog.config...
+2020-05-07 04:51:08.8252 Info Message Template Auto Format enabled
+2020-05-07 04:51:08.8252 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-07 04:51:08.8252 Info Adding target FileTarget(Name=coreLogs)
+2020-05-07 04:51:08.8252 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-07 04:51:08.8252 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-07 04:51:08.8354 Info Adding target FileTarget(Name=default)
+2020-05-07 04:51:08.8547 Info Closing old configuration.
+2020-05-07 04:51:08.8611 Info Found 66 configuration items

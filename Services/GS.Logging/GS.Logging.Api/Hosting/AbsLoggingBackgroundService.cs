@@ -34,6 +34,7 @@ namespace GS.Logging.Api.Hosting
             {
                 try
                 {
+                    Logger.Trace("Error logging background service was started");
                     LoggingJob job = GetLoggingJob();
                     if (job == null)
                     {
@@ -51,7 +52,7 @@ namespace GS.Logging.Api.Hosting
                             }
                         }
                     }
-
+                    Logger.Trace("Error logging background service was terminated");
                 }
                 catch (Exception ex)
                 {
