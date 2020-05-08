@@ -1,0 +1,186 @@
+2020-05-08 20:45:27.0412 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll
+2020-05-08 20:45:27.0498 Info Loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll
+2020-05-08 20:45:27.0785 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-08 20:45:27.0822 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll succeeded!
+2020-05-08 20:45:27.0822 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll
+2020-05-08 20:45:27.0822 Info Loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll
+2020-05-08 20:45:27.0855 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-08 20:45:27.0855 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll succeeded!
+2020-05-08 20:45:27.0921 Info Message Template Auto Format enabled
+2020-05-08 20:45:27.0970 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:45:27.1472 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:45:27.1502 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:45:27.1502 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:45:27.1502 Info Adding target FileTarget(Name=default)
+2020-05-08 20:45:27.1790 Info Found 66 configuration items
+2020-05-08 20:45:27.2026 Info Configuration initialized.
+2020-05-08 20:45:27.2026 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-08 20:45:27.2585 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:45:27.2585 Info Message Template Auto Format enabled
+2020-05-08 20:45:27.2585 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:45:27.2619 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:45:27.2619 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:45:27.2619 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:45:27.2619 Info Adding target FileTarget(Name=default)
+2020-05-08 20:45:27.2657 Info Closing old configuration.
+2020-05-08 20:45:27.2808 Info Found 66 configuration items
+2020-05-08 20:45:27.2939 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:45:27.2939 Info Message Template Auto Format enabled
+2020-05-08 20:45:27.2939 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:45:27.2939 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:45:27.2972 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:45:27.2972 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:45:27.2972 Info Adding target FileTarget(Name=default)
+2020-05-08 20:45:27.2972 Info Closing old configuration.
+2020-05-08 20:45:27.3026 Info Found 66 configuration items
+2020-05-08 20:45:27.3072 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:45:27.3072 Info Message Template Auto Format enabled
+2020-05-08 20:45:27.3088 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:45:27.3088 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:45:27.3088 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:45:27.3088 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:45:27.3088 Info Adding target FileTarget(Name=default)
+2020-05-08 20:45:27.3088 Info Closing old configuration.
+2020-05-08 20:45:27.3183 Info Found 66 configuration items
+2020-05-08 20:45:27.3213 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:45:27.3213 Info Message Template Auto Format enabled
+2020-05-08 20:45:27.3213 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:45:27.3213 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:45:27.3264 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:45:27.3264 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:45:27.3264 Info Adding target FileTarget(Name=default)
+2020-05-08 20:45:27.3264 Info Closing old configuration.
+2020-05-08 20:45:27.3315 Info Found 66 configuration items
+2020-05-08 20:45:27.3341 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:45:27.3341 Info Message Template Auto Format enabled
+2020-05-08 20:45:27.3341 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:45:27.3341 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:45:27.3375 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:45:27.3375 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:45:27.3375 Info Adding target FileTarget(Name=default)
+2020-05-08 20:45:27.3375 Info Closing old configuration.
+2020-05-08 20:45:27.3424 Info Found 66 configuration items
+2020-05-08 20:58:17.6298 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll
+2020-05-08 20:58:17.6389 Info Loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll
+2020-05-08 20:58:17.6546 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-08 20:58:17.6585 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll succeeded!
+2020-05-08 20:58:17.6585 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll
+2020-05-08 20:58:17.6624 Info Loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll
+2020-05-08 20:58:17.6624 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-08 20:58:17.6666 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll succeeded!
+2020-05-08 20:58:17.6710 Info Message Template Auto Format enabled
+2020-05-08 20:58:17.6773 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:58:17.7354 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:58:17.7386 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:58:17.7386 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:58:17.7413 Info Adding target FileTarget(Name=default)
+2020-05-08 20:58:17.7710 Info Found 66 configuration items
+2020-05-08 20:58:17.7956 Info Configuration initialized.
+2020-05-08 20:58:17.7977 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-08 20:58:17.8485 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:58:17.8499 Info Message Template Auto Format enabled
+2020-05-08 20:58:17.8499 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:58:17.8499 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:58:17.8499 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:58:17.8499 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:58:17.8534 Info Adding target FileTarget(Name=default)
+2020-05-08 20:58:17.8534 Info Closing old configuration.
+2020-05-08 20:58:17.8679 Info Found 66 configuration items
+2020-05-08 20:58:17.8811 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:58:17.8811 Info Message Template Auto Format enabled
+2020-05-08 20:58:17.8811 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:58:17.8811 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:58:17.8855 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:58:17.8855 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:58:17.8855 Info Adding target FileTarget(Name=default)
+2020-05-08 20:58:17.8855 Info Closing old configuration.
+2020-05-08 20:58:17.8902 Info Found 66 configuration items
+2020-05-08 20:58:17.8942 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:58:17.8942 Info Message Template Auto Format enabled
+2020-05-08 20:58:17.8942 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:58:17.8974 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:58:17.8974 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:58:17.8974 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:58:17.8974 Info Adding target FileTarget(Name=default)
+2020-05-08 20:58:17.8974 Info Closing old configuration.
+2020-05-08 20:58:17.9034 Info Found 66 configuration items
+2020-05-08 20:58:17.9068 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:58:17.9068 Info Message Template Auto Format enabled
+2020-05-08 20:58:17.9068 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:58:17.9068 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:58:17.9098 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:58:17.9098 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:58:17.9098 Info Adding target FileTarget(Name=default)
+2020-05-08 20:58:17.9098 Info Closing old configuration.
+2020-05-08 20:58:17.9145 Info Found 66 configuration items
+2020-05-08 20:58:17.9176 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 20:58:17.9176 Info Message Template Auto Format enabled
+2020-05-08 20:58:17.9176 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 20:58:17.9176 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 20:58:17.9228 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 20:58:17.9228 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 20:58:17.9228 Info Adding target FileTarget(Name=default)
+2020-05-08 20:58:17.9228 Info Closing old configuration.
+2020-05-08 20:58:17.9261 Info Found 66 configuration items
+2020-05-08 21:09:32.0172 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll
+2020-05-08 21:09:32.0349 Info Loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll
+2020-05-08 21:09:32.0623 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.9.2.1619. Product version: 4.9.2.
+2020-05-08 21:09:32.0675 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Web.AspNetCore.dll succeeded!
+2020-05-08 21:09:32.0694 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll
+2020-05-08 21:09:32.0694 Info Loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll
+2020-05-08 21:09:32.0694 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.2.1321. Product version: 1.6.2.
+2020-05-08 21:09:32.0745 Info Auto loading assembly file: /app/bin/Debug/netcoreapp3.1/publish/NLog.Extensions.Logging.dll succeeded!
+2020-05-08 21:09:32.0801 Info Message Template Auto Format enabled
+2020-05-08 21:09:32.0890 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 21:09:32.1715 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 21:09:32.1751 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 21:09:32.1751 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 21:09:32.1783 Info Adding target FileTarget(Name=default)
+2020-05-08 21:09:32.2176 Info Found 66 configuration items
+2020-05-08 21:09:32.2591 Info Configuration initialized.
+2020-05-08 21:09:32.2613 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.0.11381. Product version: 4.7.0+4d138800820311d0b60b6437f1dd2ed1d571d47d.
+2020-05-08 21:09:32.3608 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 21:09:32.3610 Info Message Template Auto Format enabled
+2020-05-08 21:09:32.3610 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 21:09:32.3610 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 21:09:32.3610 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 21:09:32.3610 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 21:09:32.3610 Info Adding target FileTarget(Name=default)
+2020-05-08 21:09:32.3648 Info Closing old configuration.
+2020-05-08 21:09:32.3875 Info Found 66 configuration items
+2020-05-08 21:09:32.4112 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 21:09:32.4112 Info Message Template Auto Format enabled
+2020-05-08 21:09:32.4112 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 21:09:32.4112 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 21:09:32.4112 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 21:09:32.4112 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 21:09:32.4112 Info Adding target FileTarget(Name=default)
+2020-05-08 21:09:32.4112 Info Closing old configuration.
+2020-05-08 21:09:32.4203 Info Found 66 configuration items
+2020-05-08 21:09:32.4286 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 21:09:32.4300 Info Message Template Auto Format enabled
+2020-05-08 21:09:32.4300 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 21:09:32.4300 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 21:09:32.4300 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 21:09:32.4300 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 21:09:32.4328 Info Adding target FileTarget(Name=default)
+2020-05-08 21:09:32.4328 Info Closing old configuration.
+2020-05-08 21:09:32.4368 Info Found 66 configuration items
+2020-05-08 21:09:32.4368 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 21:09:32.4415 Info Message Template Auto Format enabled
+2020-05-08 21:09:32.4415 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 21:09:32.4415 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 21:09:32.4415 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 21:09:32.4415 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 21:09:32.4415 Info Adding target FileTarget(Name=default)
+2020-05-08 21:09:32.4415 Info Closing old configuration.
+2020-05-08 21:09:32.4484 Info Found 66 configuration items
+2020-05-08 21:09:32.4528 Info Configuring from an XML element in /app/bin/Debug/netcoreapp3.1/publish/nlog.config...
+2020-05-08 21:09:32.4528 Info Message Template Auto Format enabled
+2020-05-08 21:09:32.4528 Info Loading assembly: NLog.Web.AspNetCore
+2020-05-08 21:09:32.4528 Info Adding target FileTarget(Name=coreLogs)
+2020-05-08 21:09:32.4528 Info Adding target FileTarget(Name=messagingLogs)
+2020-05-08 21:09:32.4528 Info Adding target FileTarget(Name=logServiceLogs)
+2020-05-08 21:09:32.4528 Info Adding target FileTarget(Name=default)
+2020-05-08 21:09:32.4566 Info Closing old configuration.
+2020-05-08 21:09:32.4566 Info Found 66 configuration items

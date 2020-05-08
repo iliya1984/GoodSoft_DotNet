@@ -1,0 +1,44 @@
+2020-05-08 20:45:27.4763|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Error logging background service was started
+2020-05-08 20:45:27.6699|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:45:57.6873|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:46:27.6921|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:46:57.7085|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:47:27.7099|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:47:57.7115|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:48:27.7131|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:48:57.7142|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:49:27.7153|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:49:57.7159|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:58:18.0701|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Error logging background service was started
+2020-05-08 20:58:18.2805|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:58:48.3029|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:59:18.3127|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 20:59:48.3142|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:00:18.3246|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:00:48.3256|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:01:18.3268|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:01:48.3279|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:02:18.3285|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:02:48.3296|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:03:18.3301|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:03:48.3308|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:04:18.3314|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:04:48.3320|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:05:18.3326|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:05:48.3332|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:09:32.7317|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Error logging background service was started
+2020-05-08 21:09:33.1509|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:09:36.1832|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Handling error message that was read from queue
+2020-05-08 21:09:36.2048|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:09:36.2048|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Handling error message that was read from queue
+2020-05-08 21:09:36.2109|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:10:06.2121|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:10:36.2132|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:11:06.2144|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:11:36.2155|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:12:06.2165|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:12:36.2176|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:13:06.2186|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:13:36.2201|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:14:06.2211|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue
+2020-05-08 21:14:36.2224|TRACE|GS.Logging.Api.Hosting.ErrorLoggingBackgroundService|Consuming error log message from message queue

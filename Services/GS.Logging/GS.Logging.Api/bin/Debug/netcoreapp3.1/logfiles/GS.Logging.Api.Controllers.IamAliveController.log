@@ -1,1 +1,2 @@
-2020-05-07 04:51:12.1372|TRACE|GS.Logging.Api.Controllers.IamAliveController|Client queried I am alive service. Status = I am alive
+2020-05-08 05:36:47.8995|TRACE|GS.Logging.Api.Controllers.IamAliveController|Client queried I am alive service. Status = I am alive
+2020-05-08 05:50:20.8390|TRACE|GS.Logging.Api.Controllers.IamAliveController|Client queried I am alive service. Status = I am alive

@@ -20,7 +20,7 @@ namespace GS.Logging.Tests.Client
             var logger = loggingFactory.GetAsyncLoggerByType<AsyncLoggingClientTest>();
 
             //Act
-            await logger.ErrorAsync("test error");
+            await logger.ErrorAsync("Docker test error message");
 
             //Assert
             int i = 0;

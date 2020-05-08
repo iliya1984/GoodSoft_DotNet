@@ -1,0 +1,15 @@
+2020-05-08 20:45:27.6642|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:80
+2020-05-08 20:45:27.6909|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-05-08 20:45:27.6909|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2020-05-08 20:45:27.6909|INFO|Microsoft.Hosting.Lifetime|Content root path: /app/bin/Debug/netcoreapp3.1/publish
+2020-05-08 20:50:08.9430|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2020-05-08 20:58:18.2823|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:80
+2020-05-08 20:58:18.3187|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-05-08 20:58:18.3209|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2020-05-08 20:58:18.3209|INFO|Microsoft.Hosting.Lifetime|Content root path: /app/bin/Debug/netcoreapp3.1/publish
+2020-05-08 21:05:53.1045|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2020-05-08 21:09:33.2006|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:80
+2020-05-08 21:09:33.2293|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-05-08 21:09:33.2326|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2020-05-08 21:09:33.2326|INFO|Microsoft.Hosting.Lifetime|Content root path: /app/bin/Debug/netcoreapp3.1/publish
+2020-05-08 21:14:44.4579|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...

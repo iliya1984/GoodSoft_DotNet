@@ -1,5 +1,15 @@
-2020-05-07 04:51:10.4694|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
-2020-05-07 04:51:10.5047|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
-2020-05-07 04:51:10.5082|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
-2020-05-07 04:51:10.5190|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
-2020-05-07 04:51:10.5190|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api
+2020-05-08 05:36:45.3602|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2020-05-08 05:36:45.3805|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2020-05-08 05:36:45.3805|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-05-08 05:36:45.3805|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-05-08 05:36:45.3827|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api
+2020-05-08 05:50:12.9170|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2020-05-08 05:50:12.9460|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2020-05-08 05:50:12.9485|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-05-08 05:50:12.9518|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-05-08 05:50:12.9518|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api
+2020-05-08 06:09:05.2380|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2020-05-08 06:09:05.2758|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2020-05-08 06:09:05.2758|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-05-08 06:09:05.2792|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-05-08 06:09:05.2848|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/Services/GS.Logging/GS.Logging.Api
