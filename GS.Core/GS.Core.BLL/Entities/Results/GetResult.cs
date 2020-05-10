@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq;
+using GS.Core.DAL.Entities.Results;
 using GS.Core.Entities.Interfaces;
 
 namespace  GS.Core.BLL.Entities.Results
@@ -10,6 +12,14 @@ namespace  GS.Core.BLL.Entities.Results
         public GetResult()
         {
             Entities = new List<TEntity>();
+        }
+
+        public GetResult(DataGetResult<TEntity> result): base(result)
+        {
+            if(result.Entities != null && result.Entities.Any())
+            {
+                Entities.AddRange(result.Entities);
+            }
         }
     }
 }

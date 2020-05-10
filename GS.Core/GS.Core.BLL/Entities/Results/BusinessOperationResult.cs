@@ -1,13 +1,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using GS.Core.BLL.Entities.Enums;
+using GS.Core.DAL.Entities.Results;
 using GS.Core.Entities.Entities;
 using GS.Core.Entities.Enums;
 using GS.Core.Entities.ErrorHandling.BusinessErrors;
 
 namespace GS.Core.BLL.Entities.Results
 {
-    public class BusinessOperationResult : OperationResult
+    public abstract class BusinessOperationResult : OperationResult
     {
         public BusinessOperationStatus Status
          { 
@@ -32,9 +33,14 @@ namespace GS.Core.BLL.Entities.Results
 
         public List<BusinessError> BusinessErrors { get; private set; }
 
-        public BusinessOperationResult()
+        protected BusinessOperationResult()
         {
             BusinessErrors = new List<BusinessError>();
+        }
+
+        protected BusinessOperationResult(DataOperationResult result) : base(result)
+        {
+             BusinessErrors = new List<BusinessError>();
         }
     }
 }

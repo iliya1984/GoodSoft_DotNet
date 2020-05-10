@@ -5,7 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\GS.Core.Entities\GS.Core.Entities.csproj" />
-      <ProjectReference Include="..\GS.Core.DAL\GS.Core.DAL.csproj" />
+    <ProjectReference Include="..\GS.Core.DAL\GS.Core.DAL.csproj" />
     <Content Include="Interfaces\Entities\IBusinessOperationResult.cs" />
     <Content Include="Entities\Enums\BusinessOperationStatus.cs" />
     <Content Include="Entities\Results\BusinessOperationResult.cs" />
@@ -18,5 +18,12 @@
     <Content Include="Interfaces\Services\IGetByFilterAsyncService.cs" />
     <Content Include="Interfaces\Services\IDeleteAsyncService.cs" />
     <Content Include="Interfaces\Services\ICreateAsyncService.cs" />
+    <Content Include="Entities\Results\CreateResult.cs" />
+    <Content Include="Entities\Results\GetSingleResult.cs" />
+    <Content Include="Extensions\ResultExtensions.cs" />
+    <Content Include="Services\Service.cs" />
+    <Content Include="Services\BLLService.cs" />
+    <Content Include="DI\BLLDIModule.cs" />
+    <Content Include="DI\BLLServiceRegistery.cs" />
   </ItemGroup>
 </Project>

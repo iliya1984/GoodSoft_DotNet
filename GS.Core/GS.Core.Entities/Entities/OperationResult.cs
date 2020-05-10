@@ -15,6 +15,11 @@ namespace GS.Core.Entities.Entities
             Exceptions = new List<ExceptionWrapper>();
         }
 
+        protected OperationResult(IOperationResult result) : this()
+        {
+           initialize(result);
+        }
+
         public void AddException(Exception ex)
         {
             Exceptions.Add(new ExceptionWrapper(ex));
@@ -35,6 +40,14 @@ namespace GS.Core.Entities.Entities
         {
             var exceptionsToAdd = exs.Select(ex => new ExceptionWrapper(ex, true));
             Exceptions.AddRange(exceptionsToAdd);
+        }
+
+        private void initialize(IOperationResult result)
+        {
+            if(result.Exceptions != null && result.Exceptions.Any())
+            {
+                Exceptions.AddRange(result.Exceptions);
+            }
         }
     }
 }

@@ -8,17 +8,11 @@ namespace GS.Core.BLL.Entities.Results
     {
         public TEntity Entity { get; set; }
 
-        public CreateResult(DataCreateResult<TEntity> dataResult)
-        {
-            initalize(dataResult);
-        }
+        public CreateResult(){}
 
-        private void initalize(DataCreateResult<TEntity> dataResult)
+        public CreateResult(DataCreateResult<TEntity> result): base(result)
         {
-            if(dataResult.Exceptions != null && dataResult.Exceptions.Any())
-            {
-                Exceptions.AddRange(dataResult.Exceptions);
-            }
+            Entity = result.Entity;
         }
     }
 }
