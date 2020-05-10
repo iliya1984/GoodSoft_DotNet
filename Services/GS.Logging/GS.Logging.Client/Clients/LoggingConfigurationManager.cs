@@ -5,6 +5,7 @@ using GS.Core.Messaging.Entities.Common;
 using GS.Logging.Entities.Settings;
 using GS.Logging.Client.Interfaces;
 using Microsoft.Extensions.Configuration;
+using GS.Logging.Entities.Attributes;
 
 namespace GS.Logging.Client.Clients
 {

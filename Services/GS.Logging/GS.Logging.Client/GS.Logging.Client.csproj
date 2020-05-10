@@ -27,7 +27,6 @@
     <Content Include="Entities\LoggingClientArgs.cs" />
     <Content Include="Interfaces\Entities\ILoggingClientArgs.cs" />
     <Content Include="Entities\LoggingClientSettings.cs" />
-    <Content Include="Clients\LoggableAttribute.cs" />
     <Content Include="Clients\LoggingConfigurationManager.cs" />
     <Content Include="Clients\LoggingFactory.cs" />
     <Content Include="Clients\AbsLoggingClient.cs" />

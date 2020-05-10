@@ -25,5 +25,6 @@
     <ProjectReference Include="..\..\..\GS.Core\GS.Core.Messaging\GS.Core.Messaging.Entities\GS.Core.Messaging.Entities.csproj" />
     <Content Include="Settings\LoggingClientTopics.cs" />
     <Content Include="Settings\RepositorySettings.cs" />
+    <Content Include="Attributes\LoggableAttribute.cs" />
   </ItemGroup>
 </Project>

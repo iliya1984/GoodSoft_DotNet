@@ -22,5 +22,9 @@
     <Content Include="Interfaces\IOperationResult.cs" />
     <Content Include="ErrorHandling\Exceptions\HandledException.cs" />
     <Content Include="ErrorHandling\Exceptions\ExceptionWrapper.cs" />
+    <Content Include="Environments\Environment.cs" />
+    <Content Include="Entities\SystemManagement\Module.cs" />
+    <Content Include="Entities\SystemManagement\Environment.cs" />
+    <Content Include="Entities\SystemManagement\SystemInfo.cs" />
   </ItemGroup>
 </Project>

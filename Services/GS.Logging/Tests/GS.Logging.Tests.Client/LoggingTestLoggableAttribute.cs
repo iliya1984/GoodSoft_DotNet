@@ -1,5 +1,6 @@
 using GS.Logging.Client.Clients;
 using GS.Logging.Entities;
+using GS.Logging.Entities.Attributes;
 
 namespace GS.Logging.Tests.Client
 {

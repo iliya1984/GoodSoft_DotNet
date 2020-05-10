@@ -2,11 +2,16 @@ using System;
 using GS.Logging.Entities;
 using GS.Logging.Entities.Modules;
 
-namespace GS.Logging.Client.Clients
+namespace GS.Logging.Entities.Attributes
 {
     public class LoggableAttribute : Attribute
     {
         public LoggingModule Module { get; private set; }
+
+        public LoggableAttribute(LoggingModule module)
+        {
+            Module = module;
+        }
 
         public LoggableAttribute(string module, ELogs.Layer layer)
         {

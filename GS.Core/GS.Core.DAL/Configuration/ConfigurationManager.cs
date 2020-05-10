@@ -24,8 +24,8 @@ namespace GT.DAL.Configuration
             IDbSettings settings = null;
             try
             {
-                var connectionString = _configuration["DBSetting:ConnectionString"];
-                var technologyConfig = _configuration["DBSetting:Technology"];
+                var connectionString = _configuration["DBSettings:ConnectionString"];
+                var technologyConfig = _configuration["DBSettings:Technology"];
 
                 DatabaseTechnology technology = DatabaseTechnology.None;
                 if(false == Enum.TryParse<DatabaseTechnology>(technologyConfig, out technology))
@@ -38,7 +38,7 @@ namespace GT.DAL.Configuration
                     case DatabaseTechnology.MongoDB:
 
                         var mongoDBSettings =  new MongoDBSettings(connectionString);
-                        mongoDBSettings.DatabaseName = _configuration["DBSetting:DatabaseName"];
+                        mongoDBSettings.DatabaseName = _configuration["DBSettings:DatabaseName"];
                         settings = mongoDBSettings;
 
                         break;
