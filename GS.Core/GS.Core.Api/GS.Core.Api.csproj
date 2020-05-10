@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Results\ExceptionResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controllers\ApiController.cs" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <Content Include="Entities\ExceptionResponse.cs" />
+    <ProjectReference Include="..\GS.Core.Entities\GS.Core.Entities.csproj" />
+    <ProjectReference Include="..\GS.Core.BLL\GS.Core.BLL.csproj" />
+    <ProjectReference Include="..\..\Services\GS.Logging\GS.Logging.Client\GS.Logging.Client.csproj" />
+    <ProjectReference Include="..\..\Services\GS.Logging\GS.Logging.Entities\GS.Logging.Entities.csproj" />
+  </ItemGroup>
+</Project>
