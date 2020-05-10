@@ -1,0 +1,8 @@
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Entities/bin/Debug/netstandard2.0/GS.Core.Entities.deps.json
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Entities/bin/Debug/netstandard2.0/GS.Core.Entities.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Entities/bin/Debug/netstandard2.0/GS.Core.Entities.pdb
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Entities/obj/Debug/netstandard2.0/GS.Core.Entities.csproj.CoreCompileInputs.cache
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Entities/obj/Debug/netstandard2.0/GS.Core.Entities.AssemblyInfoInputs.cache
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Entities/obj/Debug/netstandard2.0/GS.Core.Entities.AssemblyInfo.cs
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Entities/obj/Debug/netstandard2.0/GS.Core.Entities.dll
+/home/ilya/Desktop/Workspace/Projects/DotNet/GoodSoft_DotNet/GS.Core/GS.Core.Entities/obj/Debug/netstandard2.0/GS.Core.Entities.pdb

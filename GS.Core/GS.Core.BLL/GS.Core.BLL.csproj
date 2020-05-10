@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Core.Entities\GS.Core.Entities.csproj" />
+      <ProjectReference Include="..\GS.Core.DAL\GS.Core.DAL.csproj" />
+    <Content Include="Interfaces\Entities\IBusinessOperationResult.cs" />
+    <Content Include="Entities\Enums\BusinessOperationStatus.cs" />
+    <Content Include="Entities\Results\BusinessOperationResult.cs" />
+    <Content Include="Entities\Results\GetResult.cs" />
+    <Content Include="Entities\Results\DataUpdateResult.cs" />
+    <Content Include="Entities\Results\UpdateResult.cs" />
+    <Content Include="Interfaces\Services\IUpdateAsyncService.cs" />
+    <Content Include="Interfaces\Services\IService.cs" />
+    <Content Include="Interfaces\Services\IGetByIdAsyncService.cs" />
+    <Content Include="Interfaces\Services\IGetByFilterAsyncService.cs" />
+    <Content Include="Interfaces\Services\IDeleteAsyncService.cs" />
+    <Content Include="Interfaces\Services\ICreateAsyncService.cs" />
+  </ItemGroup>
+</Project>

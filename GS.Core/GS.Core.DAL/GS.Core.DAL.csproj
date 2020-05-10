@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Core.Entities\GS.Core.Entities.csproj" />
+    <Content Include="Entities\Enums\DataOperationStatus.cs" />
+    <Content Include="Interfaces\Entities\IDataOperationResult.cs" />
+    <Content Include="Entities\Enums\DatabaseTechnology.cs" />
+    <Content Include="Interfaces\Configuration\IConfigurationManager.cs" />
+    <Content Include="Interfaces\Entities\IDbSettings.cs" />
+    <Content Include="Interfaces\Mongo\IMongoDBClientFactory.cs" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
+    <Content Include="Entities\DBSettings.cs" />
+    <Content Include="Entities\Mongo\MongoDBSettings.cs" />
+    <Content Include="Configuration\ConfigurationManager.cs" />
+    <ProjectReference Include="..\..\Services\GS.Logging\GS.Logging.Client\GS.Logging.Client.csproj" />
+    <ProjectReference Include="..\..\Services\GS.Logging\GS.Logging.Entities\GS.Logging.Entities.csproj" />
+    <Content Include="Interfaces\Repositories\IGetAllAsyncRepository.cs" />
+    <Content Include="Interfaces\Repositories\IRepository.cs" />
+    <Content Include="Mongo\MongoDBRepository.cs" />
+    <Content Include="Mongo\MongoDBRepositoryToolkit.cs" />
+    <Content Include="Repositories\RepositoryRegistrationAttribute.cs" />
+    <Content Include="DI\RepositoryRegistery.cs" />
+    <Content Include="DI\DALDIModule.cs" />
+    <Content Include="Repositories\Repository.cs" />
+    <Content Include="Entities\Results\DataUpdateResult.cs" />
+    <Content Include="Interfaces\Repositories\IGetByFilterAsyncRepository.cs" />
+    <Content Include="Entities\Results\DataGetSingleResult.cs" />
+    <Content Include="Interfaces\Repositories\ICreateAsyncRepository.cs" />
+    <Content Include="Interfaces\Repositories\IUpdateAsyncRepository.cs" />
+    <Content Include="Interfaces\Repositories\IDeleteAsyncRepository.cs" />
+    <Content Include="Mongo\MongoDBClientFactory.cs" />
+    <Content Include="Entities\Results\DataGetResult.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+</Project>

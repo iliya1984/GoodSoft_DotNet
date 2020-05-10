@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Interfaces\IEntity.cs" />
+    <Content Include="Entities\Entity.cs" />
+    <Content Include="Interfaces\IKeyedEntity.cs" />
+    <Content Include="Entities\KeyedEntity.cs" />
+    <Content Include="Interfaces\IEntityWithID.cs" />
+    <Content Include="Entities\EntityWithID.cs" />
+    <Content Include="Entities\EntityWithStringID.cs" />
+    <Content Include="Exceptions\InvalidEntityException.cs" />
+    <Content Include="Exceptions\InvalidEntityIDException.cs" />
+    <Content Include="Enums\EGeneral.cs" />
+    <Content Include="Enums\EResults.cs" />
+    <Content Include="Results\DataOperationResult.cs" />
+    <Content Include="Results\OperationResult.cs" />
+    <Content Include="ErrorHandling\BusinessErrors\BusinessError.cs" />
+    <Content Include="Entities\OperationResult.cs" />
+    <Content Include="Interfaces\IOperationResult.cs" />
+    <Content Include="ErrorHandling\Exceptions\HandledException.cs" />
+    <Content Include="ErrorHandling\Exceptions\ExceptionWrapper.cs" />
+  </ItemGroup>
+</Project>
