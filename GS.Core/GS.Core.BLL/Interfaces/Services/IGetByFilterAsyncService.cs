@@ -5,7 +5,7 @@ using GS.Core.Entities.Interfaces;
 
 namespace GS.Core.BLL.Interfaces.Services
 {
-    public interface IGetByFilterAsyncRepository<TFilter, TEntity> where TEntity : IEntity
+    public interface IGetByFilterAsyncService<TFilter, TEntity> where TEntity : IEntity
     {
          Task<GetResult<TEntity>> GetByFilterAsync(TFilter filter);
     }

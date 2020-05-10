@@ -6,7 +6,7 @@ using GS.Core.Entities.Interfaces;
 
 namespace GS.Core.BLL.Interfaces.Services
 {
-    public interface IGetAllAsyncRepository<TEntity> where TEntity: IEntity
+    public interface IGetAllAsyncService<TEntity> where TEntity: IEntity
     {
         Task<GetResult<TEntity>> GetAllAsync();
     }

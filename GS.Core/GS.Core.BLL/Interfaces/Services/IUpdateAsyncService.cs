@@ -6,7 +6,7 @@ using GS.Core.Entities.Interfaces;
 
 namespace GS.Core.BLL.Interfaces.Services
 {
-    public interface IUpdateAsyncRepository<TEntity> where TEntity: IEntity
+    public interface IUpdateAsyncService<TEntity> where TEntity: IEntity
     {
         Task<UpdateResult<TEntity>> Update(TEntity entity);
     }

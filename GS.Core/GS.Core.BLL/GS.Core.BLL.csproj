@@ -25,5 +25,6 @@
     <Content Include="Services\BLLService.cs" />
     <Content Include="DI\BLLDIModule.cs" />
     <Content Include="DI\BLLServiceRegistery.cs" />
+    <Content Include="Interfaces\Services\IGetAllAsyncService.cs" />
   </ItemGroup>
 </Project>

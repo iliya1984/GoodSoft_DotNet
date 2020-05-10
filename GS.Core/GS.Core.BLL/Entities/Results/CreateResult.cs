@@ -1,5 +1,7 @@
+using System;
 using System.Linq;
 using GS.Core.DAL.Entities.Results;
+using GS.Core.Entities.ErrorHandling.Exceptions;
 using GS.Core.Entities.Interfaces;
 
 namespace GS.Core.BLL.Entities.Results
@@ -14,5 +16,7 @@ namespace GS.Core.BLL.Entities.Results
         {
             Entity = result.Entity;
         }
+
+        public CreateResult(Exception exception, bool isHandled = false) :base(exception, isHandled){ }
     }
 }

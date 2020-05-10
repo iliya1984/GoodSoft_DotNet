@@ -4,7 +4,7 @@ using GS.Core.Entities.Interfaces;
 
 namespace GS.Core.BLL.Interfaces.Services
 {
-    public interface IGetByIdAsyncRepository<TEntity> where TEntity: IEntity
+    public interface IGetByIdAsyncService<TEntity> where TEntity: IEntity
     {
         Task<GetSingleResult<TEntity>> GetByIdAsync(string id);
     }

@@ -1,3 +1,4 @@
+using System;
 using GS.Core.DAL.Entities.Results;
 using GS.Core.Entities.Interfaces;
 
@@ -13,5 +14,7 @@ namespace GS.Core.BLL.Entities.Results
         {
             Entity = result.Entity;
         }
+
+        public GetSingleResult(Exception exception, bool isHandled = false) :base(exception, isHandled){ }
     }
 }

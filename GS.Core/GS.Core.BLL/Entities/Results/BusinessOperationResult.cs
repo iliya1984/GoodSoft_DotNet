@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using GS.Core.BLL.Entities.Enums;
@@ -36,6 +37,11 @@ namespace GS.Core.BLL.Entities.Results
         protected BusinessOperationResult()
         {
             BusinessErrors = new List<BusinessError>();
+        }
+
+        protected BusinessOperationResult(Exception exception, bool isHandled): base(exception, isHandled)
+        {
+            
         }
 
         protected BusinessOperationResult(DataOperationResult result) : base(result)
