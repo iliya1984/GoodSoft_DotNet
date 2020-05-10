@@ -31,6 +31,8 @@
     <Content Include="Interfaces\Repositories\IDeleteAsyncRepository.cs" />
     <Content Include="Mongo\MongoDBClientFactory.cs" />
     <Content Include="Entities\Results\DataGetResult.cs" />
+    <Content Include="Extensions\ResultExtensions.cs" />
+    <Content Include="Entities\Results\DataCreateResult.cs" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>

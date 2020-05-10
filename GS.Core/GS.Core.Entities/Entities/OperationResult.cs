@@ -15,6 +15,18 @@ namespace GS.Core.Entities.Entities
             Exceptions = new List<ExceptionWrapper>();
         }
 
+        protected OperationResult(Exception exception, bool isHandled = false)
+        {
+            if(isHandled)
+            {
+                AddHandledException(exception);
+            }
+            else
+            {
+                AddException(exception);
+            }
+        }
+
         protected OperationResult(IOperationResult result) : this()
         {
            initialize(result);

@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using GS.Core.DAL.Entities.Enums;
 using GS.Core.DAL.Interfaces.Entities;
@@ -28,5 +29,8 @@ namespace GS.Core.DAL.Entities.Results
                 }
             }
         }
+
+        public DataOperationResult(){}
+        public DataOperationResult(Exception extension, bool isHandled = false): base(extension, isHandled){}
     }
 }
